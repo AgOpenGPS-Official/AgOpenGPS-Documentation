@@ -1,6 +1,7 @@
 baseURL = 'https://docs.agopengps.com/'
 languageCode = 'en-us'
 title = 'AgOpenGPS Documentation'
+disablePathToLower = true
 
 [params]
   github_repo = "https://github.com/AgOpenGPS-Official/AgOpenGPS-Documentation"
