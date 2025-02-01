@@ -6,11 +6,26 @@ title = 'AgOpenGPS Documentation'
   github_repo = "https://github.com/AgOpenGPS-Official/AgOpenGPS-Documentation"
   github_project_repo = "https://github.com/AgOpenGPS-Official/AgOpenGPS"
   offlineSearch = true
+  [params.copyright]
+    authors = "AgOpenGPS Contributors"
   [params.ui]
     showLightDarkModeMenu = true
     breadcrumb_disable = true
     taxonomy_breadcrumb_disable = true
     sidebar_search_disable = true
+  [params.links]
+    [[params.links.user]]
+      name = "Discourse"
+      url = "https://discourse.agopengps.com"
+      icon = "fa-brands fa-discourse"
+    [[params.links.user]]
+      name = "Telegram"
+      url = "https://t.me/agopengpsinternational"
+      icon = "fa-brands fa-telegram"
+    [[params.links.developer]]
+      name = "GitHub"
+      url = "https://github.com/AgOpenGPS-Official/AgOpenGPS"
+      icon = "fa-brands fa-github"
 
 [markup]
   [markup.goldmark]
