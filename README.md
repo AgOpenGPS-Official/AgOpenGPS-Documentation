@@ -8,5 +8,5 @@ Link: https://docs.agopengps.com
 
 ## Building
 
-The documentation is built using [MkDocs](https://www.mkdocs.org/) using the
-[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) framework.
+The documentation is built using [Hugo](https://gohugo.io/) using the
+[Docsy](https://www.docsy.dev/) theme.
