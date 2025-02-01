@@ -1,6 +1,7 @@
 +++
 title = "RTK/NTRIP corrections"
 weight = 4
+toc_hide = true
 +++
 
 RTK works by receiving a correction signal from a nearby base station, that can see the same satellites as your machine. As the base is at a fixed location, it's able to correct for the difference induced by atmospheric delays as the signal makes its way down from the satellite to your rover.

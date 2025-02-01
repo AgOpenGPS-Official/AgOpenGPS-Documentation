@@ -1,9 +1,8 @@
 +++
+title = "Miscellaneous"
 linkTitle = "Miscellaneous hardware"
 weight = 15
 +++
-
-# Miscellaneous
 
 ### 5 volt network switch
 ![image](../../img/netgear-network-switch.png)

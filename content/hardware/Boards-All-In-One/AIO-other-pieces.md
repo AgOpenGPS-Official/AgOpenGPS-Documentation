@@ -1,5 +1,6 @@
 +++
-title = "Other pieces to be able to assemble"
+title = "AIO other pieces"
+linkTitle = "Other pieces to be able to assemble"
 weight = 1
 +++
 

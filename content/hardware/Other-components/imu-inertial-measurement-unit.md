@@ -1,9 +1,8 @@
 +++
+title = "IMU (inertial measurement unit)"
 linkTitle = "IMU for roll compensation"
 weight = 4
 +++
-
-# IMU (inertial measurement unit)
 
 The IMU's job is to assist with orientation, pitch and roll. It helps immensely with accuracy in a single-GPS configuration, but it's not needed if you're going dual-GPS. You can use it in dual as well tho.
 

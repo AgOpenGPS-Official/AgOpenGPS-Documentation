@@ -16,4 +16,4 @@ In:
 * [Italian](https://github.com/farmerbriantee/AgOpenGPS/raw/master/SourceCode/GPS/Manual.it.pdf)
 * [Serbian](https://github.com/farmerbriantee/AgOpenGPS/raw/master/SourceCode/GPS/Manual.sr.pdf)
 
-Also, the AOG wiki (this is more the hardware side) can be found [here](https://github.com/farmerbriantee/AgOpenGPS/wiki)
+Also, the AOG wiki (this is more the hardware side) can be found [here](/software/)

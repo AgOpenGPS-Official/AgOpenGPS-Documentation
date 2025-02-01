@@ -1,6 +1,7 @@
 +++
 title = "Serial/COM ports"
 weight = 5
+toc_hide = true
 +++
 
 Serial (aka "COM") ports are an old and simple way of having two pieces of physical hardware talk to each other. You may have heard the term RS232 and that's typically what we're looking at here.

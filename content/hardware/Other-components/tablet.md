@@ -1,9 +1,8 @@
 +++
+title = "Tablet"
 linkTitle = "Windows Tablet"
 weight = 6
 +++
-
-# Tablet
 
 You want a tablet that's rugged and has a screen that won't be impaired in direct sunlight. The Panasonic Toughpad range can be bought very cheaply, refurbished, on ebay. Above 400 nits is a good experience.
 

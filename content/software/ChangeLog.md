@@ -1,9 +1,8 @@
 +++
+title = "Changes, from version to version"
 linkTitle = "ChangeLog"
 weight = 10
 +++
-
-# Changes, from version to version
 
 ## 6.3 - 29 March, 2024
 

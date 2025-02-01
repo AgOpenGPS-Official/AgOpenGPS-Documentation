@@ -1,9 +1,8 @@
 +++
+title = "Teensy 4.1"
 linkTitle = "Teensy 4.1 a.k.a the brain of the board"
 weight = 3
 +++
-
-# Teensy 4.1
 
 The brains of the AOG board is the Teensy 4.1, and these are a little hard to find. You want to make sure you get one that DOES have ethernet tho, as it is also available without. Do not buy a Teensy 3.2, or a 4.0.. you want 4.1.
 
@@ -32,13 +31,13 @@ Potential suppliers:
 
 -------
 
-# There is a much easier way to do this now, using AOGConfigOMatic. See [this page](https://github.com/AgHardware/Boards/wiki/configuring-the-teensy), then you don't need to do any of the below!
+# There is a much easier way to do this now, using AOGConfigOMatic. See [this page](../../Boards-Configuration/configuring-the-teensy), then you don't need to do any of the below!
 
 ---------
 
 ### Before you go any further, don't plug the Teensy in just yet!
 
-Then, [retrieve the code](https://github.com/AgHardware/Boards/archive/refs/heads/main.zip) and unzip it.
+Then, [retrieve the code](https://github.com/AgOpenGPS-Official/Boards/archive/refs/heads/main.zip) and unzip it.
 
 ### NOTE: it may be version 5.5, 5.7, 5.7.1 whatever is in the support folder. Go with the latest that's there!
 

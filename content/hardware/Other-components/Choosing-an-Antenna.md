@@ -1,9 +1,8 @@
 +++
+title = "Choosing an Antenna"
 linkTitle = "GNSS Antenna"
 weight = 2
 +++
-
-# Choosing an antenna
 
 While Ardusimple offer such things as "calibrated" antennas for survey, you don't really need them. You have a choice to go either single or dual antenna - and the below antennas will work just fine.
 

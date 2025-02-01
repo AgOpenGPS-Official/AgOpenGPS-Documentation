@@ -1,9 +1,8 @@
 +++
+title = "TL;DR - cut to the chase, what do I BUY???"
 linkTitle = "Hardware that's needed"
 weight = 2
 +++
-
-# TL;DR - cut to the chase, what do I BUY???
 
 Well, as I said, if it were me, I'd read through all these sections. And although I can't force you to - I'm not your mother - it's strongly recommended.
 

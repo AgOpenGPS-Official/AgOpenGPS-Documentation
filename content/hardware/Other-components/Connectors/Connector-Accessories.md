@@ -1,9 +1,10 @@
 +++
-linkTitle = "Connector Accessories"
+title = "Connector Accessories"
 weight = 1
+toc_hide = true
 +++
 
-# Found any cool printables for connectors, boxes etc? List them here!
+## Found any cool printables for connectors, boxes etc? List them here!
 
 https://www.thingiverse.com/thing:4670391 - 3-pin superseal backshell
 

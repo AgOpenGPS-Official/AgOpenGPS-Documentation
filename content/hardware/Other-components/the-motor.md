@@ -1,9 +1,8 @@
 +++
+title = "The motor"
 linkTitle = "Steering with Motor"
 weight = 8
 +++
-
-# The motor
 
 You have 2 choices here: 24V or 12V
 

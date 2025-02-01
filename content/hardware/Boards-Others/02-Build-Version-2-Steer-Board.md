@@ -1,5 +1,6 @@
 +++
-title = "Brians old board"
+title = "Build Version 2 Steer Board"
+linkTitle = "Brians old board"
 weight = 1
 +++
 

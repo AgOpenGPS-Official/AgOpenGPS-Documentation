@@ -1,5 +1,6 @@
 +++
-title = "Ampseal 23 pinout"
+title = "AIO Board Pinout"
+linkTitle = "Ampseal 23 pinout"
 weight = 2
 +++
 

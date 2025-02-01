@@ -1,9 +1,8 @@
 +++
+title = "Cytron motor driver"
 linkTitle = "Cytron MD13S driver"
 weight = 7
 +++
-
-# Cytron motor driver
 
 The Cytron MD13S is the motor driver of choice. This can drive a 12V or 24V motor, or energise the solenoids in a hydraulic system for auto-steer.
 

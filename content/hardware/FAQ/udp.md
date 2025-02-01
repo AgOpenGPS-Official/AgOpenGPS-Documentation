@@ -1,6 +1,7 @@
 +++
 title = "UDP"
 weight = 3
+toc_hide = true
 +++
 
 UDP is the network protocol that is used to pass data between AgIO, AgOpenGPS and your physical board. It uses standard ethernet cables and it highly resilient to interruption (unlike USB which can get upset if the connection drops/reconnects).

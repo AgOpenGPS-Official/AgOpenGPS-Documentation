@@ -1,9 +1,8 @@
 +++
+title = "Connector database"
 linkTitle = "Connectors"
 weight = 13
 +++
-
-# Connector database
 
 Below, a database that will hopefully build up into a useful list of connectors. Note that links here are not endorsements, but samples where you might be able to buy, or find more information in order to help you find the right part at your favourite local dealer.
 

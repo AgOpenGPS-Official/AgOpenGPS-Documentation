@@ -16,7 +16,7 @@ It will also configure the ublox F9P for you, so give it a try!
 ## Uploading the code (the next-easiest way)
 
 Download the hex file (this is the compiled software) and the program to load it to the Teensy, from the repository:
-https://github.com/AgHardware/Boards/tree/main/TeensyModules/AIO%20Micro%20v4/Firmware
+https://github.com/AgOpenGPS-Official/Boards/tree/main/TeensyModules/AIO%20Micro%20v4/Firmware
 
 ![image](../../img/github-teensy-firmware.png)
 

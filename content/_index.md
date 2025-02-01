@@ -11,7 +11,7 @@ linkTitle = "Home"
 # Welcome to AgOpenGPS 
 There are 2 main places for AgOpenGPS - Program Software and Hardware with Firmware:
 
-## Software: 
+## [Software](software)
 
 [The Main Repository](https://github.com/AgOpenGPS-Official/AgOpenGPS)
 
@@ -27,13 +27,11 @@ There are 2 main places for AgOpenGPS - Program Software and Hardware with Firmw
 
 [Change Log](software/ChangeLog)
 
-## Hardware:
+## [Hardware](hardware)
 
 [The Main Hardware and Firmware Repository](https://github.com/AgOpenGPS-Official/Boards)
 
-[Detailed Wiki and Information on Hardware and Firmware](https://github.com/AgOpenGPS-Official/Boards/wiki)
-
-## Discussion and Help:
+## Discussion and Help
 
 [AgOpenGPS Discourse Forum](https://discourse.agopengps.com/)
 

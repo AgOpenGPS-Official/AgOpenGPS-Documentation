@@ -1,14 +1,13 @@
 +++
+title = "Frequently asked questions / problems and solutions"
 linkTitle = "FAQ"
 weight = 11
 +++
 
-# Frequently asked questions / problems and solutions
-
 ## AgOpenGPS
 
 * When running, my machine position shakes even when I'm not moving
-  * Check that your F9P is updated correctly [here](https://github.com/farmerbriantee/AgOpenGPS_Boards/wiki/configuring-the-zed-f9p)
+  * Check that your F9P is updated correctly [here](../../hardware/Boards-Configuration/configuring-the-zed-f9p)
   * Check that it's outputting at the right resolution/frequency (figure at the bottom showing 10 - if it's one, configure F9P properly)
 ![image](../img/agopengps-resolution.png)
   * Ensure the antennas have a good view of the sky and that NTRIP is enabled and sending corrections over UDP (or serial, if using USB)

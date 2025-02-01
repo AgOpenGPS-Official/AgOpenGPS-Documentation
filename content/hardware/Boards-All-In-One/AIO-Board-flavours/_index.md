@@ -1,5 +1,6 @@
 +++
-title = "All-In-One Board versions and how to order"
+title = "AIO Board flavours"
+linkTitle = "All-In-One Board versions and how to order"
 weight = 1
 +++
 
@@ -9,7 +10,7 @@ AgOpenGPS boards come in two flavours - Standard or Micro. Functionally, they ar
 V4.x is essentially the same board as v2.5x just improved.
 V4 has stronger traces more LED-s for easier debugging and should be more bulletproof.
 
-You can get the board designs from [here](https://github.com/AgHardware/Boards/tree/main/TeensyModules)
+You can get the board designs from [here](https://github.com/AgOpenGPS-Official/Boards/tree/main/TeensyModules)
 And you can find the discourse threads here:
 * V2.x: https://discourse.agopengps.com/t/all-in-one-pcb/10444
 * v4 micro: https://discourse.agopengps.com/t/v4-all-in-one-pcb/12313
@@ -22,7 +23,7 @@ We use the JCLPCB service to manufacture our PCBs, but you can use another suppl
 
 ### How to order Text guide 
 
-1.- Click on [Order Now ](https://cart.jlcpcb.com/quote)to access the page to place the order, and that'll take you to a page that looks like this:
+1.- Click on [Order Now](https://cart.jlcpcb.com/quote) to access the page to place the order, and that'll take you to a page that looks like this:
 
 ![image](img/jlcpcb-order.png)
 

@@ -1,9 +1,8 @@
 +++
+title = "CANBUS"
 linkTitle = "Steering via CAN bus"
 weight = 10
 +++
-
-# CANBUS
 
 CommonRail has written a superb guide on how to investigate the CANbus on your system - give it a good read!
 

@@ -1,9 +1,8 @@
 +++
+title = "KEYA CANBUS motor"
 linkTitle = "Steering with Keya CANBUS wheel"
 weight = 12
 +++
-
-# KEYA CANBUS motor
 
 You can use this as a guide for installation:
 https://discourse.agopengps.com/t/keya-canbus-motor-great-success-many-happy-etc/14174
@@ -14,7 +13,7 @@ To order, the official link for the latest version of the steering wheel - direc
 https://www.aliexpress.com/item/1005006800593966.html).
 
 Keya reference manual: 
-[Keya KY170DD01005-08G v2.4.pdf](https://github.com/AgHardware/Boards/files/15389407/Keya.KY170DD01005-08G.v2.4.pdf)
+[Keya KY170DD01005-08G v2.4.pdf](https://github.com/AgOpenGPS-Official/Boards/files/15389407/Keya.KY170DD01005-08G.v2.4.pdf)
 
 
 If you're in Europe you might want to check [navisklep.pl](https://navisklep.pl/p/silnik-kierownica-keya/)

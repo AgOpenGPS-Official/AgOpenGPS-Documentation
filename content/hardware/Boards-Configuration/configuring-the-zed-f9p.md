@@ -1,9 +1,9 @@
 +++
-linkTitle = "Configuring the ZED-F9P GPS"
+title = "Configuring the ZED-F9P GPS"
 weight = 1
 +++
 
-# Configuring the Ardusimple F9P (a.k.a U-Blox Zed f9p GPS Receiver) ZED-F9P
+## Configuring the Ardusimple F9P (a.k.a U-Blox Zed f9p GPS Receiver) ZED-F9P
 
 **Make life easy by using the AOG-Config-O-Matic! Get it here!**
 **https://github.com/lansalot/AOGConfigOMatic/releases**
@@ -20,7 +20,7 @@ Common mistakes that you can avoid:
 
 Well, before you plug them in, you did do those board checks first, as mentioned [here](https://discourse.agopengps.com/t/all-in-one-pcb/10444/233) ?
 
-First, get the firmware and configuration files [here](https://github.com/AgHardware/Boards/tree/main/Ublox%20F9P), so go grab them (you can get them all in one zip file [here](https://github.com/AgHardware/Boards/archive/refs/heads/main.zip).
+First, get the firmware and configuration files [here](https://github.com/AgOpenGPS-Official/Boards/tree/main/Ublox%20F9P), so go grab them (you can get them all in one zip file [here](https://github.com/AgOpenGPS-Official/Boards/archive/refs/heads/main.zip).
 
 Unzip them, the 4 text files are the configuration you upload to the F9Ps, and the .bin file is the firmware.
 
@@ -50,8 +50,8 @@ If you have multiple COM ports you might need to keep trying util it connects su
 ## How to upgrade the firmware?
 
 Download the latest firmware:
-* [v1.32 for single](https://github.com/AgHardware/Boards/blob/main/Ublox%20F9P/UBX_F9_100_HPG113.7e6e899c5597acddf2f5f2f70fdf5fbe.bin)
-* [v1.13 for dual](https://github.com/AgHardware/Boards/blob/main/Ublox%20F9P/UBX_F9_100_HPG132.df73486d99374142f3aabf79b7178f48.bin)
+* [v1.32 for single](https://github.com/AgOpenGPS-Official/Boards/blob/main/Ublox%20F9P/UBX_F9_100_HPG113.7e6e899c5597acddf2f5f2f70fdf5fbe.bin)
+* [v1.13 for dual](https://github.com/AgOpenGPS-Official/Boards/blob/main/Ublox%20F9P/UBX_F9_100_HPG132.df73486d99374142f3aabf79b7178f48.bin)
 
 Connect to your receiver.
 
@@ -75,8 +75,8 @@ Open Tools, Receiver Configuration,
 ![image](../../img/u-center-menu-receiver-configuration.png)
 
 and pick your file 
-* For single: [1.32 SingleAntennaRover.txt](https://github.com/AgHardware/Boards/blob/main/Ublox%20F9P/1.32%20SingleAntennaRover.txt)
-* For dual left socket we need [1.13 DualAntennaHeading_RelPos-Left.txt](https://github.com/AgHardware/Boards/blob/main/Ublox%20F9P/1.13%20DualAntennaHeading_RelPos-Left.txt)
+* For single: [1.13 SingleAntennaRover.txt](https://github.com/AgOpenGPS-Official/Boards/blob/main/Ublox%20F9P/1.13%20SingleAntennaRover.txt)
+* For dual left socket we need [1.13 DualAntennaHeading_RelPos-Left.txt](https://github.com/AgOpenGPS-Official/Boards/blob/main/Ublox%20F9P/1.13%20DualAntennaHeading_RelPos-Left.txt)
 
 Then click "Transfer File -> GNSS".
 
@@ -89,6 +89,6 @@ Alternatively you can do View -> Messages View and SAVE IT! This will be the F9P
 
 For single board you'll all set. For Dual board: power the board down, disconnect USB and put the other one in, reconnect USB, power up the board.
 
-Follow the same procedure and this time for Right receiver pick [1.13 DualAntennaPosition_GGA VTG RTCM-Right.txt](https://raw.githubusercontent.com/AgHardware/Boards/main/Ublox%20F9P/1.13%20DualAntennaPosition_GGA%20VTG%20RTCM-Right.txt) This will be the F9P going in the right-hand socket.
+Follow the same procedure and this time for Right receiver pick [1.13 DualAntennaPosition_GGA VTG RTCM-Right.txt](https://github.com/AgOpenGPS-Official/Boards/raw/refs/heads/main/Ublox%20F9P/1.13%20DualAntennaPosition_GGA%20VTG%20RTCM-Right.txt) This will be the F9P going in the right-hand socket.
 
 As above, save.

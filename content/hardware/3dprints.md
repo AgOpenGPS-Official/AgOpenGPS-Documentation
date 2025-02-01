@@ -1,9 +1,9 @@
 +++
-linkTitle = "3D prints and designs"
+title = "3D prints and designs"
 weight = 16
 +++
 
-# Here's a list of some cool 3D prints you might find useful
+## Here's a list of some cool 3D prints you might find useful
 
 ### 3d print for steering for CVT/CVX  https://www.thingiverse.com/thing:6361474
 

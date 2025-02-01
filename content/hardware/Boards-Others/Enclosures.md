@@ -1,5 +1,5 @@
 +++
-linkTitle = "Enclosures"
+title = "Enclosures"
 weight = 3
 +++
 

@@ -28,7 +28,7 @@ Variant - ZED-F9P (absolutely NOT F9R!!)\
 RF connector - SMA\
 Form Factor- Through hole
 
-If you want to use it standalone or with an rtkbase, here's a breakout board - then USB should recognize it: https://github.com/AgHardware/Boards/tree/main/Ublox%20F9P/BuckWheat%20Micro%20breakout
+If you want to use it standalone or with an rtkbase, here's a breakout board - then USB should recognize it: https://github.com/AgOpenGPS-Official/Boards/tree/main/Ublox%20F9P/BuckWheat%20Micro%20breakout
 
 ## XBee module pinout
 ![image](../../img/xbee-module-pinout.png)

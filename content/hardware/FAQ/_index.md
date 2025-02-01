@@ -1,9 +1,10 @@
 +++
+title = "FAQ"
 linkTitle = "🤯 Frequently Asked Questions"
 weight = 13
 +++
 
-# Frequently Asked Questions
+## Frequently Asked Questions
 
 
 ### Please note - these are mostly placeholders at this time; they will be filled in in due course. If you can help with text, or want to suggest other topics, please do so in the Discourse.

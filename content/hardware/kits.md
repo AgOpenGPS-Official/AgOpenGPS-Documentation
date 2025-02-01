@@ -17,7 +17,7 @@ Currently, AOG is only supported under Windows - so go read up on suggested wind
 
 ## My tractor is steer-ready and I believe it can be done via CANBUS.
 
-For this, you will want the CANBUS (aka "Tony's board) PCB. The board is self-assembly. It's pretty easy to do, but if you're not keen, ask in the forum or the telegram channel for help. The information for how to build the board is [here](https://github.com/AgHardware/Boards/tree/main/CANBUS/PCB). You will also need the [Teensy](../Other-components/teensy-4.1), the [F9P (micro is recommended)](../Other-components/gps-modules-standard-or-micro), an [antenna](../Other-components/Choosing-an-Antenna) and the [BNO085](../Other-components/imu-inertial-measurement-unit)
+For this, you will want the CANBUS (aka "Tony's board) PCB. The board is self-assembly. It's pretty easy to do, but if you're not keen, ask in the forum or the telegram channel for help. The information for how to build the board is [here](https://github.com/AgOpenGPS-Official/Boards/tree/main/CANBUS/PCB). You will also need the [Teensy](../Other-components/teensy-4.1), the [F9P (micro is recommended)](../Other-components/gps-modules-standard-or-micro), an [antenna](../Other-components/Choosing-an-Antenna) and the [BNO085](../Other-components/imu-inertial-measurement-unit)
 
 -----
 

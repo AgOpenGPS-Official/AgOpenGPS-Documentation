@@ -1,9 +1,8 @@
 +++
+title = "Danfoss valves"
 linkTitle = "Steering via Danfoss"
 weight = 11
 +++
-
-# Danfoss valves
 
 The original Danfoss solution was a 3-wire installation.
 
@@ -33,4 +32,4 @@ Sample Danfoss plug guide, but check with your module!!
 
 ![image](../../img/danfoss-pinout.png)
 
-You can find the 4-pin connector on the [Connectors](https://github.com/AgHardware/Boards/wiki/Connectors) page
+You can find the 4-pin connector on the [Connectors](../Connectors) page

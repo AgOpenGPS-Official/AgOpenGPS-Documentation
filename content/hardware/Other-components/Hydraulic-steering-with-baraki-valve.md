@@ -1,9 +1,9 @@
 +++
-linkTitle = "Steering with Baraki hydraulic block"
+title = "Steering with Baraki hydraulic block"
 weight = 9
 +++
 
-# Motor? Nah - hydraulic please!
+## Motor? Nah - hydraulic please!
 
 This still needs Cytron MD13S :) but we'll move valves instead of motors
 
@@ -100,7 +100,7 @@ pinout is:
  - pin2 -> GND
  - pin3 -> 5V
 
-[AgOpenGPS software configuration is explained in detail here](https://github.com/farmerbriantee/AgOpenGPS/wiki/04.-AgOpenGPS-Orientation#steer-configuration)
+[AgOpenGPS software configuration is explained in detail here](/software/04.-AgOpenGPS-Orientation#steer-configuration)
 
 
 ### Installation of LS valve
