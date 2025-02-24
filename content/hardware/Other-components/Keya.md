@@ -87,7 +87,7 @@ You can find my modified firmware [here](https://github.com/lansalot/AgOpenGPS_B
 |D|Deutz 5110 TTV<br>Fendt 718 SCR, Favorit 511C|
 |F|Bateman, Sands, Knight sprayers|
 |K||
-|N|Case MX110<br>Claas Axion<br>Fendt 936<br>Massey Ferguson 5413|
+|N|Case MX110<br>Claas Axion<br>Fendt 936<br>Massey Ferguson 5413<br>Case Magnum 310 2013|
 |NH40|NH T5050
 |T|Kubota B3400|
 |W||
