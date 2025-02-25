@@ -27,7 +27,7 @@ There are 2 main places for AgOpenGPS - Program Software and Hardware with Firmw
 
 [Change Log](software/ChangeLog)
 
-## [Hardware](hardware)
+## [Hardware - what to buy, and where to buy it](hardware)
 
 [The Main Hardware and Firmware Repository](https://github.com/AgOpenGPS-Official/Boards)
 
