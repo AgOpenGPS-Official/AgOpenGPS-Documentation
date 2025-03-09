@@ -27,6 +27,8 @@ There's also a handy list of potentially-printable connectors [here](Connector-A
 |**9-pin**||
 |![image](img/j1939-plug.png)|Part number: search "J1939 plug"<br>Typical usage: ISOBUS/CANBUS connectors<br>https://mou.sr/3ogaikK<br>https://www.agritronixcorp.com/amphenol-tuchel-c016-7-terminal-plug-male-kit.html<br>https://www.aliexpress.com/item/1005002988396207.html<br>https://www.te.com/usa-en/product-HD16-9-1939S.html|
 |![image](img/j1939-plug-green.png)|Part number: search "J1939 plug"<br>Note, typically green plugs are for 500kbps sockets. Black for 250 or lower. There is a subtle pin difference to the above with regard to the diameter of the top pin.<br>https://mou.sr/45feOk9<br>https://www.te.com/usa-en/product-HD16-9-1939S-P080.html|
+|**12-pin**||
+|![image](img/amp-mcp2.8-12pin.png)|Part number: Search TE 4-967627-1<br>Typical usage: Claas modem connector<br>[https://www.te.com/usa-en/product-1-964449-1.html](https://www.te.com/en/product-4-967627-1.html)<br>https://www.te.com/en/product-5-968972-1.html|
 |**16-pin**||
 |![image](img/16pin-1-1964449-1.png)|Part number: Search 1-1964449-1<br>Typical usage: Claas ATP 009 steering modules<br>https://www.te.com/usa-en/product-1-964449-1.html<br>Style is similar to 6-pin above|
 |![image](img/16pin-206037-1.png)|Part number: Search 206037-1<br>Typical usage: MF S-Series CANBUS diagnostic socket<br>https://www.mouser.co.uk/ProductDetail/TE-Connectivity/206037-1?qs=mKNKSX85ZJf9q%2FMnuCzRZQ%3D%3D<br>Pins https://www.te.com/en/product-66101-4.html|
