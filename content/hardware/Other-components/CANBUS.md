@@ -18,21 +18,23 @@ These are absolutely tiny and you'll be soldering them on here most likely:
 
 ![image](../../img/canbus-receivers-pcb.png)
 
+# The PCB of Tony
+
 CommonRail has an excellent resource including the code you need [here](https://github.com/MechanicTony/AOG_CAN_Teensy4.1) on how to learn about CANBUS, and control your machine with it.
 CAN controllers on Tonys board as per:
-# CAN1
+### CAN1
 Tractor BUS / armrest when the Engage message (button) is one a different bus from the valve.
-# CAN2
+### CAN2
 ISOBUS (not really in use) we can put NMEA2000 position on the bus
-# CAN3
+### CAN3
 V-Bus or Valve Bus this is where we communicate with the valve. (Read the angle, send the desired angle) 
 
+# Machines
 
-CAN connector pinout:
+## Generic CAN connector pinout:
 
 ![image](../../img/can-connector-pinout.png)
 
-# Machines
 
 ## Case / New Holland
 
