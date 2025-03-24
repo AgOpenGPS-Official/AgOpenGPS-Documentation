@@ -29,6 +29,13 @@ ISOBUS (not really in use) we can put NMEA2000 position on the bus
 ### CAN3
 V-Bus or Valve Bus this is where we communicate with the valve. (Read the angle, send the desired angle) 
 
+
+### Post assembly steps
+Once you have the board assembled and flashed use Arduino IDE or similar tool to do the necessary configuration via the Service menu over Serial.  
+Usually we set P for Panda mode at 460k (just like the AIO board)  
+Select the brand we should emulate.
+
+
 # Machines
 
 ## Generic CAN connector pinout:
@@ -80,15 +87,6 @@ Using the Serial Service tool of Teensy we need to modify the PVED valve setting
 It has a button to engage but it never worked. Easier to add your own button.
 Otherwise it's the same deal: Find the pins with the right can message. Add your controller and off you go.
 
-
-If you want to learn how to sniff the CANBUS and find out joystick codes etc, watch this: https://youtu.be/O01Fy4dBw6s
-
-
-Once you have the board assembled and flashed use Arduino IDE or similar tool to do the necessary configuration via the Service menu over Serial.
-Usually we set P for Panda mode at 460k (just like the AIO board)
-Select the brand we should emulate.
-
-
 # How to engage steering?
 
 Make sure that: 
@@ -101,3 +99,7 @@ Make sure that:
  * Road lockout / hydraulic lockout switch is NOT active
  * If Quicsteer / SpeedSteer or similar is present: It works
  * Sometimes it also helps if you set Steer Enable in steer settings to NONE and engage from the tablet. (We'll worry about the presence of the pyhsical button later.)
+
+# Other links
+
+If you want to learn how to sniff the CANBUS and find out joystick codes etc, watch this: https://youtu.be/O01Fy4dBw6s
