@@ -19,7 +19,7 @@ There are 2 main places for AgOpenGPS - Program Software and Hardware with Firmw
 
 [How to install and run AgOpenGPS](https://www.youtube.com/watch?v=bVo6HwYIdP4)
 
-[Rate Control by David Cox](https://github.com/AgOpenGPS-Official/Rate_Control)
+[Rate Control](https://github.com/AgOpenGPS-Official/Rate_Control)
 
 [AOG Video Training](https://www.youtube.com/playlist?list=PL1N2N2XFHWW1fIDhb7koOa7hxH0LGppYc)
 
