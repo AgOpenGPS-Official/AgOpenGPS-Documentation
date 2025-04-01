@@ -44,6 +44,9 @@ You need to specify when ordering which steering boss you require (and let them 
 
 ![image](../../img/keya-adapter-list.png)
 
+![image](../../img/keyatemplate.png)
+
+Download this [Keya template](../../files/KeyaTemplate.pdf), to help with marking out for brackets
 
 Also, there is a newer motor with 12-pin connection but as far as I can see, it doesn't offer much over the 7-pin one at this time, we'll update this document when it's available.
 
