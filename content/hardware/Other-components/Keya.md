@@ -10,7 +10,7 @@ https://discourse.agopengps.com/t/keya-canbus-motor-great-success-many-happy-etc
 https://youtu.be/ANboPyvSWBE
 
 To order, the official link for the latest version of the steering wheel - direct from Keya themselves - is [here](
-https://www.aliexpress.com/item/1005006800593966.html).
+https://www.aliexpress.com/item/1005008796635857.html). PLEASE NOTE: there are imitators on AliExpress selling Keya-lookalike motors. The link here is to their official shop. Please support Keya as they are known to work well, and we have great support from the manufacturer. Other motors are not always known to work correctly, and Keya cannot support them if you come to the channel asking for help.
 
 Keya reference manual: 
 [Keya KY170DD01005-08G v2.4.pdf](https://github.com/AgOpenGPS-Official/Boards/files/15389407/Keya.KY170DD01005-08G.v2.4.pdf)
@@ -21,7 +21,9 @@ They'll supply with the 3 spoked wheel.
 
 ## Links
 
-The full kit: https://www.aliexpress.com/item/1005006800593966.html
+The full kit: https://www.aliexpress.com/item/1005008796635857.html
+
+![image](../../img/keya.png)
 
 ### Additional parts
 
