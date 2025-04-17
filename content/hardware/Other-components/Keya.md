@@ -21,7 +21,7 @@ They'll supply with the 3 spoked wheel.
 
 ## Links
 
-The full kit: https://www.aliexpress.com/item/3256808610321105.html
+The full kit (gen4 motor, deutsch connector): https://www.aliexpress.com/item/3256808610321105.html
 
 ![image](../../img/keya.png)
 
