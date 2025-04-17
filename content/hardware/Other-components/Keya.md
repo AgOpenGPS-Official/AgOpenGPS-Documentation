@@ -21,9 +21,11 @@ They'll supply with the 3 spoked wheel.
 
 ## Links
 
-The full kit: https://www.aliexpress.com/item/1005008796635857.html
+The full kit: https://www.aliexpress.com/item/3256808610321105.html
 
 ![image](../../img/keya.png)
+
+The full kit (older, round connector: https://www.aliexpress.com/item/1005006800593966.html)
 
 ### Additional parts
 
@@ -48,9 +50,7 @@ You need to specify when ordering which steering boss you require (and let them 
 
 ![image](../../img/keyatemplate.png)
 
-Download this [Keya template](../../files/KeyaTemplate.pdf), to help with marking out for brackets
-
-Also, there is a newer motor with 12-pin connection but as far as I can see, it doesn't offer much over the 7-pin one at this time, we'll update this document when it's available.
+Download this [Keya template](../../files/KeyaTemplate.pdf), to help with marking out for brackets or this template for the new 1.4 motor.
 
 Replacement connectors: https://www.aliexpress.com/item/1005002498869200.html
 
