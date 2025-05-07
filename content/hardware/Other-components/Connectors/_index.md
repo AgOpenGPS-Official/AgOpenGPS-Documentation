@@ -33,6 +33,8 @@ There's also a handy list of potentially-printable connectors [here](Connector-A
 |**16-pin**||
 |![image](img/16pin-1-1964449-1.png)|Part number: Search 1-1964449-1<br>Typical usage: Claas ATP 009 steering modules<br>https://www.te.com/usa-en/product-1-964449-1.html<br>Style is similar to 6-pin above|
 |![image](img/16pin-206037-1.png)|Part number: Search 206037-1<br>Typical usage: MF S-Series CANBUS diagnostic socket<br>https://www.mouser.co.uk/ProductDetail/TE-Connectivity/206037-1?qs=mKNKSX85ZJf9q%2FMnuCzRZQ%3D%3D<br>Pins https://www.te.com/en/product-66101-4.html|
+|**19-pin**||
+|![image](img/cannon19pin.png)|Typical usage: Deutz Fahr CANBUS<br>Cannon Trident Ringlock<br>Part Number TR1619PFS1NB https://www.digikey.co.uk/en/products/detail/itt-cannon-llc/TR1619PFS1NB/2487190|
 |**23-pin**||
 |![image](img/ampseal-776087-1.png)|Part Number Ampseal 776087-1<br>Typical usage: For AgO boards<br>https://www.te.com/usa-en/product-776087-1.html<br>https://www.aliexpress.com/item/10000383252937.html|
 |![image](img/ampseal-776087-1-prewired.png)|Pre-wired plugs for same:<br>https://www.aliexpress.com/item/1005002638698250.html<br>https://www.aliexpress.com/item/10000383252937.html|
