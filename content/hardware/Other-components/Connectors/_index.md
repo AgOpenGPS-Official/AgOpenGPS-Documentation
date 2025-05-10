@@ -14,6 +14,7 @@ There's also a handy list of potentially-printable connectors [here](Connector-A
 |![image](img/deutsch-001142.png)|Part Number: Deutsch/Durite 001142<br>Typical usage: steering valves on Case/NH<br>https://webshop.durite.co.uk/itm/Deutsch-Connectors/2-Way-Female-Deutsch-DT-Series-Connector/001142|
 |![image](img/delphi-12162193.png)|Part Number: Delphi 12162193<br>Typical usage: steering valves on John Deere<br>https://mou.sr/3IsiF3L|
 |![image](img/te-282189-1-and-106462-1.png)|Part number: TE 282189-1 and 106462-1<br/>JPT 2-pin connectors<br/>https://www.amazon.co.uk/Sealed-Waterproof-Female-Connector-Prewired/dp/B0DPL3DRDV/ref=sr_1_6?sr=8-6|
+|![image](img/4pinfendt.png)|TT1110-P04 Fendt old-style ISOBUS/K-BUS etc connectors|
 |**3-pin**||
 |![image](img/3pin-tractor-plug.png)|Part Number: try "3 pin tractor plug"<br>Typical usage: powering your boards!<br>https://www.amazon.co.uk/APUK-Tractor-Implement-Compatible-Amazone/dp/B07MXNW193<br>https://fr.aliexpress.com/item/1005003772953929.html|
 |![image](img/te-connectivity-344273-1.png)|Part Number: TE Connectivity 344273-1<br>Typical usage: Case/NH WAS<br>https://www.aliexpress.com/item/10000352442786.html|
