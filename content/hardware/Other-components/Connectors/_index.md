@@ -25,6 +25,8 @@ There's also a handy list of potentially-printable connectors [here](Connector-A
 |![image](img/te-connectivity-1-954426-1.png)|Part Number: TE Connectivity 1-954426-1<br>Typical usage: Claas ATP 009 steering modules<br>https://www.te.com/usa-en/product-1-965426-1.html<br>Pins https://www.digikey.co.uk/en/products/detail/te-connectivity-amp-connectors/1-963749-1/4021582|
 |**7-pin**||
 |![image](img/amphenol-co16.png)|Part Number: Amphenol CO16<br>Typical usage: 3pt-linkage sensor<br>https://www.aliexpress.com/item/1005004315200768.html?gatewayAdapt=Msite2Pc<br>See also: https://discourse.agopengps.com/t/massey-ferguson-7700-autosteer-ready/7001<br>
+|**8-pin**||
+|![image](img/deutschdt06-8s.png)|Part Number: Deutsch DT06-8S<br>Typical usage: Keya Gen4 motor<br>https://www.te.com/en/product-DT06-08SA.html<br>
 |**9-pin**||
 |![image](img/j1939-plug.png)|Part number: search "J1939 plug"<br>Typical usage: ISOBUS/CANBUS connectors<br>https://mou.sr/3ogaikK<br>https://www.agritronixcorp.com/amphenol-tuchel-c016-7-terminal-plug-male-kit.html<br>https://www.aliexpress.com/item/1005002988396207.html<br>https://www.te.com/usa-en/product-HD16-9-1939S.html|
 |![image](img/j1939-plug-green.png)|Part number: search "J1939 plug"<br>Note, typically green plugs are for 500kbps sockets. Black for 250 or lower. There is a subtle pin difference to the above with regard to the diameter of the top pin.<br>https://mou.sr/45feOk9<br>https://www.te.com/usa-en/product-HD16-9-1939S-P080.html|
