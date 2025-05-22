@@ -66,6 +66,10 @@ You’ll be powering 12V to pin 1, and GND to pin2 - and don’t power this thro
 
 Pin 6 (CANH) goes to pin 16 on ampseal and pin 7 (CANL) goes to pin 17.
 
+If you have the 4th gen motor that comes with the Deutsch connector, go by this instead:
+
+![image](../../img/keya9pindeustsch.png)
+
 You’ll need a modified firmware and while the hope is that this eventually goes to mainstream, at the moment it’s still considered as in-testing, so I haven’t submitted a PR to the main branch as yet.
 
 You can find my modified firmware [here](https://github.com/lansalot/AgOpenGPS_Boards/blob/Keya/TeensyModules/V4.1/Firmware/AOG-Keya-CANBUS.hex) but make life easier by using [AOG-Config-O-Matic!](https://github.com/lansalot/AOGConfigOMatic/releases)
