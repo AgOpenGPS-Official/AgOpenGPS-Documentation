@@ -68,7 +68,7 @@ Pin 6 (CANH) goes to pin 16 on ampseal and pin 7 (CANL) goes to pin 17.
 
 If you have the 4th gen motor that comes with the Deutsch connector, go by this instead:
 
-![image](../../img/keya9pindeustsch.png)
+![image](../../img/keya8pindeutsch.png)
 
 You’ll need a modified firmware and while the hope is that this eventually goes to mainstream, at the moment it’s still considered as in-testing, so I haven’t submitted a PR to the main branch as yet.
 
