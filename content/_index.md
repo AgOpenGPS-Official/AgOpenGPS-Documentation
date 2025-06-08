@@ -2,14 +2,33 @@
 linkTitle = "Home"
 
 [[cascade]]
-  type = "docs"
+type = "docs"
 
-  [cascade._target]
-  path = "/**"
+[cascade._target]
+path = "/**"
 +++
 
 # Welcome to AgOpenGPS 
-There are 2 main places for AgOpenGPS - Program Software and Hardware with Firmware:
+AgOpenGPS is an open-source precision agriculture platform that brings low-cost GPS-based autosteer to your farm equipment.
+
+Information about the project is spread across a few different sources — this documentation is designed to **tie it all together** and help you get started quickly.
+
+The good news is, if you are new here, you are in the right place. This documentation serves as a guide to the world of AgOpenGPS, and is the perfect place to get started.
+
+## 🧭 New Here? Start Here
+
+If you're new, you're in the right place.
+
+This site is the **official documentation hub**, and it's the best place to:
+- Understand what AgOpenGPS does
+- Find the hardware and software you’ll need
+- Learn how to install, build, and test your system
+- Access help from the community
+
+## Project Repositories
+There are 2 central repositories for AgOpenGPS on Github:
+1) The software repository (containing the computer programs you will need to download onto your in-machine device to achieve autosteer)
+2) The Hardware and Firmware repository (containing files which help build physical items (e.g., PCB design files) or program components (e.g., make your Teensy work with your project setup)
 
 ## [Software](software)
 
