@@ -121,9 +121,6 @@ Use the sections below to explore the full AgOpenGPS system — including softwa
 - ⚠️ [SCAMMERS – Please Read](hardware/SCAMMERS.md)  
   A warning about unofficial sellers.
 
-- ❓ [Hardware FAQ](hardware/FAQ.md)  
-  Common hardware-related questions.
-
 ---
 
 ## 💬 Key links to other sources
