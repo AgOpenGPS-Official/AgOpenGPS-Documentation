@@ -6,7 +6,6 @@ type = "docs"
 
 [cascade._target]
 path = "/**"
-+++
 
 # Welcome to AgOpenGPS 
 AgOpenGPS is an open-source precision agriculture platform that brings low-cost GPS-based autosteer to your farm equipment.
