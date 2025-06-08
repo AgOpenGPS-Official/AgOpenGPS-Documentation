@@ -34,12 +34,6 @@ This documentation is organized into two main areas: **Software** and **Hardware
 
 ---
 
-## 📚 Contents
-
-Use the sections below to explore the full AgOpenGPS system — including software setup, hardware building, and frequently asked questions.
-
----
-
 ### 🖥️ Software
 
 - 🧭 [What is AgOpenGPS?](software/01.-What-is-AgOpenGPS.md)  
