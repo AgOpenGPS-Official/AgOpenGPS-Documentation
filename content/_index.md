@@ -53,6 +53,7 @@ This documentation is organized into two main areas: **Software** and **Hardware
 ## [Hardware - what to buy, and where to buy it](hardware)
 
 [The Main Hardware and Firmware Repository](https://github.com/AgOpenGPS-Official/Boards)
+
 ---
 
 ## 💬 Key links to other sources
