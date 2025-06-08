@@ -16,13 +16,11 @@ The good news is, if you are new here, you are in the right place. This document
 
 ## 🧭 New Here? Start Here
 
-If you're new, you're in the right place.
-
 This site is the **official documentation hub**, and it's the best place to:
 - Understand what AgOpenGPS does
 - Find the hardware and software you’ll need
 - Learn how to install, build, and test your system
-- Access help from the community
+- Access other resources in the AgOpenGPS ecosystem
 
 ## Project Repositories
 There are 2 central repositories for AgOpenGPS on Github:
