@@ -1,19 +1,28 @@
 # Contributing to AgOpenGPS Documentation
 
-Thank you for helping improve the AgOpenGPS docs! Clear, accurate documentation is essential to make this project accessible to farmers, builders, and developers around the world.
+Thank you for helping improve the AgOpenGPS docs! Clear, accurate documentation makes the project more accessible to farmers, builders, and developers around the world.
 
 ## 🧭 Start Here
 
-**Docs website:** [https://docs.agopengps.com](https://docs.agopengps.com)  
-**Source code:** You’re looking at it — this is the Hugo-based documentation repo.
-
-If you’re new, start by reading our [Start Here guide](https://docs.agopengps.com/start).
+📘 <a href="https://docs.agopengps.com/start" target="_blank">Start Here Guide</a> – If you're new, this is the best place to begin.
 
 ---
 
 ## 🛠 How to Contribute
-
 You can help in many ways:
+
+### 0. Request a change (if you dont feel comfortable making changes yourself)
+
+If you're not comfortable editing files, no problem! You can:
+
+- Use this quick <a href="https://forms.gle/YOUR-FEEDBACK-FORM" target="_blank">TBC Docs Feedback Form</a>
+_or_
+- Open a GitHub issue and describe what needs to change
+
+Please include:
+- What you were trying to do
+- What was missing or unclear
+- Link to the page or section you're referring to
 
 ### 1. ✏️ Fix a typo, broken link, or unclear sentence
 
