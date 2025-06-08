@@ -15,7 +15,7 @@ Information about the project is spread across a few different sources — this 
 
 The good news is, if you are new here, you are in the right place. This documentation serves as a guide to the world of AgOpenGPS, and is the perfect place to get started.
 
-## 🧭 New Here? Start Here
+## 🧭 New? Start Here
 
 This site is the **official documentation hub**, and it's the best place to:
 - Understand what AgOpenGPS does
