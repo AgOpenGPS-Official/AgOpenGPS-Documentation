@@ -8,20 +8,22 @@ type = "docs"
 path = "/**"
 +++
 
-# Welcome to AgOpenGPS 
-AgOpenGPS is an open-source precision agriculture platform that brings low-cost GPS-based autosteer to your farm equipment.
+# 👋 Welcome to AgOpenGPS
 
-Information about the project is spread across a few different sources — this documentation is designed to **tie it all together** and help you get started quickly.
+AgOpenGPS is an open-source platform for precision agriculture, enabling low-cost GPS-based autosteer and implement control for your farm equipment.
 
-The good news is, if you are new here, you are in the right place. This documentation serves as a guide to the world of AgOpenGPS, and is the perfect place to get started.
+This documentation brings together everything you need to get started — from hardware and software setup to community support and advanced features.
+
+---
 
 ## 🧭 New? Start Here
 
-This site is the **official documentation hub**, and it's the best place to:
-- Understand what AgOpenGPS does
-- Find the hardware and software you’ll need
-- Learn how to install, build, and test your system
-- Access other resources in the AgOpenGPS ecosystem
+This is the official documentation hub. Use it to:
+
+- Understand what AgOpenGPS does  
+- Choose and source the right hardware and software  
+- Learn how to install, build, and test your system  
+- Access community resources and support
 
 ## Project Repositories
 There are 2 central repositories for AgOpenGPS on Github:
