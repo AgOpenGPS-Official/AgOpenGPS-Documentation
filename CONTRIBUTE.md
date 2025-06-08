@@ -37,9 +37,10 @@ menu:
   main:
     parent: "Hardware"
     weight: 10
----```
+---
+```
 
-**### 3. 🔗 Link to useful community resources**
+### 3. 🔗 Link to useful community resources
 
 Found a great Discourse thread or forum answer? Link to it at the bottom of the relevant doc page under:
 ## 🧠 Community Insights
