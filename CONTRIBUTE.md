@@ -37,7 +37,7 @@ menu:
   main:
     parent: "Hardware"
     weight: 10
----
+---```
 
 **### 3. 🔗 Link to useful community resources**
 
