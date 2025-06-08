@@ -28,25 +28,40 @@ There are 2 central repositories for AgOpenGPS on Github:
 1) The software repository (containing the computer programs you will need to download onto your in-machine device to achieve autosteer)
 2) The Hardware and Firmware repository (containing files which help build physical items (e.g., PCB design files) or program components (e.g., make your Teensy work with your project setup)
 
-## [Software](software)
+## 🖥️ [Software](software)
 
-[The Main Repository](https://github.com/AgOpenGPS-Official/AgOpenGPS)
+This section covers the AgOpenGPS software that runs on your in-cab Windows device.
 
-[Download the Software](https://github.com/AgOpenGPS-Official/AgOpenGPS/releases)
+- 🔗 [Main Software Repository](https://github.com/AgOpenGPS-Official/AgOpenGPS)  
+  Source code and releases for the AgOpenGPS program.
 
-[How to install and run AgOpenGPS](https://www.youtube.com/watch?v=bVo6HwYIdP4)
+- 💾 [Download the Latest Software](https://github.com/AgOpenGPS-Official/AgOpenGPS/releases)  
+  Pre-built executable downloads.
 
-[Rate Control](https://github.com/AgOpenGPS-Official/Rate_Control)
+- 🧰 [How to Install and Run AgOpenGPS](https://www.youtube.com/watch?v=bVo6HwYIdP4)  
+  Video guide to help you get started.
 
-[AOG Video Training](https://www.youtube.com/playlist?list=PL1N2N2XFHWW1fIDhb7koOa7hxH0LGppYc)
+- 🌾 [Rate Control Module](https://github.com/AgOpenGPS-Official/Rate_Control)  
+  Optional module for controlling application rates (fertilizer, seed, etc).
 
-[AOG Downloadable video training](https://www.mediafire.com/folder/wwcvo7zhdogh1/Videos)
+- 🎥 [AOG Video Training Playlist](https://www.youtube.com/playlist?list=PL1N2N2XFHWW1fIDhb7koOa7hxH0LGppYc)  
+  Beginner-to-advanced tutorials on YouTube.
 
-[Change Log](software/ChangeLog)
+- 💽 [Downloadable Training Videos (MediaFire)](https://www.mediafire.com/folder/wwcvo7zhdogh1/Videos)  
+  Offline-accessible version of training videos.
 
-## [Hardware - what to buy, and where to buy it](hardware)
+- 📝 [Software Change Log](software/ChangeLog)  
+  Track new features, bug fixes, and updates.
 
-[The Main Hardware and Firmware Repository](https://github.com/AgOpenGPS-Official/Boards)
+---
+
+## 🔧 [Hardware – What to Buy and Where to Buy It](hardware)
+
+This section helps you build the physical side of AgOpenGPS, including PCBs, wiring, and firmware.
+
+- 📦 [Main Hardware and Firmware Repository](https://github.com/AgOpenGPS-Official/Boards)  
+  Includes PCB designs, firmware files, schematics, and more.
+
 
 ## Discussion and Help
 
