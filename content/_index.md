@@ -34,45 +34,114 @@ This documentation is organized into two main areas: **Software** and **Hardware
 
 ---
 
-### 🖥️ [Software](software)
+## 📚 Contents
 
-This section covers the AgOpenGPS software that runs on your in-cab Windows device.
-
-- 🔗 [Main Software Repository](https://github.com/AgOpenGPS-Official/AgOpenGPS)  
-  Source code and releases for the AgOpenGPS program.
-
-- 💾 [Download the Latest Software](https://github.com/AgOpenGPS-Official/AgOpenGPS/releases)  
-  Pre-built executable downloads.
-
-- 🧰 [How to Install and Run AgOpenGPS](https://www.youtube.com/watch?v=bVo6HwYIdP4)  
-  Video guide to help you get started.
-
-- 🌾 [Rate Control Module](https://github.com/AgOpenGPS-Official/Rate_Control)  
-  Optional module for controlling application rates (fertilizer, seed, etc).
-
-- 🎥 [AOG Video Training Playlist](https://www.youtube.com/playlist?list=PL1N2N2XFHWW1fIDhb7koOa7hxH0LGppYc)  
-  Beginner-to-advanced tutorials on YouTube.
-
-- 💽 [Downloadable Training Videos (MediaFire)](https://www.mediafire.com/folder/wwcvo7zhdogh1/Videos)  
-  Offline-accessible version of training videos.
-
-- 📝 [Software Change Log](software/ChangeLog)  
-  Track new features, bug fixes, and updates.
+Use the sections below to explore the full AgOpenGPS system — including software setup, hardware building, and frequently asked questions.
 
 ---
 
-### 🔧 [Hardware – What to Buy and Where to Buy It](hardware)
+### 🖥️ Software
 
-This section helps you build the physical side of AgOpenGPS, including PCBs, wiring, and firmware.
+- 🧭 [What is AgOpenGPS?](software/01.-What-is-AgOpenGPS.md)  
+  Overview of what AOG does and how it fits into your machine.
 
-- 📦 [Main Hardware and Firmware Repository](https://github.com/AgOpenGPS-Official/Boards)  
-  Includes PCB designs, firmware files, schematics, and more.
+- 💻 [Install AgOpenGPS and AgIO](software/02.-Install-AgOpenGPS-and-AgIO.md)  
+  Step-by-step installation on a Windows tablet.
+
+- 🧠 [AgIO Orientation](software/03.-AgIO-Orientation.md)  
+  Learn how AgIO communicates with your hardware.
+
+- 📊 [AgOpenGPS Orientation](software/04.-AgOpenGPS-Orientation.md)  
+  Interface overview and software navigation.
+
+- 🌐 [Ethernet and Networking Setup](software/05.-Ethernet-Setup.md)  
+  Connect AgIO to your autosteer hardware.
+
+- 📡 [RTK Setup Guide](software/06.-RTK-Setup.md)  
+  Connect to RTK corrections using NTRIP or base stations.
+
+- 🛰️ [UDP and Serial Monitor Tools](software/07.-UDP-Monitor.md), [08.-Serial-Monitor.md](software/08.-Serial-Monitor.md)  
+  Debugging data flow between modules.
+
+- 📜 [Change Log](software/ChangeLog.md)  
+  Track software releases and updates.
+
+- ❓ [Software FAQ](software/FAQ.md)  
+  Common software questions and answers.
+
+---
+
+### 🔧 Hardware
+
+- 🧾 [Quick Start: What to Buy](hardware/tl-dr-cut-to-the-chase-what-do-i-buy.md)  
+  A no-nonsense guide to getting the right parts.
+
+- 📦 [Hardware Kits](hardware/kits.md)  
+  Complete kits vs. DIY sourcing.
+
+- 🧠 [The Manual](hardware/TheManual.md)  
+  In-depth hardware theory and explanation.
+
+- 🛒 [Suppliers](hardware/suppliers.md)  
+  Recommended vendors for PCBs and components.
+
+- 🧲 [Boards – All-in-One](hardware/Boards-All-In-One)  
+  Unified boards that simplify wiring and setup.
+
+- ⚙️ [Boards – Configuration](hardware/Boards-Configuration)  
+  Configurable or modular boards.
+
+- 🧩 [Boards – Other](hardware/Boards-Others)  
+  Legacy or niche hardware boards.
+
+- 🌾 [Implement Boards](hardware/Implement-Boards)  
+  For controlling external tools like sprayers, seeders.
+
+- 🧱 [Other Components](hardware/Other-components)  
+  Motors, sensors, GPS modules, etc.
+
+- 🖨️ [3D Prints](hardware/3dprints.md)  
+  Printable cases and mounts.
+
+- 🌐 [Networking](hardware/networking)  
+  CAN bus, Ethernet, and power wiring diagrams.
+
+- 🧵 [Other Projects](hardware/otherprojects.md)  
+  Community side projects using AgOpenGPS tech.
+
+- 📁 [Other References](hardware/otherrefs.md)  
+  Technical references, pinouts, datasheets.
+
+- 🎥 [Video Guides](hardware/videoguides.md)  
+  Community walkthroughs and how-tos.
+
+- ❓ [Problems and Solutions](hardware/ProblemsAndSolutions.md)  
+  Real-world issues and fixes.
+
+- ⚠️ [SCAMMERS – Please Read](hardware/SCAMMERS.md)  
+  A warning about unofficial sellers.
+
+- ❓ [Hardware FAQ](hardware/FAQ.md)  
+  Common hardware-related questions.
+
+---
+
+## 💬 Key links to other sources
+
+- 🧵 [Discourse Forum](https://discourse.agopengps.com)  
+  Long-form discussions and support.
+
+- 💬 [Telegram Group](https://t.me/AgOpenGPSInternational)  
+  Fast community chat.
+
+- 🧵 [AOG Youtube](https://www.youtube.com/@AgOpenGPS))  
+  Useful video tutorials.
 
 
-## Discussion and Help
 
-[AgOpenGPS Discourse Forum](https://discourse.agopengps.com/)
+## Contribute
 
-[Telegram AgOpenGPS International Group](https://t.me/agopengpsinternational)
+- 📝 [Suggest a Fix or Edit](contribute/docs)  
+  Help improve this documentation.
 
-## [Frequently asked questions / problems & solutions](software/FAQ)
+## ⁉️[Frequently asked questions / problems & solutions](software/FAQ)
