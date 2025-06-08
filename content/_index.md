@@ -28,7 +28,13 @@ There are 2 central repositories for AgOpenGPS on Github:
 1) The software repository (containing the computer programs you will need to download onto your in-machine device to achieve autosteer)
 2) The Hardware and Firmware repository (containing files which help build physical items (e.g., PCB design files) or program components (e.g., make your Teensy work with your project setup)
 
-## 🖥️ [Software](software)
+## 📚 Contents
+
+This documentation is organized into two main areas: **Software** and **Hardware**. Below are the key resources to help you get started, build, and maintain your AgOpenGPS system.
+
+---
+
+### 🖥️ [Software](software)
 
 This section covers the AgOpenGPS software that runs on your in-cab Windows device.
 
@@ -55,7 +61,7 @@ This section covers the AgOpenGPS software that runs on your in-cab Windows devi
 
 ---
 
-## 🔧 [Hardware – What to Buy and Where to Buy It](hardware)
+### 🔧 [Hardware – What to Buy and Where to Buy It](hardware)
 
 This section helps you build the physical side of AgOpenGPS, including PCBs, wiring, and firmware.
 
