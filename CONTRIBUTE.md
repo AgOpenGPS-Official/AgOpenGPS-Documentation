@@ -43,5 +43,5 @@ menu:
 ### 3. 🔗 Link to useful community resources
 
 Found a great Discourse thread or forum answer? Link to it at the bottom of the relevant doc page under:
-## 🧠 Community Insights
-- [Great Keya setup post on Discourse](https://discourse.agopengps.com/t/keya-setup-guide/12345)
+#### 🧠 Community Insights
+- _(e.g.,)_[Great Keya setup post on Discourse](https://discourse.agopengps.com/t/keya-setup-guide/12345)
