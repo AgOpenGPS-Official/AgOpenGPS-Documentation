@@ -66,5 +66,5 @@ This documentation is organized into two main areas: **Software** and **Hardware
 - 💬 [Telegram Group](https://t.me/AgOpenGPSInternational)  
   Community group chat.
 
-- 🧵 [AOG Youtube](https://www.youtube.com/@AgOpenGPS))  
+- 🎥 [AOG Youtube](https://www.youtube.com/@AgOpenGPS))  
   Useful video tutorials.
