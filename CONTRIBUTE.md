@@ -4,7 +4,7 @@ Thank you for helping improve the AgOpenGPS docs! Clear, accurate documentation 
 
 ## 🧭 Start Here
 
-📘 <a href="https://docs.agopengps.com/start" target="_blank">Start Here Guide</a> – If you're new, this is the best place to begin.
+📘 <a href="https://docs.agopengps.com/start" target="_blank">Start Here Guide</a> – If you're new to the whole project, this is the best place to begin.
 
 ---
 
@@ -31,7 +31,7 @@ Please include:
 - Edit the text directly
 - Preview locally (see below), commit, and open a Pull Request
 
-### 2. 🧱 Add a new guide or tutorial
+### 2. 🧑‍🏫 Add a new guide or tutorial
 
 - Use the frontmatter template below
 - Keep guides simple, clear, and focused
