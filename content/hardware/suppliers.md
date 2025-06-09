@@ -21,4 +21,3 @@ Canada: http://www.diyfarmtech.ca/
 
 ###
 
-Baraki steering valve blocks: https://www.agopengps.pl/
