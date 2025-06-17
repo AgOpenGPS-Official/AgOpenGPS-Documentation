@@ -19,7 +19,7 @@ This official documentation brings together everything you need to get started, 
 * **Learn** how to install, build, and test your system
 * **Access** other community resources and support
 
-## Project Repositories
+## 🗃️ Project Repositories
 
 There are two central repositories for AgOpenGPS on GitHub:
 
