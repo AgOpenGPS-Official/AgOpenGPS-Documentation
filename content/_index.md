@@ -31,8 +31,6 @@ This documentation is organized into two main areas: **Software** and **Hardware
 
 ## [Software](software)
 
-[The Main Repository](https://github.com/AgOpenGPS-Official/AgOpenGPS)
-
 [Download the Software](https://github.com/AgOpenGPS-Official/AgOpenGPS/releases)
 
 [How to install and run AgOpenGPS](https://www.youtube.com/watch?v=bVo6HwYIdP4)
@@ -46,8 +44,6 @@ This documentation is organized into two main areas: **Software** and **Hardware
 [Change Log](software/ChangeLog)
 
 ## [Hardware - what to buy, and where to buy it](hardware)
-
-[The Main Hardware and Firmware Repository](https://github.com/AgOpenGPS-Official/Boards)
 
 ---
 
