@@ -2,10 +2,6 @@
 
 Thank you for helping improve the AgOpenGPS docs! Clear, accurate documentation makes the project more accessible to farmers, builders, and developers around the world.
 
-## 🧭 Start Here
-
-📘 <a href="https://docs.agopengps.com/start" target="_blank">Start Here Guide</a> – If you're new to the whole project, this is the best place to begin.
-
 ---
 
 ## 🛠 How to Contribute
@@ -13,11 +9,7 @@ You can help in many ways:
 
 ### 0. Request a change (if you dont feel comfortable making changes yourself)
 
-If you're not comfortable editing files, no problem! You can:
-
-- Use this quick <a href="https://forms.gle/YOUR-FEEDBACK-FORM" target="_blank">TBC Docs Feedback Form</a>
-_or_
-- Open a GitHub issue and describe what needs to change
+If you're not comfortable editing files, no problem! You can open a GitHub issue and describe what needs to change.
 
 Please include:
 - What you were trying to do
