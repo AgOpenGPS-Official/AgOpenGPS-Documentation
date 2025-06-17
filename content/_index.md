@@ -43,6 +43,8 @@ This documentation is organized into two main areas: **Software** and **Hardware
 
 [Change Log](software/ChangeLog)
 
+---
+
 ## [Hardware - what to buy, and where to buy it](hardware)
 
 ---
