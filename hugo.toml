@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'AgOpenGPS Documentation'
 disablePathToLower = true
 
+[permalinks]
+  Build = "/Build/:filename/"
+
 [params]
   github_repo = "https://github.com/AgOpenGPS-Official/AgOpenGPS-Documentation"
   github_project_repo = "https://github.com/AgOpenGPS-Official/AgOpenGPS"
