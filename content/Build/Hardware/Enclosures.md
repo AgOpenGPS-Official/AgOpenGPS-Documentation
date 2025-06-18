@@ -1,6 +1,6 @@
 +++
 title = "Enclosures"
-weight = 3
+weight = 21
 +++
 
 # Looking to print your own 3D case? Maybe you can find one you like here:
@@ -17,7 +17,7 @@ Vili: https://discourse.agopengps.com/t/all-in-one-pcb/10444/5
 https://discourse.agopengps.com/t/all-in-one-pcb/10444/5
 ![image](../../img/enclosure-all-in-one-standard.png)
 
-***
+---
 
 Alternative low-profile Micro enclosure
 
@@ -25,7 +25,7 @@ https://cad.onshape.com/documents/2ce126543c19758e3f29edf2/w/d34558ff003526b410e
 
 ![image](../../img/enclosure-low-profile-micro.png)
 
-***
+---
 
 ## AOG Micro smaller enclosure
 
@@ -33,8 +33,7 @@ https://www.printables.com/model/555540-agopengps-micro-v41-smaller-enclosure
 
 ![image](../../img/enclosure-micro-smaller.png)
 
-
-***
+---
 
 ## Tony's CANBUS board
 
@@ -42,9 +41,9 @@ https://cad.onshape.com/documents/d3f169edb0b22d9a9912c541/w/56a7125e5876a5077e7
 
 ![image](../../img/enclosure-canbus-board.png)
 
-***
-## PCBv2
+---
 
+## PCBv2
 
 ## PCBv2/PANDA
 
@@ -61,7 +60,7 @@ https://www.printables.com/model/587713-enclosure-for-agopengps-pcbv41std-v3
 https://www.printables.com/model/775428-enclosure-for-agopengps-pcbv4xstd-v4
 ![image](../../img/enclosure-v4x-std.png)
 
-***
+---
 
 # Enclosure for BNO085, for mounting outside your AIO case
 
@@ -71,5 +70,4 @@ https://github.com/lansalot/AgOpenGPS-Tools/tree/main/STLs
 
 ## Some useful small cases for projects here:
 
-https://www.gainta.com/en/g302mf.html
-https://gainta.com/en/g201mf.html
+https://www.gainta.com/en/g302mf.html https://gainta.com/en/g201mf.html
