@@ -42,9 +42,9 @@ system:
 
 ### 🚀 [Getting Started](/getting-started)
 
-- 10 minute quickstart guide
-- What Autosteer does and why people use it
-- What AgOpenGPS does and why people use it
+This section contains a quick overview of the whole project, including what
+autosteer is, what agopengps is, how the system works, and what the key
+decisions people make early on are
 
 ### 🛠️ [Build](/build)
 
