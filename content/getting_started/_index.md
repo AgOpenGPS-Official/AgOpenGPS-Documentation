@@ -26,7 +26,6 @@ hardware (PCBs, sensors, motor drivers), guides farm machinery with
 - Reduce driver fatigue
 - Save inputs through precise spraying, fertilising, and seeding
 - Work accurately in dust, fog, or after dark
-- Increase field capacity thanks to straight, repeatable passes
 
 ---
 
