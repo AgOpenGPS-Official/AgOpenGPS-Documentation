@@ -4,7 +4,7 @@ description = "A 10-minute overview of AgOpenGPS—what it is, why farmers use i
 weight = 10
 +++
 
-# 🚀 Quick-Start Guide (≈ 10 minutes)
+# 🚀 Quick-Start Guide (~10 minutes)
 
 Welcome! This page gives you the **bare-minimum knowledge** to understand
 AgOpenGPS. Before making big purchase decisions, dive into the in-depth sections
