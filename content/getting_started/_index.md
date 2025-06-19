@@ -112,7 +112,8 @@ fully automated, centimetre-accurate steering.
 
 ## 👀 Learn more
 
-- [**Software**] – installation and configuration
-- [**Hardware**] – sourcing and building every component
+- [Software](/software) – installation and configuration of the AgOpenGPS
+  software
+- [Hardware](/hardware) – choosing the right parts, building and installing
 
 Happy steering! 🚜💨
