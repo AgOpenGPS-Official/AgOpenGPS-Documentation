@@ -1,40 +1,84 @@
 +++
+
 linkTitle = "Home"
 
 [[cascade]]
-  type = "docs"
+type = "docs"
 
-  [cascade._target]
-  path = "/**"
+[cascade._target]
+path = "/**"
 +++
 
-# Welcome to AgOpenGPS 
-There are 2 main places for AgOpenGPS - Program Software and Hardware with Firmware:
+# 👋 Welcome to AgOpenGPS
 
-## [Software](software)
+**AgOpenGPS** is an open-source platform for precision agriculture. It enables
+affordable, accurate **GPS-based autosteer** and implement control for your farm
+equipment — using off-the-shelf components and community-built tools.
 
-[The Main Repository](https://github.com/AgOpenGPS-Official/AgOpenGPS)
+This documentation is your one-stop resource to:
 
-[Download the Software](https://github.com/AgOpenGPS-Official/AgOpenGPS/releases)
+- **Understand** what AgOpenGPS is and how it works
+- **Choose and source** the right hardware and software
+- **Install, build, and configure** your full system
+- **Get help** from the AgOpenGPS community
 
-[How to install and run AgOpenGPS](https://www.youtube.com/watch?v=bVo6HwYIdP4)
+---
 
-[Rate Control](https://github.com/AgOpenGPS-Official/Rate_Control)
+## 📦 Repositories
 
-[AOG Video Training](https://www.youtube.com/playlist?list=PL1N2N2XFHWW1fIDhb7koOa7hxH0LGppYc)
+The project has two central GitHub repositories:
 
-[AOG Downloadable video training](https://www.mediafire.com/folder/wwcvo7zhdogh1/Videos)
+- [**AgOpenGPS Software**](https://github.com/AgOpenGPS-Official/AgOpenGPS): The
+  main app that runs on your in-cab computer
+- [**AgOpenGPS Hardware & Firmware**](https://github.com/AgOpenGPS-Official/Boards):
+  PCB designs, firmware, and schematics
 
-[Change Log](software/ChangeLog)
+---
 
-## [Hardware - what to buy, and where to buy it](hardware)
+## 🧭 Site Overview
 
-[The Main Hardware and Firmware Repository](https://github.com/AgOpenGPS-Official/Boards)
+This documentation is organised by the main steps of building and running an AOG
+system:
 
-## Discussion and Help
+### 🚀 [Getting Started](/getting-started)
 
-[AgOpenGPS Discourse Forum](https://discourse.agopengps.com/)
+#### [Software](/build/software)
 
-[Telegram AgOpenGPS International Group](https://t.me/agopengpsinternational)
+- [Download AgOpenGPS](https://github.com/AgOpenGPS-Official/AgOpenGPS/releases)
+- [Install & run AgOpenGPS](https://www.youtube.com/watch?v=bVo6HwYIdP4) (video)
+- [Rate Control module](https://github.com/AgOpenGPS-Official/Rate_Control)
+- [Video training playlist](https://www.youtube.com/playlist?list=PL1N2N2XFHWW1fIDhb7koOa7hxH0LGppYc)
+- [Offline video archive](https://www.mediafire.com/folder/wwcvo7zhdogh1/Videos)
+- [Change log](/build/software/changelog)
 
-## [Frequently asked questions / problems & solutions](software/FAQ)
+#### [Hardware](/build/hardware)
+
+---
+
+## 💬 Community & Support
+
+- 🧵 [**Discourse Forum**](https://discourse.agopengps.com): Long-form
+  discussions, questions, and build logs
+- 💬 [**Telegram Group**](https://t.me/AgOpenGPSInternational): Fast community
+  help
+- 🎥 [**AOG YouTube**](https://www.youtube.com/@AgOpenGPS): Tutorials and build
+  videos
+
+---
+
+## ✍️ Want to contribute?
+
+AgOpenGPS is community built. You can help by:
+
+- Improving this documentation
+- Submitting issues or fixes to the
+  [codebase](https://github.com/AgOpenGPS-Official/AgOpenGPS)
+- Sharing your own build tips and guides on
+  [Discourse](https://discourse.agopengps.com)
+
+---
+
+## ✅ Next Steps
+
+👉 Start with the [Getting Started guide](/getting-started) to learn more about
+what AgOpenGPS is and how to begin your build.
