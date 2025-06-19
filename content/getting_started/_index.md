@@ -32,7 +32,7 @@ hardware (PCBs, sensors, motor drivers), guides farm machinery with
 
 ## Why choose AgOpenGPS over commercial kits?
 
-- **Cost:** ~£1000–£1500 for a full setup (vs £5000+ for proprietary systems)
+- **Cost:** ~1/5th of the cost of typical commercial systems with similar functionality
 - **Open source:** free code, schematics, and PCB files—improve or customise at
   will
 - **Adaptable:** fits almost any tractor with a bit of tinkering and community
@@ -87,7 +87,7 @@ Before you dive into part lists, here’s what each main component does.
   - _Single-antenna builds:_ add an **IMU** (e.g. BNO085).
   - _Dual-antenna builds:_ two GNSS receivers provide heading and roll, so no
     IMU is needed.
-- **Control PCB** – Houses a **Teensy 4.1 running AgIO firmware**, routes power
+- **Control PCB** – Acts as a cenral point that routes power
   and signals, connects sensors, and drives the motor or valve.
 - **Power & motor driver** – 12 V → 24 V converter plus a Cytron/AIO driver
   stage to power the steering motor or valve.
