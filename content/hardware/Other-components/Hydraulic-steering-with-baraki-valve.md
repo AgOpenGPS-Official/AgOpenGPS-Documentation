@@ -1,5 +1,5 @@
 +++
-title = "Steering with Baraki hydraulic block"
+title = "Steering with hydraulic block"
 weight = 9
 +++
 
@@ -18,11 +18,14 @@ Motor settings are follow:
   * The minimum to move minPWM is 38-40
 
 ## How to choose a valve?
-There are a few kind of valves depending on the Orbit installed. These are available in the shop: https://www.agopengps.pl/en/shop-1?currency=EUR
+There are a few kind of valves depending on the Orbit installed. Hydraulic valves can be purchased from
+
+- https://navisklep.pl/en/k/hydraulic-blocks-hydraulic-valves/
+- https://97431270.shop.strato.com/c/complete-hydraulic-system
 
 Take a look at your Orbitrol: 
-  * 4 hoses then you'll need an [OC valve](https://www.agopengps.pl/en/product-page/zaw%C3%B3r-hydrauliczny?currency=EUR) and will be connected between the pump / steer lines.
-  * 5 hoses will be an LS system and needs an [LS valve](https://www.agopengps.pl/en/product-page/zaw%C3%B3r-hydrauliczny-do-uk%C5%82adu-ls) with "Tee" connection and will be connected parallel to the P / T lines and between the LS / steer lines.
+  * 4 hoses then you'll need an OC valve and will be connected between the pump / steer lines.
+  * 5 hoses will be an LS system and needs an LS valve with "Tee" connection and will be connected parallel to the P / T lines and between the LS / steer lines.
   * !!! some of the tractors require special valves, for example: 
     * Fendt (static) 
     * [John Deere 4XXX](https://discourse.agopengps.com/t/hydraulic-valve-assemblies-for-every-tractor-for-every-type-of-hydraulic-system/8011/586?u=bgunics) 
