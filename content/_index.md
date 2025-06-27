@@ -37,7 +37,7 @@ The project has two central GitHub repositories:
 
 ## 🧭 Site Overview
 
-### 🚀 [Getting Started](/getting-started)
+### 🚀 [Getting Started](/getting_started)
 
 ### [Software](/software)
 
