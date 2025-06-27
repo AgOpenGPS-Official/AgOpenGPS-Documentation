@@ -37,19 +37,16 @@ The project has two central GitHub repositories:
 
 ## 🧭 Site Overview
 
-This documentation is organised by the main steps of building and running an AOG
-system:
-
 ### 🚀 [Getting Started](/getting-started)
 
-#### [Software](/build/software)
+### [Software](/software)
 
 - [Download AgOpenGPS](https://github.com/AgOpenGPS-Official/AgOpenGPS/releases)
 - [Install & run AgOpenGPS](https://www.youtube.com/watch?v=bVo6HwYIdP4) (video)
 - [Rate Control module](https://github.com/AgOpenGPS-Official/Rate_Control)
 - [Video training playlist](https://www.youtube.com/playlist?list=PL1N2N2XFHWW1fIDhb7koOa7hxH0LGppYc)
 - [Offline video archive](https://www.mediafire.com/folder/wwcvo7zhdogh1/Videos)
-- [Change log](software/changelog)
+- [Change log](/software/changelog)
 
 ### [Hardware](/hardware)
 
