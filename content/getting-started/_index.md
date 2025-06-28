@@ -93,7 +93,7 @@ Before you dive into part lists, here’s what each main component does.
   - _Dual-antenna builds:_ two
     [GNSS receivers](/hardware/Other-components/gps-modules-standard-or-micro.md)
     provide heading and roll, so no IMU is needed.
-- **Control PCB** – Acts as a cenral point that routes power and signals,
+- **Control PCB** – Acts as a central point that routes power and signals,
   connects sensors, and drives the motor or valve. First-time users would
   typically go for the latest
   ['all-in-one' board - currently v4.5](/hardware/Boards-All-In-One/_index.md)
