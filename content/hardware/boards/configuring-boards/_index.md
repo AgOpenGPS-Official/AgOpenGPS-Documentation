@@ -1,5 +1,5 @@
 +++
 title = "Boards - Configuration"
 simple_list = true
-weight = 7
+weight = 2
 +++
