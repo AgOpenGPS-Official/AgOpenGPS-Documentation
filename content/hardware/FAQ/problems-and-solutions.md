@@ -1,6 +1,5 @@
 +++
 title = "🤬 Problems and Solutions"
-toc_hide = true
 weight = 14
 toc_hide = true
 +++
