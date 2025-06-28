@@ -69,10 +69,10 @@ Before you dive into part lists, here’s what each main component does.
 - **Location signal** – Every AgOpenGPS setup needs a GNSS fix (often called
   GPS).  
   A
-  [**ZED-F9P receiver plus roof-mounted antenna**](/hardware/Other-components/gps-modules-standard-or-micro.md)
+  [**ZED-F9P receiver plus roof-mounted antenna**](/hardware/Other-components/gps-modules-standard-or-micro)
   streams position to the tablet so the software always knows where the tractor
   is—typically within a few centimetres.
-- [**Windows tablet or laptop**](/hardware/Other-components/tablet.md) – Rugged,
+- [**Windows tablet or laptop**](/hardware/Other-components/tablet) – Rugged,
   sunlight-readable Windows 10/11 device (4 GB RAM min). Runs AgOpenGPS and lets
   you switch guidance on/off.
 - [**AgOpenGPS software**](/software) – The “brain” of the system: reads GNSS
@@ -81,22 +81,22 @@ Before you dive into part lists, here’s what each main component does.
 
 ### Extra parts for **full autosteer**
 
-- [**Wheel-angle sensor (WAS)**](/hardware/Other-components/wheel-angle-sensor.md)
+- [**Wheel-angle sensor (WAS)**](/hardware/Other-components/wheel-angle-sensor)
   – Reports the actual steering angle so AgOpenGPS can correct in real time.
 - **Steering actuator** – Converts software commands into wheel movement.
   Options include a DC steering motor, retrofit motorised wheel, proportional
   hydraulic valve, or factory CAN valve.
 - **Roll / heading compensation (optional)**
   - _Single-antenna builds:_ add an
-    [**IMU**](/hardware/Other-components/imu-inertial-measurement-unit.md) (e.g.
+    [**IMU**](/hardware/Other-components/imu-inertial-measurement-unit) (e.g.
     BNO085).
   - _Dual-antenna builds:_ two
-    [GNSS receivers](/hardware/Other-components/gps-modules-standard-or-micro.md)
+    [GNSS receivers](/hardware/Other-components/gps-modules-standard-or-micro)
     provide heading and roll, so no IMU is needed.
 - **Control PCB** – Acts as a central point that routes power and signals,
   connects sensors, and drives the motor or valve. First-time users would
   typically go for the latest
-  ['all-in-one' board - currently v4.5](/hardware/Boards-All-In-One/_index.md)
+  ['all-in-one' board - currently v4.5](/hardware/boards/All-In-One-AIO-boards)
 - **RTK correction signal** _(optional but recommended)_ – AgOpenGPS’s built-in
   NTRIP client can fetch RTCM data from public, commercial, or DIY base stations
   to reach 1–2 cm accuracy.
