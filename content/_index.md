@@ -77,21 +77,14 @@ AgOpenGPS is community built. You can help by:
 
 ## Some other cool open-source ag-related projects
 
-### Run your own RTK base station on a Raspberry Pi https://github.com/Stefal/rtkbase
-
-### AgISOStack - bringing ISOBUS implement control to the world of Agriculture https://agisostack.com/
-
-### AgOpenGPS Tools - various tools related to agOpengps https://github.com/lansalot/AgOpenGPS-Tools
-
-### Controlling a BogBalle spreader - https://github.com/charlesquick/AOG-Bogballe-Bridge
-
-### Awesome "tractor simulator" that works with AOG! https://github.com/GNSS-Stylist/AgOpenGPSSimPoC
-
-### Open Weed Locator https://github.com/geezacoleman/OpenWeedLocator
-
-### "A worldwide community of farmers that build and modify our own tools" FarmHack - (https://farmhack.org/tools)
-
-### Gathering for Open Agricultural Technology - https://goatech.org/
+- [Run your own RTK base station on a Raspberry Pi](https://github.com/Stefal/rtkbase)
+- [AgISOStack - bringing ISOBUS implement control to the world of Agriculture](https://agisostack.com/)
+- [AgOpenGPS Tools - various tools related to agOpengps](https://github.com/lansalot/AgOpenGPS-Tools)
+- [Controlling a BogBalle spreader with AOG](https://github.com/charlesquick/AOG-Bogballe-Bridge)
+- [Awesome "tractor simulator" that works with AOG!](https://github.com/GNSS-Stylist/AgOpenGPSSimPoC)
+- [Open Weed Locator](https://github.com/geezacoleman/OpenWeedLocator)
+- [FarmHack - A worldwide community of farmers that build and modify their own tools](https://farmhack.org/tools)
+- [Gathering for Open Agricultural Technology (GOAT)](https://goatech.org/)
 
 ---
 
