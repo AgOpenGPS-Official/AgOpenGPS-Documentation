@@ -1,10 +1,14 @@
 +++
 title = "Hardware"
 linkTitle = "Hardware"
-weight = 20
-cascade = [
-  { _build = { list = "never" } }
-]
+simple_list = false
+
+[menu.main]
+weight = 10
+
+[[cascade]]
+type = "docs"
+
 +++
 
 Welcome to the AgOpenGPS hardware documentation. This section contains all the

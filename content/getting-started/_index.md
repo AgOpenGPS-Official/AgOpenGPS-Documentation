@@ -62,7 +62,7 @@ replacing core components.
 
 ## Basic overview of the system
 
-Before you dive into part lists, here’s what each main component does.
+Before you dive into part lists, here's what each main component does.
 
 ### Components needed for **light-bar guidance**
 
@@ -75,7 +75,7 @@ Before you dive into part lists, here’s what each main component does.
 - [**Windows tablet or laptop**](/hardware/Other-components/tablet) – Rugged,
   sunlight-readable Windows 10/11 device (4 GB RAM min). Runs AgOpenGPS and lets
   you switch guidance on/off.
-- [**AgOpenGPS software**](/software) – The “brain” of the system: reads GNSS
+- [**AgOpenGPS software**](/software) – The "brain" of the system: reads GNSS
   data, shows a live map/light-bar, logs coverage, and decides the next steering
   move.
 
@@ -97,7 +97,7 @@ Before you dive into part lists, here’s what each main component does.
   connects sensors, and drives the motor or valve. First-time users would
   typically go for the latest
   ['all-in-one' board - currently v4.5](/hardware/boards/All-In-One-AIO-boards)
-- **RTK correction signal** _(optional but recommended)_ – AgOpenGPS’s built-in
+- **RTK correction signal** _(optional but recommended)_ – AgOpenGPS's built-in
   NTRIP client can fetch RTCM data from public, commercial, or DIY base stations
   to reach 1–2 cm accuracy.
 
