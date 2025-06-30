@@ -2,6 +2,7 @@
 title = "Hardware"
 linkTitle = "Hardware"
 simple_list = false
+no_list = "true" 
 
 [menu.main]
 weight = 10
