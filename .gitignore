@@ -14,4 +14,4 @@ hugo.linux
 /.hugo_build.lock
 
 # Other
-content/.DS_Store
+.DS_Store
