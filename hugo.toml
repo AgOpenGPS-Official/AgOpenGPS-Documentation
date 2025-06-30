@@ -14,6 +14,7 @@ disablePathToLower = true
     breadcrumb_disable = true
     taxonomy_breadcrumb_disable = true
     sidebar_search_disable = true
+    sidebar_menu_foldable  = true
   [params.links]
     [[params.links.user]]
       name = "Discourse"
