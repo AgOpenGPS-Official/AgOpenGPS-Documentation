@@ -46,7 +46,6 @@ The project has two central GitHub repositories:
 - [Rate Control module](https://github.com/AgOpenGPS-Official/Rate_Control)
 - [Video training playlist](https://www.youtube.com/playlist?list=PL1N2N2XFHWW1fIDhb7koOa7hxH0LGppYc)
 - [Offline video archive](https://www.mediafire.com/folder/wwcvo7zhdogh1/Videos)
-- [Change log](/software/ChangeLog)
 
 ### [Hardware](/hardware)
 
