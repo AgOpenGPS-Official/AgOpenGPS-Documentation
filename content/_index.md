@@ -46,7 +46,6 @@ The project has two central GitHub repositories:
 - [Rate Control module](https://github.com/AgOpenGPS-Official/Rate_Control)
 - [Video training playlist](https://www.youtube.com/playlist?list=PL1N2N2XFHWW1fIDhb7koOa7hxH0LGppYc)
 - [Offline video archive](https://www.mediafire.com/folder/wwcvo7zhdogh1/Videos)
-- [Change log](/software/changelog)
 
 ### [Hardware](/hardware)
 
@@ -72,6 +71,19 @@ AgOpenGPS is community built. You can help by:
   [codebase](https://github.com/AgOpenGPS-Official/AgOpenGPS)
 - Sharing your own build tips and guides on
   [Discourse](https://discourse.agopengps.com)
+
+---
+
+## Some other cool open-source ag-related projects
+
+- [Run your own RTK base station on a Raspberry Pi](https://github.com/Stefal/rtkbase)
+- [AgIsoStack++ - bringing ISOBUS implement control to the world of Agriculture](https://agisostack.com/)
+- [AgOpenGPS Tools - various tools related to AgOpenGPS](https://github.com/lansalot/AgOpenGPS-Tools)
+- [Controlling a Bogballe spreader with AOG](https://github.com/charlesquick/AOG-Bogballe-Bridge)
+- [Awesome "tractor simulator" that works with AOG!](https://github.com/GNSS-Stylist/AgOpenGPSSimPoC)
+- [Open Weed Locator](https://github.com/geezacoleman/OpenWeedLocator)
+- [FarmHack - A worldwide community of farmers that build and modify their own tools](https://farmhack.org/tools)
+- [Gathering for Open Agricultural Technology (GOAT)](https://goatech.org/)
 
 ---
 

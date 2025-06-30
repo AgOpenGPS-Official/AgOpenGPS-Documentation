@@ -1,5 +1,5 @@
 +++
-title = "Boards - All-In-One"
+title = "Boards - Others"
 simple_list = true
 weight = 3
 +++
