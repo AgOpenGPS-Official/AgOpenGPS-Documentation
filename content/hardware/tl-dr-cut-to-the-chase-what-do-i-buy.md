@@ -1,6 +1,6 @@
 +++
-title = "TL;DR - cut to the chase, what do I BUY???"
-linkTitle = "Hardware that's needed"
+title = "Hardware quickstart guide (aka TL;DR - cut to the chase, what do I BUY???)"
+linkTitle = "Hardware quickstart guide"
 weight = 2
 +++
 

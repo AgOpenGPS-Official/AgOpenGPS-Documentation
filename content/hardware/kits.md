@@ -1,5 +1,5 @@
 +++
-linkTitle = '"My tractor has X, how to steer it"'
+linkTitle = 'Steering Options'
 weight = 1
 +++
 
