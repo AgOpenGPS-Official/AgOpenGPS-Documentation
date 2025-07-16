@@ -91,9 +91,8 @@ ordered mostly pre-assembled. You will also need the
 an [antenna](Other-components/Choosing-an-Antenna), a
 [Cytron](Other-components/cytron-motor-driver), a
 [wheel angle sensor](Other-components/wheel-angle-sensor) (if you can't use the
-one on the tractor), the
-[Baraki valve](Other-components/Hydraulic-steering-with-baraki-valve) and the
-[BNO085](Other-components/imu-inertial-measurement-unit)
+one on the tractor), the [Hydraulic block](/steering-options/hydraulic-valve)
+and the [BNO085](Other-components/imu-inertial-measurement-unit)
 
 ---
 

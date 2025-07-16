@@ -41,7 +41,7 @@ Take a look at your Orbitrol:
   - CASE Quadtrack (90L) require special valves !!! Double check on these.
 
 The valve flow depends on the tractor size. 150-200HP tractors will likely need
-60liter. The forum might have tips from baraki. If unsure add a note about your
+60liter. The forum might have tips on this. If unsure add a note about your
 tractor to the order!
 
 https://discourse.agopengps.com/t/hydraulic-valve-assemblies-for-every-tractor-for-every-type-of-hydraulic-system/8011
@@ -140,7 +140,7 @@ pinout is:
 
 # Installation example
 
-Marek (maker of baraki valve) has a great set of pictures
+Marek has a great set of pictures
 [here](https://photos.app.goo.gl/pQFi3ziAcnyhWgAR8) for installation on a Massey
 5445
 
