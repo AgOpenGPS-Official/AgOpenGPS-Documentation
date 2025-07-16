@@ -1,4 +1,5 @@
 +++
+title = 'Steering Options'
 linkTitle = 'Steering Options'
 aliases = ["/hardware/kits"]
 weight = 2
