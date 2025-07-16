@@ -1,7 +1,7 @@
 +++
-title = "KEYA CANBUS motor"
-linkTitle = "Steering with Keya CANBUS wheel"
-weight = 12
+title = "Steering with Keya motor"
+linkTitle = "Keya motor"
+weight = 7
 +++
 
 You can use this as a guide for installation:

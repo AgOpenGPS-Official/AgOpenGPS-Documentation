@@ -1,7 +1,7 @@
 +++
 title = "Steering with DIY motor"
-linkTitle = "Steering with DIY motor"
-weight = 8
+linkTitle = "DIY motor"
+weight = 6
 +++
 
 You have 2 choices here: 24V or 12V
