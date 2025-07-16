@@ -1,8 +1,8 @@
 +++
-title = 'Steering Options'
-linkTitle = 'Steering Options'
+title = "Steering Options"
+simple_list = true
 aliases = ["/hardware/kits"]
-weight = 2
+weight = 5
 +++
 
 # What are my options for steering the tractor???
@@ -10,12 +10,6 @@ weight = 2
 You've come to the right place. This short page will give you some suggestions
 on what kit you will need in order to get up and running. Take some notes here,
 then use along with the other pages to work it out.
-
-## <span style="color:lightgreen;">A windows tablet!</span>
-
-Currently, AOG is only supported under Windows - so go read up on suggested
-windows tablet models [here](Other-components/tablet). Having a windows tablet
-is applicable to all situations.
 
 ---
 
