@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   repository_dispatch:
   schedule:
-    - cron: '00 11 * * *' # daily @ 11:00 UTC
+    - cron: '40 11 * * *' # daily @ 11:40 UTC
 
 jobs:
   linkChecker:
