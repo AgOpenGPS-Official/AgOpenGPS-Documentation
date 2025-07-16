@@ -1,0 +1,42 @@
+name: Links
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+  schedule:
+    - cron: '00 18 * * *' # daily @ 18:00 UTC
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write # needed for create-issue-from-file
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create lychee directory
+        run: mkdir -p lychee
+
+      # Run Lychee against the *source* (current repo checkout).
+      # Add args as needed; these are good starter defaults.
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          fail: false # don't fail the job when dead links found
+          output: ./lychee/out.md # markdown report
+          args: >- # scan repo root; tweak ignores as needed
+            --no-progress --verbose --cache --max-cache-age 1d --retry-wait 2
+            --max-retries 2 .
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Open an issue only if Lychee reported problems (exit_code != 0).
+      - name: Create Issue From File
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Link Checker Report
+          content-filepath: ./lychee/out.md
+          labels: report, automated issue
