@@ -1,6 +1,7 @@
 +++
 title = "Hardware quickstart guide (aka TL;DR - cut to the chase, what do I BUY???)"
 linkTitle = "Hardware quickstart guide"
+aliases = ["/hardware/tl-dr-cut-to-the-chase-what-do-i-buy"]
 weight = 2
 +++
 

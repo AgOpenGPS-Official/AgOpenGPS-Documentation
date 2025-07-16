@@ -1,5 +1,6 @@
 +++
 title = "Suppliers and scammers"
+aliases = ["/hardware/SCAMMERS", "/hardware/suppliers"]
 weight = 19
 +++
 
