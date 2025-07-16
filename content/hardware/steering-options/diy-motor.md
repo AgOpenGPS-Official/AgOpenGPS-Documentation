@@ -2,6 +2,7 @@
 title = "Steering with DIY motor"
 linkTitle = "DIY motor"
 weight = 6
+description = "Instructions for building a DIY steering wheel motor setup. Lists recommended motors (Phidgets, MFA, Aliexpress), mounting ideas, wiring tips, and freewheeling modifications for custom installations."
 +++
 
 You have 2 choices here: 24V or 12V

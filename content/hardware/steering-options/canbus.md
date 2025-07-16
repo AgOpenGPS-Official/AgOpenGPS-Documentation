@@ -2,6 +2,7 @@
 title = "Steering via CANBUS"
 linkTitle = "CANBUS"
 weight = 10
+description = "Comprehensive guide to steering via CANBUS. Explains how to interface with tractor CAN systems, required hardware, configuration steps, and specific notes for various tractor brands."
 +++
 
 CommonRail has written a superb guide on how to investigate the CANbus on your

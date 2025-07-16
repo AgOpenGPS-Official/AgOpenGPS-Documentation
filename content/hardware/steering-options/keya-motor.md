@@ -2,6 +2,7 @@
 title = "Steering with Keya motor"
 linkTitle = "Keya motor"
 weight = 7
+description = "Guide for installing and using the Keya motorized steering wheel. Includes ordering information, wiring diagrams, adapter types, and links to templates and firmware for integration with AgOpenGPS."
 +++
 
 You can use this as a guide for installation:

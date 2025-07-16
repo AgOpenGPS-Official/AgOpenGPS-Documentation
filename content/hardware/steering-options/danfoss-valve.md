@@ -2,6 +2,7 @@
 title = "Steering via Danfoss valve"
 linkTitle = "Danfoss valve"
 weight = 9
+description = "Information on using a Danfoss integrated autosteer valve for steering. Explains wiring, board requirements, jumper settings, and how to identify and connect Danfoss valves."
 +++
 
 The original Danfoss solution was a 3-wire installation.

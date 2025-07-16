@@ -2,6 +2,7 @@
 title = "Steering with hydraulic valve"
 linkTitle = "Hydraulic valve"
 weight = 8
+description = "Detailed instructions for setting up steering using a hydraulic valve. Covers valve selection, installation, wiring, sensor options, and configuration for different tractor hydraulic systems."
 +++
 
 ## Motor? Nah - hydraulic please!
