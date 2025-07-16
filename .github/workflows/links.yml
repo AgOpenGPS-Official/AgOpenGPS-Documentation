@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   repository_dispatch:
   schedule:
-    - cron: '40 11 * * *' # daily @ 11:40 UTC
+    - cron: '57 11 * * *' # daily @ 11:40 UTC
 
 jobs:
   linkChecker:
@@ -27,8 +27,8 @@ jobs:
           fail: false # don't fail the job when dead links found
           output: ./lychee/out.md # markdown report
           args: >- # scan repo root; tweak ignores as needed
-            --no-progress --verbose --cache --max-cache-age 1d --retry-wait 2
-            --max-retries 2 .
+            --no-progress --verbose --cache --max-cache-age 1d --retry-wait-time
+            2 --max-retries 2 .
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
