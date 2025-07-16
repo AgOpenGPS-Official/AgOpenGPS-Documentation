@@ -1,7 +1,7 @@
 +++
 linkTitle = 'Steering Options'
 aliases = ["/hardware/kits"]
-weight = 1
+weight = 2
 +++
 
 # What are my options for steering the tractor???

@@ -2,7 +2,7 @@
 title = "Hardware quickstart guide (aka TL;DR - cut to the chase, what do I BUY???)"
 linkTitle = "Hardware quickstart guide"
 aliases = ["/hardware/tl-dr-cut-to-the-chase-what-do-i-buy"]
-weight = 2
+weight = 1
 +++
 
 Well, as I said, if it were me, I'd read through all these sections. And
