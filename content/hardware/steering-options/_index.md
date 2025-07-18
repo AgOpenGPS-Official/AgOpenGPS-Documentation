@@ -14,23 +14,19 @@ Here are the main steering options available for AgOpenGPS:
    are steer-ready and support CANBUS. Uses the tractor's built-in steering
    system via electronic control.
 
-2. [**Hydraulic Valve Steering (PWM-style)**](/hardware/steering-options/hydraulic-valve)
-   For tractors with a standard hydraulic steering valve (not CANBUS). Uses a
-   PWM-controlled valve to steer.
-
-3. [**Keya Motorized Steering Wheel**](/hardware/steering-options/keya-motor)  
+2. [**Keya Motorized Steering Wheel**](/hardware/steering-options/keya-motor)  
    For tractors without built-in steering, using a bolt-on Keya motorized
    steering wheel.
 
-4. [**DIY Motor Steering**](/hardware/steering-options/diy-motor) For tractors
+3. [**DIY Motor Steering**](/hardware/steering-options/diy-motor) For tractors
    without built-in steering, using a custom or off-the-shelf electric motor to
    turn the steering wheel.
 
-5. [**Hydraulic Valve Block Add-on**](/hardware/steering-options/hydraulic-valve)  
+4. [**Hydraulic Valve Block Add-on**](/hardware/steering-options/hydraulic-valve)  
    For tractors without built-in steering, by adding your own hydraulic valve
    block to control steering hydraulically.
 
-6. [**Danfoss Integrated Valve**](/hardware/steering-options/danfoss-valve)  
+5. [**Danfoss Integrated Valve**](/hardware/steering-options/danfoss-valve)  
    For tractors equipped with a Danfoss integrated autosteer valve.
 
 Each option has its own hardware and wiring requirements. Use the links and
