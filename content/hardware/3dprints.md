@@ -8,8 +8,6 @@ weight = 11
 A curated list of 3D printable parts and enclosures for AgOpenGPS hardware.
 Browse by category to find the print you need.
 
-{{< toc >}}
-
 ---
 
 ## Steering and Control Components
