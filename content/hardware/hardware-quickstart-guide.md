@@ -5,30 +5,72 @@ aliases = ["/hardware/tl-dr-cut-to-the-chase-what-do-i-buy"]
 weight = 1
 +++
 
-Well, as I said, if it were me, I'd read through all these sections. And
-although I can't force you to - I'm not your mother - it's strongly recommended.
+This guide is designed to help you rapidly understand the key hardware decisions
+that need made, and the equipment you will need to purchase to get up and
+running.
 
-But if you're the impatient type, you will need:
+It is highly recommended that you read through the docs homepage and getting
+started guide, along with the relevant pages for any expensive hardware before
+making any purchases.
 
-- a WINDOWS tablet !
-- at least one or two Ardusimple ZED-F9P GPS modules, plus antenna(s)
-- If all you want to do is use AOG as a light bar (where it indicates where you
-  should steer), you can likely stop there, plug a single F9P into your tablet
-  and you're away.
+## Key decisions
 
-But where's the fun in that? AOG can steer the machine for you... and all you
-need to add for that is:
+1. Which 'level' of autosteer setup you want (Lightbar, Standard Autosteer,
+   Autosteer with rate/section control). See the
+   ['Levels of AgOpenGPS' comparison table](/getting-started/_index) for a brief
+   explaination of options. For beginners, Standard Autosteer is a good place to
+   start.
+2. Which type of steering actuator you require (e.g., Keya motor, DIY motor,
+   Hydraulic). See the [Steering Options section](/hardware/steering-options)
+   for a discussion of the different options. This is highly dependent on your
+   machine and requirements, but for beginners the Keya system is reportedly one
+   of the easiest options
+3. Which antenna/IMU setup you require (I.e., single antenna & IMU or dual
+   antenna). Generally, single antenna & IMU performs well, though dual can have
+   some advantages at extremely low speeds.
 
-- an AgOpenGPS PCB (the new all-in-one design is recommended)
-- an IMU (if going single-antenna)
-- a motor to turn the steering wheel
-- the Cytron to power either the wheel motor, or the steering hydraulic
-- a 12V-24V step-up converter
-- access to an RTK station to get your corrections (whether government, your
-  neighbour/friend, a community station, a commercial provider or whatever)
-  - or, see here [how](https://github.com/lansalot/FreeRTK/blob/main/README.md)
-    to build your own for little-money!!
+## Core Lightbar guidance hardware
 
-However... did I mention I really recommend you read your way through the
-"Getting up and running" sections in their entirety? It could help you make more
-informed decisions, as to why what part is needed, what you can do without etc.
+- A windows tablet
+- at least one or two Ardusimple ZED-F9P GPS modules, plus antenna(s) and
+  connection cable
+
+If all you want to do is use AOG as a light bar (where it indicates where you
+should steer), you can likely stop there, plug a single F9P into your tablet and
+you're away.
+
+## Standard Autosteer hardware
+
+Ontop of the Lightbar hardware listed above, you will need:
+
+- An AgOpenGPS PCB (the new all-in-one design is recommended - latest is V4.5)
+- One of the steering actuation options (e.g., Keya motor kit, DIY motor setup,
+  Hydraulic conversion kit)
+- A Cytron to power your steering actuator (not required for the Keya motor
+  steering option)
+- an IMU (if going for an F9P single-antenna system - not required for dual
+  antenna and ublox UM 982 systems)
+- A Teensy 4.1 to run as the 'brain' of your circuit board
+
+## RTK correction signal hardware (optional)
+
+RTK signals correct for the variations in GNSS signals over days and hours that
+limit accuracy. To get RTK correction signals for your setup, you will need
+either:
+
+- Go the 'no more hardware' route and access to an existing RTK station (often
+  through government, or free 'NTRIP caster' services like RTK2go or Centipede.
+  Some even use commercial providers, but they are typically much more expensive
+  than the alternative options, for limited extra value to the farmer in most
+  cases)
+
+  or
+
+- [Build your own RTK base station](https://github.com/lansalot/FreeRTK/blob/main/README.md)
+
+## Next steps
+
+As mentioned above, reading through this page alone is almost certainly not
+enough to make an informed decision on purchases. Do not fear - most of the
+information you need is in these docs. Have a read, check the discourse and feel
+free to ask on the telegram if anything is unclear!
