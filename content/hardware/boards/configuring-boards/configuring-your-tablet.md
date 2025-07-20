@@ -3,8 +3,6 @@ title = "Configuring your tablet"
 weight = 3
 +++
 
-The guide for the AgOpenGPS side of things is
-[here](/software/02.-Install-AgOpenGPS-and-AgIO).
-
-There's a useful video on this too:
-https://youtu.be/WiyDXU-lgrM?si=zmTy8ViAG0TGkvad
+All details on Tablet configuration sit within the software section of the
+documentation. See more info on
+[Tablet Configuration here](/software/02.-Install-AgOpenGPS-and-AgIO).
