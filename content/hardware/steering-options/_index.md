@@ -1,19 +1,36 @@
 +++
-linkTitle = '"My tractor has X, how to steer it"'
-weight = 1
+title = "Steering Options"
+simple_list = true
+aliases = ["/hardware/kits"]
+weight = 5
+description = "Overview of all steering options available for AgOpenGPS. Helps determine which steering solution (CANBUS, hydraulic, Keya motor, DIY motor, etc.) is suitable for your tractor, with links to relevant hardware and guides."
 +++
 
-# What are my options for steering the tractor???
+## What are my options for steering the tractor???
 
-You've come to the right place. This short page will give you some suggestions
-on what kit you will need in order to get up and running. Take some notes here,
-then use along with the other pages to work it out.
+Here are the main steering options available for AgOpenGPS:
 
-## <span style="color:lightgreen;">A windows tablet!</span>
+1. [**CANBUS Steering**](/hardware/steering-options/canbus) For tractors that
+   are steer-ready and support CANBUS. Uses the tractor's built-in steering
+   system via electronic control.
 
-Currently, AOG is only supported under Windows - so go read up on suggested
-windows tablet models [here](Other-components/tablet). Having a windows tablet
-is applicable to all situations.
+2. [**Keya Motorized Steering Wheel**](/hardware/steering-options/keya-motor)  
+   For tractors without built-in steering, using a bolt-on Keya motorized
+   steering wheel.
+
+3. [**DIY Motor Steering**](/hardware/steering-options/diy-motor) For tractors
+   without built-in steering, using a custom or off-the-shelf electric motor to
+   turn the steering wheel.
+
+4. [**Hydraulic Valve Block Add-on**](/hardware/steering-options/hydraulic-valve)  
+   For tractors without built-in steering, by adding your own hydraulic valve
+   block to control steering hydraulically.
+
+5. [**Danfoss Integrated Valve**](/hardware/steering-options/danfoss-valve)  
+   For tractors equipped with a Danfoss integrated autosteer valve.
+
+Each option has its own hardware and wiring requirements. Use the links and
+guides on this page to find the best fit for your tractor.
 
 ---
 
@@ -70,9 +87,8 @@ ordered mostly pre-assembled. You will also need the
 an [antenna](Other-components/Choosing-an-Antenna), a
 [Cytron](Other-components/cytron-motor-driver), a
 [wheel angle sensor](Other-components/wheel-angle-sensor) (if you can't use the
-one on the tractor), the
-[Baraki valve](Other-components/Hydraulic-steering-with-baraki-valve) and the
-[BNO085](Other-components/imu-inertial-measurement-unit)
+one on the tractor), the [Hydraulic block](/steering-options/hydraulic-valve)
+and the [BNO085](Other-components/imu-inertial-measurement-unit)
 
 ---
 

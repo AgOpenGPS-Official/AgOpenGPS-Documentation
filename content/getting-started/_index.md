@@ -83,9 +83,9 @@ Before you dive into part lists, here's what each main component does.
 
 - [**Wheel-angle sensor (WAS)**](/hardware/Other-components/wheel-angle-sensor)
   – Reports the actual steering angle so AgOpenGPS can correct in real time.
-- **Steering actuator** – Converts software commands into wheel movement.
-  Options include a DC steering motor, retrofit motorised wheel, proportional
-  hydraulic valve, or factory CAN valve.
+- [**Steering actuator**](/hardware/steering-options/) – Converts software
+  commands into wheel movement. Options include a DC steering motor, retrofit
+  motorised wheel, proportional hydraulic valve, or factory CAN valve.
 - **Roll / heading compensation (optional)**
   - _Single-antenna builds:_ add an
     [**IMU**](/hardware/Other-components/imu-inertial-measurement-unit) (e.g.

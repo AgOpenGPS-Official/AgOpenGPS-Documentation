@@ -1,7 +1,7 @@
 +++
 title = "FAQ"
-linkTitle = "🤯 Frequently Asked Questions"
-weight = 10
+linkTitle = "Frequently Asked Questions"
+weight = 13
 +++
 
 ## Frequently Asked Questions
