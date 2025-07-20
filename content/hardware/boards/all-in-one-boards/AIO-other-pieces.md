@@ -35,9 +35,9 @@ You'll likely also need:
 
 ![image](../../img/coax-extension.png)
 
-- A crimping tool: Yato YT-2255
+- A crimping tool (for example a Yato YT-2255)
+- A PCB enclosure: One option is to 3D print, with some ideas provided in the
+  [3d prints section](/hardware/3dprints). You can also use standard electrical
+  boxes or Hammond enclosures.
 
-Enclosure: 3D print / electrical box / Hammond enclosure. Designs are available
-in the repo.
-
-And that should be good enough for the board itself.
+All of this should be enough to complete the board part of your build!
