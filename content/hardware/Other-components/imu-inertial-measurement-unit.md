@@ -34,7 +34,7 @@ In 2025 initial testing of the
 showed promising results. However, it is still in testing stages, so the BNO085
 still recommended for most users.
 
-Some users are also experiementing with the U-blox UM981/2 GNSS chip, which has
+Some users are also experiementing with the Unicore UM98/2 GNSS chip, which has
 an integrated IMU, with good results.
 
 ## Adafruit BNO085
