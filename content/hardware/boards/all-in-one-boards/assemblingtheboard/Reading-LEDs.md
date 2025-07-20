@@ -3,9 +3,7 @@ title = "Reading LEDs"
 weight = 3
 +++
 
-## LED's
-
-8. Reading LED indicators
+Reading LED indicators
 
 ![image](../img/reading-leds.png)
 
