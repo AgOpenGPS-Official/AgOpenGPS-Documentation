@@ -13,7 +13,8 @@ The IMU's job is to assist with measuring:
 - Roll - how much the tractor is leaning left or right
 
 This information helps immensely with improving accuracy in a single-GPS
-configuration. It's not needed if you're going to be using dual-GPS.
+configuration. If you are going for a dual antenna setup, you won't need an IMU
+as Yaw, Pitch and Roll are calculated by comparing the antenna postions instead.
 
 IMUs exist in two main setups - an individual IMU component mounted on the PCB,
 or an IMU integrated into the GNSS module.
@@ -34,7 +35,7 @@ In 2025 initial testing of the
 showed promising results. However, it is still in testing stages, so the BNO085
 still recommended for most users.
 
-Some users are also experiementing with the Unicore UM98/2 GNSS chip, which has
+Some users are also experimenting with the Unicore UM98/2 GNSS chip, which has
 an integrated IMU, with good results.
 
 ## Adafruit BNO085
