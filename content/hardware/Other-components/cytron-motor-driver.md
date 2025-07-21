@@ -28,7 +28,7 @@ You will need the Cytron for the following steering setups:
 - DIY Steering motor
 - Aftermarket Hydraulic valve
 
-You likely wont need the Cytron for:
+You likely won't need the Cytron for:
 
 - Keya Motor setups
 - Danfoss valve setups
@@ -52,7 +52,7 @@ freewheel when not in use.
 
 #### Free wheel mod v2
 
-This new AiO board has the option of connecting pwm2 to the cytron for the
+This new AIO board has the option of connecting pwm2 to the cytron for the
 freewheeling mod.
 
 ![image](/hardware/img/free-wheel-mod-v2.png)
