@@ -9,7 +9,7 @@ type = "docs"
 path = "/**"
 +++
 
-# 👋 Welcome to AgOpenGPS
+# Welcome to AgOpenGPS
 
 **AgOpenGPS** is an open-source platform for precision agriculture. It enables
 affordable, accurate **GPS-based autosteer** and implement control for your farm
@@ -24,7 +24,7 @@ This documentation is your one-stop resource to:
 
 ---
 
-## 📦 Repositories
+## Repositories
 
 The project has two central GitHub repositories:
 
@@ -35,9 +35,9 @@ The project has two central GitHub repositories:
 
 ---
 
-## 🧭 Site Overview
+## Site Overview
 
-### 🚀 [Getting Started](/getting-started)
+### [Getting Started](/getting-started)
 
 ### [Software](/software)
 
@@ -51,7 +51,7 @@ The project has two central GitHub repositories:
 
 ---
 
-## 💬 Community & Support
+## Community & Support 💬
 
 - 🧵 [**Discourse Forum**](https://discourse.agopengps.com): Long-form
   discussions, questions, and build logs
@@ -62,7 +62,7 @@ The project has two central GitHub repositories:
 
 ---
 
-## ✍️ Want to contribute?
+## Want to contribute? ✍️
 
 AgOpenGPS is community built. You can help by:
 
@@ -74,7 +74,7 @@ AgOpenGPS is community built. You can help by:
 
 ---
 
-## Some other cool open-source ag-related projects
+## Other cool open-source ag-related projects
 
 - [Run your own RTK base station on a Raspberry Pi](https://github.com/Stefal/rtkbase)
 - [AgIsoStack++ - bringing ISOBUS implement control to the world of Agriculture](https://agisostack.com/)
@@ -87,7 +87,7 @@ AgOpenGPS is community built. You can help by:
 
 ---
 
-## ✅ Next Steps
+## Next Steps
 
 👉 Start with the [Getting Started guide](/getting-started) to learn more about
 what AgOpenGPS is and how to begin your build.

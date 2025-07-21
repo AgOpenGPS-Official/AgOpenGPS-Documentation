@@ -6,7 +6,9 @@ weight = 13
 
 ## Frequently Asked Questions
 
-### Please note - these are mostly placeholders at this time; they will be filled in in due course. If you can help with text, or want to suggest other topics, please do so in the Discourse.
+_Please note - these are mostly placeholders at this time; they will be filled
+in in due course. If you can help with text, or want to suggest other topics,
+please do so in the Discourse._
 
 - [Help! I need to speak to someone!](help-i-need-to-speak-to-someone)
 - AGIO

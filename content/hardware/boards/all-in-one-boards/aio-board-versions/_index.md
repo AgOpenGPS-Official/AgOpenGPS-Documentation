@@ -9,7 +9,7 @@ are the same - they only differ in size. Whether you want single-GPS or dual,
 either board is fine; and you can simply add another GPS module at a later date
 if you so wish, no need for another board.
 
-## Choose a board
+## Board Selection
 
 V4.x is essentially the same board as v2.5x just improved. V4 has stronger
 traces more LED-s for easier debugging and should be more bulletproof.
@@ -21,7 +21,7 @@ you can find the discourse threads here:
 - V2.x: https://discourse.agopengps.com/t/all-in-one-pcb/10444
 - v4 micro: https://discourse.agopengps.com/t/v4-all-in-one-pcb/12313
 
-## HOW TO ORDER/BUILD A PCB
+## Ordering/Building your PCB
 
 We use the JCLPCB service to manufacture our PCBs, but you can use another
 supplier if you prefer.
@@ -89,7 +89,7 @@ just Save to Cart again and get the cool 3D rendered output.
 
 ![image](img/jlcpcb-3d-render.png)
 
-### Shortfall / Alternate parts
+### Dealing with unavailable parts
 
 As above, you'll find that some components are likely not in stock. Here are
 some suitable alternatives:

@@ -1,0 +1,14 @@
+# Ignore Paths
+/public
+/resources
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.pdf
+*.woff
+*.woff2
+*.ttf 

@@ -1,54 +1,89 @@
 +++
-title = "Teensy 4.1"
-linkTitle = "Teensy 4.1 a.k.a the brain of the board"
+title = "Teensy 4.1 (a.k.a the brain of the board)"
+linkTitle = "Teensy 4.1"
 weight = 3
 +++
 
-The brains of the AOG board is the Teensy 4.1, and these are a little hard to
-find. You want to make sure you get one that DOES have ethernet tho, as it is
-also available without. Do not buy a Teensy 3.2, or a 4.0.. you want 4.1.
+## Overview
 
-A good place to start your hunt is here:
-[https://www.pjrc.com/store/teensy41.html](https://www.pjrc.com/store/teensy41.html)
+The brains of the AIO board is the Teensy 4.1. This component sits on the AOG
+board and handles the fast, hardware‑level work:
+
+1. Reads your sensors – GNSS position, IMU tilt, and wheel‑angle signals come
+   straight into its pins.
+2. Passes that data to the AgOpenGPS app on the cab tablet over Ethernet or USB.
+3. Receives the steer‑angle command the app calculates (for example, “turn 12 °
+   left”).
+4. Sends a matching PWM or CAN signal to the Cytron driver or hydraulic valve so
+   the steering motor moves the wheels.
+
+In short, Teensy 4.1 is the real‑time messenger that links your tractor’s
+sensors to the AgOpenGPS software and turns the software’s response into actual
+wheel movement.
+
+## Module Selection
+
+Make sure you get a **Teensy 4.1** that **does have ethernet** - it is also
+available without, but this is not ideal for AIO board setups. Other Teensy
+Modules, such as the Teensy 3.2, or a 4.0 will not do - you want the 4.1
+specifically.
+
+## Installation
+
+If you buy a Teensy with pins soldered, installation is as simple as checking
+the ethernet pins are soldered (Ethernet Capability section), the correct
+firmware has been installed on the module (see configuring the Teensy section),
+and seating the module onto the PCB
+
+If you haven't bought a module with pins soldered, then solder up the header
+pins and follow install as above.
+
+### Ethernet Capability
 
 Make sure the one you order has the chip highlighted in red - that's the
 ethernet controller.
 
 ![image](../../img/teensy-ethernet-controller.png)
 
-Also, you'll need some long 2mm pitch headers to solder to the board for it to
-reach to connector on your PCB. Get the board itself with pins if you want to
-skip the soldering, but the soldering is pretty easy. Or if you can't find long
-pins, put a header on underside of teensy, same as on the board, and use
-standard length.
+You'll need some long 2mm pitch headers (part MTMM-103-10-T-D-355-ND work well
+for this) to connect Teensy ethernet pinholes to the connector on your PCB. Get
+the board itself with pins if you want to skip the soldering, but the soldering
+is pretty easy.
+
+If you can't find long pins, put a header on underside of Teensy (the same
+component as already on the standard AIO board), and use standard length pins.
 
 **You MUST solder those pins**
 
 ![image](../../img/teensy-solder-pins.png)
 
-Potential suppliers:
+## Sample suppliers
 
-- [https://www.hobbytronics.co.uk/teensy-v41](https://www.hobbytronics.co.uk/teensy-v41)
-- [https://www.sparkfun.com/products/16771](https://www.sparkfun.com/products/16771)
+- [PJRC](https://www.pjrc.com/store/teensy41.html)
+- [Hobbytronics](https://www.hobbytronics.co.uk/teensy-v41)
+- [Sparkfun](https://www.sparkfun.com/products/16771)
 - [OpenCircuit](https://opencircuit.shop/zoeken/Teensy-4.1)
-- [Kamami.pl](https://kamami.pl/en/teensy/1181424-teensy-41-without-ethernet-development-board-with-nxp-imxrt1062-arm-cortex-m7-microcontroller-with-connectors-dev-20360.html)
-- [botland](https://botland.store/arduino-compatible-boards-sparkfun/20186-teensy-41-arm-cortex-m7-with-connectors-compatible-with-arduino-dev-16996-714833879473.html)
+- [Kamami](https://kamami.pl/en/teensy/1181424-teensy-41-without-ethernet-development-board-with-nxp-imxrt1062-arm-cortex-m7-microcontroller-with-connectors-dev-20360.html)
+- [Botland](https://botland.store/arduino-compatible-boards-sparkfun/20186-teensy-41-arm-cortex-m7-with-connectors-compatible-with-arduino-dev-16996-714833879473.html)
 
-# Uploading the code
-
----
-
-# There is a much easier way to do this now, using AOGConfigOMatic. See [this page](../../boards/configuring-boards/Configuring-The-Teensy), then you don't need to do any of the below!
+## Configuring the Teensy
 
 ---
 
-### Before you go any further, don't plug the Teensy in just yet!
+There is a much easier way to do this now, using AOGConfigOMatic. See
+[this page](../../boards/configuring-boards/Configuring-The-Teensy). if you
+follow the steps there, then you don't need to do any of the below!
+
+---
+
+Before you go any further, don't plug the Teensy in just yet!
 
 Then,
 [retrieve the code](https://github.com/AgOpenGPS-Official/Boards/archive/refs/heads/main.zip)
 and unzip it.
 
-### NOTE: it may be version 5.5, 5.7, 5.7.1 whatever is in the support folder. Go with the latest that's there!
+NOTE: it may be version 5.5, 5.7, 5.7.1 whatever is in the support folder. Go
+with the latest that's there!
 
 You will need:
 
