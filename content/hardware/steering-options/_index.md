@@ -23,8 +23,9 @@ Here are the main steering options available for AgOpenGPS:
    turn the steering wheel.
 
 4. [**Hydraulic Valve Block Add-on**](/hardware/steering-options/hydraulic-valve)  
-   For tractors without built-in steering, by adding your own hydraulic valve
-   block to control steering hydraulically.
+   For
+   tractors without built-in steering, by adding your own hydraulic valve block
+   to control steering hydraulically.
 
 5. [**Danfoss Integrated Valve**](/hardware/steering-options/danfoss-valve)  
    For tractors equipped with a Danfoss integrated autosteer valve.

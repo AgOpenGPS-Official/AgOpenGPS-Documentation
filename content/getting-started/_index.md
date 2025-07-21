@@ -68,8 +68,7 @@ Before you dive into part lists, here's what each main component does.
 
 - **Location signal** – Every AgOpenGPS setup needs a GNSS fix (often called
   GPS).  
-  A
-  [**ZED-F9P receiver plus roof-mounted antenna**](/hardware/Other-components/gps-modules-standard-or-micro)
+  A [**ZED-F9P receiver plus roof-mounted antenna**](/hardware/Other-components/gps-modules-standard-or-micro)
   streams position to the tablet so the software always knows where the tractor
   is—typically within a few centimetres.
 - [**Windows tablet or laptop**](/hardware/Other-components/tablet) – Rugged,

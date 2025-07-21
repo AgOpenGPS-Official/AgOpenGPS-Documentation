@@ -45,11 +45,13 @@ ethernet controller.
 
 ![image](../../img/teensy-ethernet-controller.png)
 
-You'll need some long 2mm pitch headers to connect Teensy ethernet pinholes to
-the connector on your PCB. Get the board itself with pins if you want to skip
-the soldering, but the soldering is pretty easy. If you can't find long pins,
-put a header on underside of Teensy (the same component as already on the
-standard AIO board), and use standard length pins.
+You'll need some long 2mm pitch headers (part MTMM-103-10-T-D-355-ND work well
+for this) to connect Teensy ethernet pinholes to the connector on your PCB. Get
+the board itself with pins if you want to skip the soldering, but the soldering
+is pretty easy.
+
+If you can't find long pins, put a header on underside of Teensy (the same
+component as already on the standard AIO board), and use standard length pins.
 
 **You MUST solder those pins**
 
