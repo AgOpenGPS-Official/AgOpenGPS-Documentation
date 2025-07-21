@@ -9,7 +9,7 @@ weight = 6
 In order to run the AgOpenGPS software, you will require a Windows tablet that
 can run the software, and easily be used by you to interact with the software.
 
-## Module Selection
+## Model Selection
 
 You want a tablet that's rugged and has a screen that won't be impaired in
 direct sunlight. The **Panasonic Toughpad** range can be bought very cheaply,
