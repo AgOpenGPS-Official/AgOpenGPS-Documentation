@@ -29,9 +29,12 @@ In the world are AgOpenGPS there are basically two GNSS modules of interest:
 [Ardusimple's SimpleRTK2B](https://www.ardusimple.com/simplertk2b/) F9P receiver
 boards are the most popular at present (2025). They are very good and low priced
 (if you are in certain parts of the world) multi GNSS receivers and also RTK
-ready. For a good auto steer system you need very high accuracy. with rtk
-corrections fed into the SimpleRTK2b board it can get to a <2cm precision. I
-tell more about that in the NTRIP/RTK page.
+ready. For a good auto steer system you need very high accuracy - with RTK
+corrections fed into the SimpleRTK2b board it can achieve <2cm precision.
+
+If you want to connect to an RTK signal in your setup, you can find more
+information on the
+[RTK hardware section of the Hardware quickstart guide](/hardware/hardware-quickstart-guide/#rtk-correction-signal-hardware-optional)
 
 ### Single or Dual
 
@@ -46,7 +49,7 @@ If you are going for a dual setup, antennas must be placed at least 150cm apart.
 
 ## Ardsusimple SimpleRTK2B
 
-### Standard or Micro?
+### Standard or Micro
 
 Here, you'll be following your board choice - you can't fit Micro GPS modules to
 a standard board, or vice versa.
