@@ -79,8 +79,21 @@ https://github.com/AgOpenGPS-Official/Boards/tree/main/Ublox%20F9P/BuckWheat%20M
 
 ## Unicore UM982
 
-_Unicore information is currently dispersed across the AgOpenGPS community.
-Willing to contribute? please reach out via the AgOpenGPS Github._
+The Unicore UM982 is a popular option for those that can't cheaply access
+Ardusimple modules, or those who are looking to try out a WAS-less/integrated
+IMU system
+
+### Model options
+
+The following models are suitable for standard AgOpenGPS systems:
+
+The following models are **NOT** suitable, and should be avoided:
+
+### Configuration
+
+### Installation
+
+### Sample Suppliers
 
 ## XBee module pinout
 
