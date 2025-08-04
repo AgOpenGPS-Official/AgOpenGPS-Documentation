@@ -25,26 +25,26 @@ Saying it again, the LEFT output therefore steers both left and right. Gnd must
 also be supplied of course. You should not power the lock via a relay, but drive
 from the board.
 
-![image](../../img/danfoss-schematic.png)
+![image](../img/danfoss-schematic.png)
 
-![image](../../img/danfoss-pcb.png)
+![image](../img/danfoss-pcb.png)
 
 To use this configuration, your machine must have this kind of valve, you need
 the chip on the board and you need the jumpers positioned on the board at
 (picture).
 
-![image](../../img/danfoss-pcb-jumper.png)
+![image](../img/danfoss-pcb-jumper.png)
 
 Sample Danfoss plug guide, but check with your module!!
 
-![image](../../img/danfoss-plug-guide.png)
+![image](../img/danfoss-plug-guide.png)
 
 ## Identifying a Danfoss valve
 
-![image](../../img/danfoss-photo-1.png)
+![image](../img/danfoss-photo-1.png)
 
-![image](../../img/danfoss-photo-2.png)
+![image](../img/danfoss-photo-2.png)
 
-![image](../../img/danfoss-pinout.png)
+![image](../img/danfoss-pinout.png)
 
 You can find the 4-pin connector on the [Connectors](../Connectors) page

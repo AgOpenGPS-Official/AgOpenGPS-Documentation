@@ -45,7 +45,7 @@ good. For beginners it is likely best to start with single + IMU, test it, and
 see if dual is required.
 
 If you are going for a dual setup, antennas must be placed at least 150cm apart.
-![image](../../img/dual-antenna-photo.png)
+![image](../img/dual-antenna-photo.png)
 
 ## Ardsusimple SimpleRTK2B
 
@@ -60,13 +60,13 @@ Standard:
 Standard with Antenna
 [https://www.ardusimple.com/product/simplertk2b-basic-starter-kit-ip65/](https://www.ardusimple.com/product/simplertk2b-basic-starter-kit-ip65/)
 
-![image](../../img/simplertk2b.png)
+![image](../img/simplertk2b.png)
 
 or Micro:
 [https://www.ardusimple.com/product/simplertk2b-micro/](https://www.ardusimple.com/product/simplertk2b-micro/)
 
-![image](../../img/simplertk2b-micro.png)
-![image](../../img/simplertk2b-micro-pinout.png)
+![image](../img/simplertk2b-micro.png)
+![image](../img/simplertk2b-micro-pinout.png)
 
 Options :\
 Variant - ZED-F9P (absolutely NOT F9R!!)\
@@ -97,7 +97,7 @@ The following models are **NOT** suitable, and should be avoided:
 
 ## XBee module pinout
 
-![image](../../img/xbee-module-pinout.png)
+![image](../img/xbee-module-pinout.png)
 
 If you match up the angled corners then the pinout matches, XBEE calls the
 communication pins DOUT/DIN instead of TX/RX. The only connections that the USB

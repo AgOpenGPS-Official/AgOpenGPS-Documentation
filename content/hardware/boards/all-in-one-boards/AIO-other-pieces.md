@@ -33,7 +33,7 @@ You'll likely also need:
   https://www.aliexpress.com/item/1005003193091912.html (No 13. 30cm at the time
   of writing but compare it to the picture.)
 
-![image](../../img/coax-extension.png)
+![image](../img/coax-extension.png)
 
 - A crimping tool (for example a Yato YT-2255)
 - A PCB enclosure: One option is to 3D print, with some ideas provided in the

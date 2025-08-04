@@ -9,7 +9,7 @@ For the actual pinout see [here](../AIO-Board-Pinout)
 A crimping tool: Yato YT-2255
 
 Let's build a wiring harness that will look like this:
-![image](../../img/ampseal-wiring-harness.png)
+![image](../img/ampseal-wiring-harness.png)
 
 ## Shopping list
 

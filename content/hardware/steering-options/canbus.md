@@ -22,7 +22,7 @@ https://www.mouser.co.uk/ProductDetail/579-MCP2562T-E-SN
 
 These are absolutely tiny and you'll be soldering them on here most likely:
 
-![image](../../img/canbus-receivers-pcb.png)
+![image](../img/canbus-receivers-pcb.png)
 
 # The PCB of Tony
 
@@ -55,7 +55,7 @@ Select the brand we should emulate.
 
 ## Generic CAN connector pinout:
 
-![image](../../img/can-connector-pinout.png)
+![image](../img/can-connector-pinout.png)
 
 ## Case / New Holland
 
@@ -72,14 +72,14 @@ don't care about their content just the message header. For example:
 
 ## Massey Ferguson - steer bus location:
 
-![image](../../img/can-massey-ferguson.png) (There's also a black DT 3P
-connector with a CAN terminator on some models.)
+![image](../img/can-massey-ferguson.png) (There's also a black DT 3P connector
+with a CAN terminator on some models.)
 
 ## Fendt (V-Bus is for steering):
 
-![image](../../img/can-fendt.png)
+![image](../img/can-fendt.png)
 
-![image](../../img/can-fendt2.png)
+![image](../img/can-fendt2.png)
 
 ## Tracked Challengers
 
