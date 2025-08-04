@@ -17,14 +17,14 @@ Specs: 24V 600RPM 5.1kgcm torque
 
 https://www.phidgets.com/?tier=3&catid=19&pcid=16&prodid=993
 
-![Motor](../../img/phidgets-motor.png)
+![Motor](../img/phidgets-motor.png)
 
 Note that if you're using a 24V motor as above, you'll need a 12V-24V step-up
 converter, sample here.
 
 https://www.ebay.co.uk/itm/334688323208
 
-![24V converter](../../img/step-up-converter.png)
+![24V converter](../img/step-up-converter.png)
 
 ## MFA 12V motor
 
@@ -45,7 +45,7 @@ at peak.
 
 https://www.aliexpress.com/item/1005001644698564.html 5.2 :1 ratio 12V 950RPM
 
-![image](../../img/aliexpress-12v-motor.png)
+![image](../img/aliexpress-12v-motor.png)
 
 ## Others
 
@@ -66,7 +66,7 @@ https://discourse.agopengps.com/t/universal-fit-gear-system-with-quick-tach-moto
 
 If you prefer steel then check out bricbric -s design here:
 https://cults3d.com/en/users/entropiemaximun/creations
-![image](../../img/steel-motor-mount.png)
+![image](../img/steel-motor-mount.png)
 
 - If you don't have a bender:
   https://cults3d.com/en/3d-model/tool/universal-clutch
@@ -76,7 +76,7 @@ https://cults3d.com/en/users/entropiemaximun/creations
   https://discourse.agopengps.com/t/small-teeth-and-friction-universal-mecanism/9669
 
 There's a useful MF 76-77 mount here: https://www.thingiverse.com/thing:5427025
-![image](../../img/mf-76-77-mount.png)
+![image](../img/mf-76-77-mount.png)
 
 # Wiring the motor
 

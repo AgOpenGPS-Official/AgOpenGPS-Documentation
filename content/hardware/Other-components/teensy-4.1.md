@@ -43,7 +43,7 @@ pins and follow install as above.
 Make sure the one you order has the chip highlighted in red - that's the
 ethernet controller.
 
-![image](../../img/teensy-ethernet-controller.png)
+![image](../img/teensy-ethernet-controller.png)
 
 You'll need some long 2mm pitch headers (part MTMM-103-10-T-D-355-ND work well
 for this) to connect Teensy ethernet pinholes to the connector on your PCB. Get
@@ -55,7 +55,7 @@ component as already on the standard AIO board), and use standard length pins.
 
 **You MUST solder those pins**
 
-![image](../../img/teensy-solder-pins.png)
+![image](../img/teensy-solder-pins.png)
 
 ## Sample suppliers
 

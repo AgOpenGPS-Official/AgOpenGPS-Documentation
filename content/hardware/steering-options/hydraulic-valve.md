@@ -48,9 +48,9 @@ https://discourse.agopengps.com/t/hydraulic-valve-assemblies-for-every-tractor-f
 
 ## The valve itself:
 
-![image](../../img/steer-hydraulic-block.png) Engineering drawings: **OC**
+![image](../img/steer-hydraulic-block.png) Engineering drawings: **OC**
 
-![image](../../img/steer-oc-valve-drawing.png)
+![image](../img/steer-oc-valve-drawing.png)
 
 Explanation:
 [Credit goes to Commonrail](https://discourse.agopengps.com/t/hydraulic-valve-assemblies-for-every-tractor-for-every-type-of-hydraulic-system/8011/578?u=bgunics)
@@ -73,17 +73,16 @@ Explanation:
 
 **LS**
 
-![image](../../img/steer-ls-valve-drawing.png)
+![image](../img/steer-ls-valve-drawing.png)
 
-Special valve for Fendt: ![image](../../img/steer-valve-fendt.png)
+Special valve for Fendt: ![image](../img/steer-valve-fendt.png)
 
 ## Installation
 
 Electrical connection(s)
-![image](../../img/hydraulic-block-electrical-connection.png) Theoretically the
-FET should be capable to handle the power to lock the valve. In practice we've
-seen smoke in some cases. Best practice is to add a relay controlled by the Lock
-pin.
+![image](../img/hydraulic-block-electrical-connection.png) Theoretically the FET
+should be capable to handle the power to lock the valve. In practice we've seen
+smoke in some cases. Best practice is to add a relay controlled by the Lock pin.
 
 There are 2 kind of "pressure" check valves:
 
@@ -92,16 +91,16 @@ There are 2 kind of "pressure" check valves:
 The one with 2 pins needs to be connected between Ground and Pres/Rem
 connection. The sensor is a SUCO 166 416 0 31 063 NC
 
-![image](../../img/2pin-count-check-valve.png)
+![image](../img/2pin-count-check-valve.png)
 
 The PCB jumpers must be configured as Remote.
 
-![image](../../img/count-check-valve-jumper.png)
+![image](../img/count-check-valve-jumper.png)
 
 AgOpenGPS must be configured as "Turn sensor" with value as "1". (it only clicks
 once)
 
-![image](../../img/agopengps-turn-sensor.png)
+![image](../img/agopengps-turn-sensor.png)
 
 ### Pressure type
 
@@ -111,14 +110,14 @@ PCB (WAS 5V could be used).
 The sensor is: 0606-25209-B-007 Pressure Transmitter 0 bar - 250 bar 0.5-4.5V
 Ratiometric NPT1/4 AMPSuperseal 1.5 17-4PH Stainless Steel Cell
 
-![image](../../img/3pin-pressure-check-valve.png)
+![image](../img/3pin-pressure-check-valve.png)
 
 The PCB jumpers must be configured as Pressure.
 
 AgOpenGPS must be configured as Pressure with value accordingly.(~10% is
 equivalent as 0bar)
 
-![image](../../img/amp-superseal-pinout.png)
+![image](../img/amp-superseal-pinout.png)
 
 pinout is:
 
@@ -130,13 +129,13 @@ pinout is:
 
 ### Installation of LS valve
 
-![image](../../img/ls-valve-installation-1.png)
-![image](../../img/ls-valve-installation-2.png)
-![image](../../img/ls-valve-installation-3.png)
+![image](../img/ls-valve-installation-1.png)
+![image](../img/ls-valve-installation-2.png)
+![image](../img/ls-valve-installation-3.png)
 
 ### Installation of OC valve
 
-![image](../../img/oc-valve-installation.png)
+![image](../img/oc-valve-installation.png)
 
 # Installation example
 
@@ -151,11 +150,11 @@ part 718-6867) to connect:
 
 https://uk.rs-online.com/web/p/automotive-connectors/7186867
 
-![image](../../img/plug-te-718-6867.png)
+![image](../img/plug-te-718-6867.png)
 
 If you want to use 3-pin plugs for the lock valves that have the schotky diode
 built in, use these Molex part S28200TC310R):
 
-![image](../../img/plug-molex-s28200tc310r.png)
+![image](../img/plug-molex-s28200tc310r.png)
 
 https://www.kempstoncontrols.co.uk/S28200TC310R/Molex/sku/457859

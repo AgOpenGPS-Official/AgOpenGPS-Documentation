@@ -36,7 +36,7 @@ So, you'll be needing some Ampseal connectors. Please note that ground pins of
 | Cytron IN       | 18        | V4 board: Cytron Input (up to 10A fuse) 12/24V                                                                                                                                       |
 | NC              | 19        | NC                                                                                                                                                                                   |
 
-![image](../../img/ampseal-connector-pinout.png)
+![image](../img/ampseal-connector-pinout.png)
 
 example for motor with external freewheel mod:
-![image](../../img/ampseal-connector-wiring-diagram.png)
+![image](../img/ampseal-connector-wiring-diagram.png)

@@ -12,4 +12,4 @@ https://github.com/AgOpenGPS-Official/Boards/tree/main/ArduinoModules/UDP/Machin
 To get the UDP working you can find a guide here:
 https://discourse.agopengps.com/t/setting-up-section-control-in-udp-version-5-6/9918/8
 
-![image](../../img/machine-board-schematic.png)
+![image](../img/machine-board-schematic.png)

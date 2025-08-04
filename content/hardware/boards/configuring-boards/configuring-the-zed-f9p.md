@@ -31,7 +31,7 @@ go grab them (you can get them all in one zip file
 Unzip them, the 4 text files are the configuration you upload to the F9Ps, and
 the .bin file is the firmware.
 
-![image](../../img/f9p-configuration-files.png)
+![image](../img/f9p-configuration-files.png)
 
 ### Flash in U-Center
 
@@ -69,12 +69,12 @@ PLUG an antenna in, don't power up the F9P without one. Remember, Micros are
 powered by the board. It doesn't matter which port you use to flash the
 firmware/config, but don't get them mixed up afterwards. Note which is which.
 
-![image](../../img/f9p-connections.png)
+![image](../img/f9p-connections.png)
 
 Open U-Center, and connect to your F9P (there should only be one) and it will
 have picked a COM port number (this is why you do one at a time); In the top
 left menus, find that COM port and pick a speed of **460800**.
-![image](../../img/u-center-port.png)![image](../../img/u-center-baud.png)
+![image](../img/u-center-port.png)![image](../img/u-center-baud.png)
 
 If you have multiple COM ports you might need to keep trying util it connects
 successfully to the GPS receiver.
@@ -90,7 +90,7 @@ Connect to your receiver.
 
 Tools -> Firmware Update
 
-Choose Baud Rate of 460,000 ![image](../../img/u-center-firmware-update.png)
+Choose Baud Rate of 460,000 ![image](../img/u-center-firmware-update.png)
 
 Hit Go! at the bottom left wait a minute or two and if there's no error message
 you're good.
@@ -115,7 +115,7 @@ configuration files to assist you. Choose the files according to your needs:
 
 Open Tools, Receiver Configuration,
 
-![image](../../img/u-center-menu-receiver-configuration.png)
+![image](../img/u-center-menu-receiver-configuration.png)
 
 and pick your file
 
@@ -126,13 +126,13 @@ and pick your file
 
 Then click "Transfer File -> GNSS".
 
-![image](../../img/u-center-transfer-file.png)
+![image](../img/u-center-transfer-file.png)
 
 Once that's done, go to Receiver -> Action -> Save Config and SAVE IT!
 Alternatively you can do View -> Messages View and SAVE IT! This will be the F9P
 that will end up in your left-hand socket.
 
-![image](../../img/u-center-save-config.png)
+![image](../img/u-center-save-config.png)
 
 For single board you'll all set. For Dual board: power the board down,
 disconnect USB and put the other one in, reconnect USB, power up the board.

@@ -19,7 +19,7 @@ Beware - Cytron make a few different types of motor driver. The **MD13S** is the
 one that fits the requirements of the AIO PCBs, so don't just go "for one that
 sounds similar".
 
-![Cytron](../../img/cytron-md13s.png)
+![Cytron](../img/cytron-md13s.png)
 
 ## Use cases
 

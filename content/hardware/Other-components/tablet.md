@@ -52,9 +52,9 @@ run Panasonic direct from battery using
 [these plugs](https://cpc.farnell.com/pro-power/ppw00029/lead-dc-power-2-5mm-plug-to-plug/dp/PW03428),
 no need for charger_ :
 
-- ![image](../../img/usb-charger.png)
+- ![image](../img/usb-charger.png)
   [https://www.aliexpress.com/item/1005004993549400.html](https://www.aliexpress.com/item/1005004993549400.html)
-- ![image](../../img/12v-usb-charger.png)
+- ![image](../img/12v-usb-charger.png)
   [https://www.aliexpress.com/item/1005003696634807.html](https://www.aliexpress.com/item/1005003696634807.html)
 - - https://www.amazon.co.uk/Panasonic-FZ-G1AABAXLM-FZ-G1AABAXRM-FZ-G1AABAB1M-FZ-G1AABGXLM/dp/B00IYV96KC
 - Baseus Superme TZCCZX-01 - 100W ~20 EUR

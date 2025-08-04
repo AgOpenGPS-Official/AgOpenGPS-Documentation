@@ -30,7 +30,7 @@ with the 3 spoked wheel.
 
 ### [The full kit, gen4 motor, deutsch connector](https://www.aliexpress.com/item/1005008796635857.html) <<<< this is what you want
 
-![image](../../img/keya.png)
+![image](../img/keya.png)
 
 The full kit (older, round connector:
 https://www.aliexpress.com/item/1005006800593966.html)
@@ -56,24 +56,24 @@ know if you require additional ones). Pay attention to the aliexpress link, the
 out of date as more models are added, so look for this chart on the aliexpress
 link!!
 
-![image](../../img/aliexpress-view-more.png)
+![image](../img/aliexpress-view-more.png)
 
-![image](../../img/keya-adapter-list.png)
+![image](../img/keya-adapter-list.png)
 
-![image](../../img/keyatemplate.png)
+![image](../img/keyatemplate.png)
 
 Download this [Keya template](../../files/KeyaTemplate.pdf), to help with
 marking out for brackets or this template for the new 1.4 motor.
 
 Replacement connectors: https://www.aliexpress.com/item/1005002498869200.html
 
-![image](../../img/keya-replacement-connector.png)
+![image](../img/keya-replacement-connector.png)
 
 Connections:
 
-![image](../../img/keya-connector.png)
+![image](../img/keya-connector.png)
 
-![image](../../img/keya-connector-pinout.png)
+![image](../img/keya-connector-pinout.png)
 
 You’ll be powering 12V to pin 1, and GND to pin2 - and don’t power this through
 the AOG board! Put it on its own supply with a big huge “OFF!” switch for
@@ -84,7 +84,7 @@ Pin 6 (CANH) goes to pin 16 on ampseal and pin 7 (CANL) goes to pin 17.
 If you have the 4th gen motor that comes with the Deutsch connector, go by this
 instead:
 
-![image](../../img/keya8pindeutsch.png)
+![image](../img/keya8pindeutsch.png)
 
 You’ll need a modified firmware and while the hope is that this eventually goes
 to mainstream, at the moment it’s still considered as in-testing, so I haven’t
@@ -97,7 +97,7 @@ but make life easier by using
 
 # Motor types
 
-![image](../../img/keya-auto-steer-motor-types.png)
+![image](../img/keya-auto-steer-motor-types.png)
 
 # Cables
 

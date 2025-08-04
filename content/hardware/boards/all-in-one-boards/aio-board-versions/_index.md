@@ -28,7 +28,7 @@ supplier if you prefer.
 
 ### How to order Video
 
-[![How to order video](https://img.youtube.com/vi/nFtups0Z6I8/0.jpg)](https://www.youtube.com/watch?v=nFtups0Z6I8)
+{{< youtube nFtups0Z6I8 >}}
 
 ### How to order Text guide
 
