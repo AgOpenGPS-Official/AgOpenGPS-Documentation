@@ -42,7 +42,7 @@ This is how it looks on the tail - you will need
 Good video explaining the LR WAS here:
 https://www.youtube.com/watch?v=4GPAt9eeeNA
 
-![image](./img/waswrong.png)
+![image](../img/waswrong.png)
 
 If for any reason your plug is wired incorrectly, you can re-pin it like this (via "P R" on Telegram):
 
