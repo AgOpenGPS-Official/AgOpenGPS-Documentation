@@ -42,8 +42,9 @@ This is how it looks on the tail - you will need
 Good video explaining the LR WAS here:
 https://www.youtube.com/watch?v=4GPAt9eeeNA
 
-If for any reason your plug is wired incorrectly, you can re-pin it like this
-(via "P R" on Telegram):
+![image](./img/waswrong.png)
+
+If for any reason your plug is wired incorrectly, you can re-pin it like this (via "P R" on Telegram):
 
 "There is a green lock take a small screwdriver and push it to the side. Now you
 can pull at the cable and the pin comes out if you did bad crimp you can use the
