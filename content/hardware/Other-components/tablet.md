@@ -34,7 +34,7 @@ right seller, you can even claim the VAT back.
 ## Models of note:
 
 - Panasonic Toughpad CF-D1 (1280x720 - on the limit for screen size)
-- Panasonic Toughpad FZ-G1 (1920x1200)
+- Panasonic Toughpad FZ-G1 (1920x1200) ([power barrel - wire direct to 12v to save on charger](https://uk.farnell.com/multicomp-pro/ppw00029/power-cord-2-5mm-dc-plug-0-5m/dp/2494896?CMP=e-email-sys-orderack-GLB))
 - Panasonic Toughbook FZ-G2 (1920x1080, well spec'd usually)
 - Panasonic Toughpad FZ-M1 (7" screen, a little small)
 - Dell 5290
