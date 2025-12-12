@@ -15,3 +15,4 @@ hugo.linux
 
 # Other
 .DS_Store
+pnpm-lock.yaml
