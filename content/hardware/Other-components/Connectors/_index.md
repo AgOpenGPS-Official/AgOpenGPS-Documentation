@@ -35,6 +35,7 @@ There's also a handy list of potentially-printable connectors
 | Description                          | Sample                                                                   |
 | ------------------------------------ | ------------------------------------------------------------------------ |
 | ![image](img/4pin-danfoss-valve.png) | For Danfoss valve<br>https://www.aliexpress.com/item/10000360045685.html |
+| ![image](img/4pin-casenhsteering.png) | For Case/NH WAS<br>https://www.aliexpress.com/item/1005005231434626.html |
 
 ### 6-pin
 
