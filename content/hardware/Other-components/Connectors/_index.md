@@ -32,9 +32,9 @@ There's also a handy list of potentially-printable connectors
 
 ### 4-pin
 
-| Description                          | Sample                                                                   |
-| ------------------------------------ | ------------------------------------------------------------------------ |
-| ![image](img/4pin-danfoss-valve.png) | For Danfoss valve<br>https://www.aliexpress.com/item/10000360045685.html |
+| Description                           | Sample                                                                   |
+| ------------------------------------- | ------------------------------------------------------------------------ |
+| ![image](img/4pin-danfoss-valve.png)  | For Danfoss valve<br>https://www.aliexpress.com/item/10000360045685.html |
 | ![image](img/4pin-casenhsteering.png) | For Case/NH WAS<br>https://www.aliexpress.com/item/1005005231434626.html |
 
 ### 6-pin
@@ -52,9 +52,9 @@ There's also a handy list of potentially-printable connectors
 
 ### 8-pin
 
-| Description                      | Sample                                                                                                             |
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| ![image](img/deutschdt06-8s.png) | Part Number: Deutsch DT06-8S<br>Typical usage: Keya Gen4 motor<br>https://www.te.com/en/product-DT06-08SA.html<br>Male pins (if required) are: https://www.te.com/en/product-0460-264-16141.html (1.6mm diameter)|
+| Description                      | Sample                                                                                                                                                                                                            |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![image](img/deutschdt06-8s.png) | Part Number: Deutsch DT06-8S<br>Typical usage: Keya Gen4 motor<br>https://www.te.com/en/product-DT06-08SA.html<br>Male pins (if required) are: https://www.te.com/en/product-0460-264-16141.html (1.6mm diameter) |
 
 ### 9-pin
 
