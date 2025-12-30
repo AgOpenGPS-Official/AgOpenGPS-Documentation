@@ -9,6 +9,8 @@ weight = 15
 https://www.aliexpress.com/item/1005010677437368.html and
 https://www.aliexpress.com/item/1005010614826591.html
 
+Make sure to message the seller for your desired switch style and led colour. You will probably want (on)-on-off if you want to control both main power and momentary steering toggle.
+
 ![image](../img/aogswitch1.png)
 
 ### 5 volt network switch
