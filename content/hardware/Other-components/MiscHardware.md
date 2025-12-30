@@ -9,7 +9,7 @@ weight = 15
 https://www.aliexpress.com/item/1005010677437368.html and
 https://www.aliexpress.com/item/1005010614826591.html
 
-![image](./img/aogswitch1.png)
+![image](../img/aogswitch1.png)
 
 ### 5 volt network switch
 
