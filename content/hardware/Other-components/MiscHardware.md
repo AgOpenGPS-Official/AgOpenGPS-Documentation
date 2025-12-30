@@ -4,11 +4,13 @@ linkTitle = "Miscellaneous hardware"
 weight = 15
 +++
 
-### AgOpenGPS switches ###
+### AgOpenGPS switches
 
-https://www.aliexpress.com/item/1005010677437368.html and https://www.aliexpress.com/item/1005010614826591.html
+https://www.aliexpress.com/item/1005010677437368.html and
+https://www.aliexpress.com/item/1005010614826591.html
 
 ![image](./img/aogswitch1.png)
+
 ### 5 volt network switch
 
 ![image](../img/netgear-network-switch.png)
