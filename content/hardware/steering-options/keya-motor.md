@@ -12,7 +12,7 @@ https://youtu.be/ANboPyvSWBE
 
 To order, the official link for the latest version of the steering wheel -
 direct from Keya themselves - is
-[here](https://www.aliexpress.com/item/1005008796635857.html). PLEASE NOTE:
+[here](https://www.aliexpress.com/item/1005006800593966.html). PLEASE NOTE:
 there are imitators on AliExpress selling Keya-lookalike motors. The link here
 is to their official shop. Please support Keya as they are known to work well,
 and we have great support from the manufacturer. Other motors are not always
@@ -28,12 +28,13 @@ with the 3 spoked wheel.
 
 ## Links
 
-### [The full kit, gen4 motor, deutsch connector](https://www.aliexpress.com/item/1005008796635857.html) <<<< this is what you want
+### [The full kit, gen4e motor](https://www.aliexpress.com/item/1005006800593966.html) <<<< this is what you want
 
 ![image](../img/keya.png)
 
-The full kit (older, round connector:
-https://www.aliexpress.com/item/1005006800593966.html)
+
+Remember to select the correct adapter when ordering!
+![alt text](../img/keyaadapter.png)
 
 ### Additional parts
 
