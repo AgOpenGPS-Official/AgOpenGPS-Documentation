@@ -113,7 +113,7 @@ but make life easier by using
 | Type | Tractor                                                                                                          |
 | ---- | ---------------------------------------------------------------------------------------------------------------- |
 | A    | Case 5150<br>Case Puma 160<br>Deutz Agrofarm<br>John Deere 7x30, 6x30, 6300, 8300<br>Landini 6-115H<br>NH T5.120 |
-| A+   | NH TS125a                                                                                                        |
+| A+   | NH TS125a<br>NH T6/T7                                                                                            |
 | B    |                                                                                                                  |
 | D    | Deutz 5110 TTV<br>Fendt 718 SCR, Favorit 511C                                                                    |
 | F    | Bateman, Sands, Knight sprayers                                                                                  |
