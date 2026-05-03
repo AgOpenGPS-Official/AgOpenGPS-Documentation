@@ -55,7 +55,7 @@ Browse by category to find the print you need.
 - ![image](../img/enclosure-micro-smaller.png)
 
 - [Printables link](https://www.printables.com/model/1658776-aog-aio-micro-board-enclosure/files)
-- 
+- ![image](../img/enclosuremicroalt.png)
 
 ### Tony's CANBUS Board Enclosure
 
