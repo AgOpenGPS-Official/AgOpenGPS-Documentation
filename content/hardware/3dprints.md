@@ -49,15 +49,13 @@ Browse by category to find the print you need.
 - ![image](../img/enclosure-all-in-one-micro.png)
 - ![image](../img/enclosure-all-in-one-standard.png)
 
-### Alternative Low-Profile Micro Enclosure
-
-- [Onshape link](https://cad.onshape.com/documents/2ce126543c19758e3f29edf2/w/d34558ff003526b410ea943b/e/2be4a9e5caed293fb7593442?renderMode=0&uiState=64fddd0654dfbf638e003ad1)
-- ![image](../img/enclosure-low-profile-micro.png)
-
-### AOG Micro Smaller Enclosure
+### AOG Micro Smaller Enclosures
 
 - [Printables link](https://www.printables.com/model/555540-agopengps-micro-v41-smaller-enclosure)
 - ![image](../img/enclosure-micro-smaller.png)
+
+- [Printables link](https://www.printables.com/model/1658776-aog-aio-micro-board-enclosure/files)
+- 
 
 ### Tony's CANBUS Board Enclosure
 
