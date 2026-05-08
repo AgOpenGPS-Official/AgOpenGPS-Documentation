@@ -51,7 +51,7 @@ Adapter type N: https://www.aliexpress.com/item/1005006591480010.html
 
 Adapter type NH40: https://www.aliexpress.com/item/1005006591353337.html
 
-You need to specify when ordering which steering boss you require (and let them
+You need to specify when ordering which steering spline adapter you require (and let them
 know if you require additional ones). Pay attention to the aliexpress link, the
 "View more" bit will list all the adapter types. NOTE: this list below might be
 out of date as more models are added, so look for this chart on the aliexpress
@@ -76,9 +76,9 @@ Connections:
 
 ![image](../img/keya-connector-pinout.png)
 
-You’ll be powering 12V to pin 1, and GND to pin2 - and don’t power this through
-the AOG board! Put it on its own supply with a big huge “OFF!” switch for
-safety.
+You’ll be powering 12V to pin 1, and GND to pin2, however, do not power this through
+the AOG board as this will be too many amps for the board and will likely damage it! 
+Instead put it on its own power supply, ideally with it's own fuse and with a big huge “OFF!” switch for safety.
 
 Pin 6 (CANH) goes to pin 16 on ampseal and pin 7 (CANL) goes to pin 17.
 
@@ -96,6 +96,8 @@ You can find my modified firmware
 but make life easier by using
 [AOG-Config-O-Matic!](https://github.com/lansalot/AOGConfigOMatic/releases)
 
+If you find that you are not able to communicate with and send PWM values to the Keya Motor in AgOpenGps, you can try this firmware [here](https://github.com/AgOpenGPS-Official/Boards/blob/main/TeensyModules/AIO%20v4%20Firmware/AIO_v4_Firmware_27.04.2025.hex)
+
 # Motor types
 
 ![image](../img/keya-auto-steer-motor-types.png)
@@ -112,13 +114,23 @@ but make life easier by using
 
 | Type | Tractor                                                                                                          |
 | ---- | ---------------------------------------------------------------------------------------------------------------- |
-| A    | Case 5150<br>Case Puma 160<br>Deutz Agrofarm<br>John Deere 7x30, 6x30, 6300, 8300<br>Landini 6-115H<br>NH T5.120 |
-| A+   | NH TS125a<br>NH T6/T7                                                                                            |
+| A    | Case 5150<br>Case Puma 160<br>Deutz Agrofarm<br>John Deere 7x30, 6x30, 6300, 8300<br>Landini 6-115H<br>New Holland T5.120 |
+| A+   | New Holland TS125a<br>New Holland T6/T7                                                                                            |
 | B    |                                                                                                                  |
 | D    | Deutz 5110 TTV<br>Fendt 718 SCR, Favorit 511C                                                                    |
 | F    | Bateman, Sands, Knight sprayers                                                                                  |
 | K    |                                                                                                                  |
 | N    | Case MX110<br>Claas Axion<br>Fendt 936<br>Massey Ferguson 5413<br>Case Magnum 310 2013                           |
-| NH40 | NH T5050                                                                                                         |
+| NH40 | New Holland T5050                                                                                                         |
 | T    | Kubota B3400                                                                                                     |
 | W    |                                                                                                                  |
+
+# Attaching the motor to the steering column
+The Keya motor kit will come with a bracket to ensure that when the motor spins, it won't try to spin the motor around the steering shaft and instead it will spin the shaft. Depending on the tractor this may require customizing the bracket and removing additional plastic trim pieces to ensure a tight fit. 
+
+Here's an example from a New Holland T6 tractor where the plastic housing around the steering shaft had to be removed in order to fit the bracket around the steering shaft. Note that some steering options may telescope both up and down but also in and out which can change the ideal placement!
+![image](../img/new_holland_steering_shaft_keya_bracket.png)
+
+Here's the finished product of the New Holland T6 tractor with a Keya Motor installed. Note that the provided rod wasn't long enough for this particular tractor and had to be extended. 
+![image](../img/new_holland_steering_shaft_keya_bracket_closeup.png)
+
