@@ -28,7 +28,9 @@ with the 3 spoked wheel.
 
 ## Links
 
-### [The full kit, gen4e motor](https://www.aliexpress.com/item/1005006800593966.html) <<<< this is what you want
+### [The full kit, gen4e motor](https://www.aliexpress.com/item/1005006800593966.html) or [the dual-spoked wheel](https://www.aliexpress.com/item/1005005599675332.html)<<<< this is what you want
+
+![alt text](../img/keya-dual.png)
 
 ![image](../img/keya.png)
 
