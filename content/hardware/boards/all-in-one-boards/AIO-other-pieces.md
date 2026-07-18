@@ -4,7 +4,7 @@ linkTitle = "Other pieces to be able to assemble"
 weight = 1
 +++
 
-So you've ordered your AIO board but want to fully assemble it.
+So you've ordered your AIO board from JLCPCB, but now we want to buy the additional modules/daughterboards to complete the entire board.
 
 The main pieces will likely be:
 
@@ -12,6 +12,7 @@ The main pieces will likely be:
 - [IMU for roll compensation](/hardware/Other-components/imu-inertial-measurement-unit)
 - [GNSS / GPS - ZED-F9P](/hardware/Other-components/gps-modules-standard-or-micro)
 - [Cytron MD13S driver](/hardware/Other-components/cytron-motor-driver)
+-   You will not need the Cyrton if you are using a Danfoss hydraulic valve, the Keya Motor, or any other CANBUS steering motor.
 
 You'll likely also need:
 

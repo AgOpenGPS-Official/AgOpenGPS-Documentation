@@ -103,3 +103,12 @@ some suitable alternatives:
 | 1510.521                | U13                                                        | SINK-TH_L15.0-W10.5-H21.0       | 1        | LCSC     | C4649         | C116600           |
 | 24v IN                  | U23                                                        | CONN-TH_2P-P5.08_JL500-50802G01 | 1        | LCSC     | C387820       | C709041           |
 | Header-Female-2.54_1x20 | U8,U903                                                    | HDR-TH_20P-P2.54-V-F            | 2        | LCSC     | C50984        | C2905423          |
+
+### Note
+
+Depending on which components are unavailable from JLCPCB and have to be ordered 
+from 3rd party suppliers such as DigiKey, it may be difficult to solder these chips 
+onto the main board due to their small size. An example of this is U20 (ADS1115IDGSR) 
+where it's the smallest chip on the board and will be difficult to solder without 
+bridging pins. On the other hand, if larger components such as U10 or H6 are not 
+in stock, these are much easier to hand solder to the board!
