@@ -1,0 +1,39 @@
+---
+title: 'Miscellaneous'
+sidebar:
+  label: 'Miscellaneous hardware'
+  order: 15
+---
+
+### AgOpenGPS switches
+
+https://www.aliexpress.com/item/1005010677437368.html and
+https://www.aliexpress.com/item/1005010614826591.html
+
+Make sure to message the seller for your desired switch style and led colour. You will probably want (on)-on-off if you want to control both main power and momentary steering toggle.
+
+![image](./img/aogswitch1.png)
+
+### 5 volt network switch
+
+![image](./img/netgear-network-switch.png)
+
+### 12 volt network switch
+
+![image](./img/netgear-managed-network-switch.png)
+
+### Teltonik TSW010 - industrial 12V switch
+
+https://wiki.teltonika-networks.com/view/TSW010
+
+![image](./img/teltonik-tsw010.png)
+
+### Power distributution
+
+https://www.amazon.co.uk/dp/B07GYTZF35
+
+![image](./img/fuse-box.png)
+
+https://www.amazon.co.uk/Kriogor-Motorcycle-Indicator-Headlights-Navigation/dp/B0BVVKJGFR
+
+![image](./img/krigor-fuse-box.png)

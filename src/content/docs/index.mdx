@@ -1,0 +1,134 @@
+---
+title: AgOpenGPS Documentation
+description: Open-source GPS autosteer and implement control for your farm equipment, built from off-the-shelf components and community-designed hardware.
+template: splash
+hero:
+  title: Autosteer you can build yourself
+  tagline: AgOpenGPS is an open-source platform for precision agriculture. Affordable, centimetre-accurate GPS autosteer and implement control, built from off-the-shelf parts with the help of a worldwide farming community.
+  image:
+    file: ../../assets/logo.svg
+    alt: AgOpenGPS logo
+  actions:
+    - text: Get started
+      link: /getting-started/
+      icon: right-arrow
+    - text: Hardware quickstart
+      link: /hardware/hardware-quickstart-guide/
+      variant: secondary
+    - text: Download AgOpenGPS
+      link: https://github.com/AgOpenGPS-Official/AgOpenGPS/releases
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## Where do you want to start?
+
+<CardGrid>
+  <Card title="Understand" icon="open-book">
+    Learn what AgOpenGPS is, how the parts fit together, and which level of
+    automation suits your farm.
+
+    [Getting started guide →](/getting-started/)
+
+  </Card>
+  <Card title="Build the hardware" icon="setting">
+    Choose a steering option, source the boards and components, then assemble,
+    configure and install your kit.
+
+    [Hardware guide →](/hardware/)
+
+  </Card>
+  <Card title="Install the software" icon="laptop">
+    Install AgOpenGPS and AgIO on your tablet, connect to your hardware and set
+    up RTK corrections.
+
+    [Software guide →](/software/)
+
+  </Card>
+</CardGrid>
+
+## Software
+
+<CardGrid>
+  <LinkCard
+    title="Download AgOpenGPS"
+    description="Latest releases on GitHub"
+    href="https://github.com/AgOpenGPS-Official/AgOpenGPS/releases"
+  />
+  <LinkCard
+    title="Install & run AgOpenGPS"
+    description="Video walkthrough"
+    href="https://www.youtube.com/watch?v=bVo6HwYIdP4"
+  />
+  <LinkCard
+    title="Video training playlist"
+    description="Learn AgOpenGPS step by step on YouTube"
+    href="https://www.youtube.com/playlist?list=PL1N2N2XFHWW1fIDhb7koOa7hxH0LGppYc"
+  />
+  <LinkCard
+    title="Rate Control module"
+    description="Variable rate and section control"
+    href="https://github.com/AgOpenGPS-Official/Rate_Control"
+  />
+  <LinkCard
+    title="Offline video archive"
+    description="Download the videos for use without internet"
+    href="https://www.mediafire.com/folder/wwcvo7zhdogh1/Videos"
+  />
+</CardGrid>
+
+## Repositories
+
+The project has two central GitHub repositories:
+
+- [**AgOpenGPS Software**](https://github.com/AgOpenGPS-Official/AgOpenGPS): The
+  main app that runs on your in-cab computer
+- [**AgOpenGPS Hardware & Firmware**](https://github.com/AgOpenGPS-Official/Boards):
+  PCB designs, firmware, and schematics
+
+## Community & support
+
+<CardGrid>
+  <Card title="Discourse forum" icon="discourse">
+    Long-form discussions, questions, and build logs.
+
+    [discourse.agopengps.com →](https://discourse.agopengps.com)
+
+  </Card>
+  <Card title="Telegram group" icon="telegram">
+    Fast community help from farmers and builders around the world.
+
+    [Join the group →](https://t.me/AgOpenGPSInternational)
+
+  </Card>
+  <Card title="YouTube" icon="youtube">
+    Tutorials and build videos.
+
+    [AgOpenGPS on YouTube →](https://www.youtube.com/@AgOpenGPS)
+
+  </Card>
+</CardGrid>
+
+## Want to contribute?
+
+AgOpenGPS is community built. You can help by:
+
+- Improving this documentation: every page has an **Edit page** link at the
+  bottom
+- Submitting issues or fixes to the
+  [codebase](https://github.com/AgOpenGPS-Official/AgOpenGPS)
+- Sharing your own build tips and guides on
+  [Discourse](https://discourse.agopengps.com)
+
+## Other cool open-source ag-related projects
+
+- [Run your own RTK base station on a Raspberry Pi](https://github.com/Stefal/rtkbase)
+- [AgIsoStack++ - bringing ISOBUS implement control to the world of Agriculture](https://agisostack.com/)
+- [AgOpenGPS Tools - various tools related to AgOpenGPS](https://github.com/lansalot/AgOpenGPS-Tools)
+- [Controlling a Bogballe spreader with AOG](https://github.com/charlesquick/AOG-Bogballe-Bridge)
+- [Awesome "tractor simulator" that works with AOG!](https://github.com/GNSS-Stylist/AgOpenGPSSimPoC)
+- [Open Weed Locator](https://github.com/geezacoleman/OpenWeedLocator)
+- [FarmHack - A worldwide community of farmers that build and modify their own tools](https://farmhack.org/tools)
+- [Gathering for Open Agricultural Technology (GOAT)](https://goatech.org/)

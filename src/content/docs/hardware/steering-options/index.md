@@ -1,0 +1,107 @@
+---
+title: 'Steering Options'
+description: 'Overview of all steering options available for AgOpenGPS. Helps determine which steering solution (CANBUS, hydraulic, Keya motor, DIY motor, etc.) is suitable for your tractor, with links to relevant hardware and guides.'
+sidebar:
+  order: 5
+childList: true
+---
+
+## What are my options for steering the tractor???
+
+Here are the main steering options available for AgOpenGPS:
+
+1. [**CANBUS Steering**](/hardware/steering-options/canbus/) For tractors that
+   are steer-ready and support CANBUS. Uses the tractor's built-in steering
+   system via electronic control.
+
+2. [**Keya Motorized Steering Wheel**](/hardware/steering-options/keya-motor/)  
+   For tractors without built-in steering, using a bolt-on Keya motorized
+   steering wheel.
+
+3. [**DIY Motor Steering**](/hardware/steering-options/diy-motor/) For tractors
+   without built-in steering, using a custom or off-the-shelf electric motor to
+   turn the steering wheel.
+
+4. [**Hydraulic Valve Block Add-on**](/hardware/steering-options/hydraulic-valve/)  
+   For
+   tractors without built-in steering, by adding your own hydraulic valve block
+   to control steering hydraulically.
+
+5. [**Danfoss Integrated Valve**](/hardware/steering-options/danfoss-valve/)  
+   For tractors equipped with a Danfoss integrated autosteer valve.
+
+Each option has its own hardware and wiring requirements. Use the links and
+guides on this page to find the best fit for your tractor.
+
+---
+
+## My tractor is steer-ready and I believe it can be done via CANBUS.
+
+For this, you will want the CANBUS (aka "Tony's board") PCB. The board is
+self-assembly. It's pretty easy to do, but if you're not keen, ask in the forum
+or the telegram channel for help. The information for how to build the board is
+[here](https://github.com/AgOpenGPS-Official/Boards/tree/main/CANBUS/PCB). You
+will also need the [Teensy](/hardware/other-components/teensy-4-1/), the
+[F9P (micro is recommended)](/hardware/other-components/gps-modules-standard-or-micro/), an
+[antenna](/hardware/other-components/choosing-an-antenna/) and the
+[BNO085](/hardware/other-components/imu-inertial-measurement-unit/)
+
+---
+
+## My tractor has a steering valve, but it's not CANBUS. I believe it's a standard PWM-style hydraulic valve
+
+For this, you will want the standard (All-in-one 4.x)
+[PCB](/hardware/boards/all-in-one-boards/aio-board-versions/). The board can be
+ordered mostly pre-assembled. You will also need the
+[Teensy](/hardware/other-components/teensy-4-1/), the
+[F9P (micro or standard, depending on the board)](/hardware/other-components/gps-modules-standard-or-micro/),
+an [antenna](/hardware/other-components/choosing-an-antenna/), a
+[Cytron](/hardware/other-components/cytron-motor-driver/), a
+[wheel angle sensor](/hardware/other-components/wheel-angle-sensor/) (if you can't use the
+one on the tractor) and the
+[BNO085](/hardware/other-components/imu-inertial-measurement-unit/)
+
+---
+
+## My tractor isn't steer-ready, I want to use the Keya steering wheel
+
+For this, you will want the standard (All-in-one 4.x)
+[PCB](/hardware/boards/all-in-one-boards/aio-board-versions/). The board can be
+ordered mostly pre-assembled. You will also need the
+[Teensy](/hardware/other-components/teensy-4-1/), the
+[F9P (micro or standard, depending on the board)](/hardware/other-components/gps-modules-standard-or-micro/),
+an [antenna](/hardware/other-components/choosing-an-antenna/), a
+[Cytron](/hardware/other-components/cytron-motor-driver/), a
+[wheel angle sensor](/hardware/other-components/wheel-angle-sensor/) (if you can't use the
+one on the tractor), the [Keya motorised wheel](/hardware/steering-options/keya-motor/) and the
+[BNO085](/hardware/other-components/imu-inertial-measurement-unit/)
+
+---
+
+## My tractor isn't steer-ready, I want to fit my own hydraulic valve block
+
+For this, you will want the standard (All-in-one 4.x)
+[PCB](/hardware/boards/all-in-one-boards/aio-board-versions/). The board can be
+ordered mostly pre-assembled. You will also need the
+[Teensy](/hardware/other-components/teensy-4-1/), the
+[F9P (micro or standard, depending on the board)](/hardware/other-components/gps-modules-standard-or-micro/),
+an [antenna](/hardware/other-components/choosing-an-antenna/), a
+[Cytron](/hardware/other-components/cytron-motor-driver/), a
+[wheel angle sensor](/hardware/other-components/wheel-angle-sensor/) (if you can't use the
+one on the tractor), the [Hydraulic block](/hardware/steering-options/hydraulic-valve/)
+and the [BNO085](/hardware/other-components/imu-inertial-measurement-unit/)
+
+---
+
+## My tractor isn't steer-ready, I want to fit my own wheel motor
+
+For this, you will want the standard (All-in-one 4.x)
+[PCB](/hardware/boards/all-in-one-boards/aio-board-versions/). The board can be
+ordered mostly pre-assembled. You will also need the
+[Teensy](/hardware/other-components/teensy-4-1/), the
+[F9P (micro or standard, depending on the board)](/hardware/other-components/gps-modules-standard-or-micro/),
+an [antenna](/hardware/other-components/choosing-an-antenna/), a
+[Cytron](/hardware/other-components/cytron-motor-driver/), a
+[wheel angle sensor](/hardware/other-components/wheel-angle-sensor/) (if you can't use the
+one on the tractor), the [motor](/hardware/steering-options/diy-motor/) and the
+[BNO085](/hardware/other-components/imu-inertial-measurement-unit/)
