@@ -90,6 +90,7 @@ export default defineConfig({
           label: 'Software',
           items: [{ autogenerate: { directory: 'software', collapsed: true } }],
         },
+        { label: 'Safety and disclaimer', link: '/safety/' },
       ],
       routeMiddleware: './src/routeData.ts',
       components: {

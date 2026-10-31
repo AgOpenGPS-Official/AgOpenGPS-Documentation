@@ -153,6 +153,16 @@ starlight-theme-select:has(option[value='auto']:checked) .label-icon {
 
 /* ---------- Content ---------- */
 
+/* "Danger" boxes (the safety notice): rounded, thin red outline, faint tint */
+:root {
+  --sl-hue-red: 4;
+}
+.starlight-aside--danger {
+  border: 1px solid var(--sl-color-red);
+  border-radius: 0.5rem;
+  background-color: color-mix(in srgb, var(--sl-color-red) 9%, transparent);
+}
+
 .sl-markdown-content img {
   border: 1px solid var(--sl-color-hairline-light);
   border-radius: 0.5rem;
@@ -210,6 +220,7 @@ starlight-theme-select:has(option[value='auto']:checked) .label-icon {
   position: absolute;
   inset: -4rem -50vw;
   z-index: -1;
+  pointer-events: none;
   background: repeating-linear-gradient(
     104deg,
     transparent 0 54px,
