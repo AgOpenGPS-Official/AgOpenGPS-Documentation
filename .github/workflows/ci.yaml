@@ -21,15 +21,22 @@ jobs:
           cache-dependency-path: '**/package-lock.json'
       - name: Install packages
         run: npm ci
+      - name: Get GitHub Pages URL
+        id: pages
+        uses: actions/configure-pages@v5
       - name: Build
         run: npm run build
+        env:
+          # Lets the site work under a sub-path, e.g. on a fork's Pages site
+          SITE_ORIGIN: ${{ steps.pages.outputs.origin }}
+          SITE_BASE_PATH: ${{ steps.pages.outputs.base_path }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
 
   deploy:
-    if: github.ref == 'refs/heads/main'
+    if: github.event_name == 'push'
     needs: build
     permissions:
       pages: write

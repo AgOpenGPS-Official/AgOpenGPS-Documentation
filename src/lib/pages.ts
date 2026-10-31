@@ -2,13 +2,22 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 
 export type DocsEntry = CollectionEntry<'docs'>;
 
-/** URL path of a docs entry, with trailing slash (`/hardware/faq/`). */
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+/** Prefix a root-relative path with the site's base path. */
+export const withBase = (path: string) => base + path;
+
+/** Remove the site's base path from a URL path. */
+export const withoutBase = (path: string) =>
+  base && path.startsWith(base + '/') ? path.slice(base.length) : path;
+
+/** URL path of a docs entry without base, with trailing slash (`/hardware/faq/`). */
 export const pathOf = (entry: DocsEntry) =>
   entry.id === 'index' ? '/' : `/${entry.id}/`;
 
 /** Link target for an entry: its external link if it has one, else its page. */
 export const hrefOf = (entry: DocsEntry) =>
-  entry.data.externalLink ?? pathOf(entry);
+  entry.data.externalLink ?? withBase(pathOf(entry));
 
 export const labelOf = (entry: DocsEntry) =>
   entry.data.sidebar.label || entry.data.title;

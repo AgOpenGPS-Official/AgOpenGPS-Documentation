@@ -3,18 +3,31 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightImageZoom from 'starlight-image-zoom';
 import redirects from './redirects.json' with { type: 'json' };
+import { satteri } from '@astrojs/markdown-satteri';
+import baseLinks from './src/lib/satteri-base-links.mjs';
+
+// Where the site is served. CI sets these from the GitHub Pages settings, so
+// forks without a custom domain work under https://<user>.github.io/<repo>/
+const site = process.env.SITE_ORIGIN || 'https://docs.agopengps.com';
+const base = process.env.SITE_BASE_PATH || '/';
+const withBase = (path) => base.replace(/\/$/, '') + path;
 
 // Old URLs that only differ from their new URL by letter case would collide on
 // case-insensitive file systems; the 404 page redirects those instead.
+// Astro serves redirect sources under `base`, but not their destinations.
 const pageRedirects = Object.fromEntries(
-  Object.entries(redirects).filter(
-    ([from, to]) => from.toLowerCase() !== to.toLowerCase()
-  )
+  Object.entries(redirects)
+    .filter(([from, to]) => from.toLowerCase() !== to.toLowerCase())
+    .map(([from, to]) => [from, withBase(to)])
 );
 
 export default defineConfig({
-  site: 'https://docs.agopengps.com',
+  site,
+  base,
   redirects: pageRedirects,
+  markdown: {
+    processor: satteri({ hastPlugins: [baseLinks(base)] }),
+  },
   integrations: [
     starlight({
       title: 'AgOpenGPS Docs',
@@ -28,12 +41,15 @@ export default defineConfig({
           attrs: {
             rel: 'apple-touch-icon',
             sizes: '180x180',
-            href: '/favicons/apple-touch-icon.png',
+            href: withBase('/favicons/apple-touch-icon.png'),
           },
         },
         {
           tag: 'link',
-          attrs: { rel: 'manifest', href: '/favicons/site.webmanifest' },
+          attrs: {
+            rel: 'manifest',
+            href: withBase('/favicons/site.webmanifest'),
+          },
         },
       ],
       social: [

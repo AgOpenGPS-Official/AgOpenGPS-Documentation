@@ -2,7 +2,14 @@ import {
   defineRouteMiddleware,
   type StarlightRouteData,
 } from '@astrojs/starlight/route-data';
-import { getPagesByPath, labelOf, orderOf, type DocsEntry } from './lib/pages';
+import {
+  getPagesByPath,
+  labelOf,
+  orderOf,
+  withBase,
+  withoutBase,
+  type DocsEntry,
+} from './lib/pages';
 
 type Entry = StarlightRouteData['sidebar'][number];
 type Link = Extract<Entry, { type: 'link' }>;
@@ -31,15 +38,17 @@ function shapeGroup(
   pages: Map<string, DocsEntry>,
   topLevel: boolean
 ) {
+  // Sidebar hrefs include the base path, page keys don't
+  const pageOf = (href: string) => pages.get(withoutBase(href));
   const index = indexLinkOf(group);
-  const indexPage = index && pages.get(index.href);
+  const indexPage = index && pageOf(index.href);
   if (index && indexPage && !topLevel) group.label = labelOf(indexPage);
 
   const orderOfEntry = (e: Entry) =>
     e === index
       ? -Infinity
       : orderOf(
-          pages.get(e.type === 'link' ? e.href : (indexLinkOf(e)?.href ?? ''))
+          pageOf(e.type === 'link' ? e.href : (indexLinkOf(e)?.href ?? ''))
         );
   group.entries.sort((a, b) => orderOfEntry(a) - orderOfEntry(b));
 
@@ -56,7 +65,7 @@ function shapeGroup(
   for (const e of group.entries) {
     if (e.type === 'group') continue;
     if (e === index) e.label = 'Overview';
-    const external = pages.get(e.href)?.data.externalLink;
+    const external = pageOf(e.href)?.data.externalLink;
     if (external) {
       e.href = external;
       e.attrs = {
@@ -72,6 +81,15 @@ function shapeGroup(
 export const onRequest = defineRouteMiddleware(async (context) => {
   const route = context.locals.starlightRoute;
   const pages = await getPagesByPath();
+
+  // Hero buttons (splash pages) are not base-path aware
+  for (const action of route.entry.data.hero?.actions ?? []) {
+    const { link } = action;
+    if (link.startsWith('/') && withoutBase(link) === link) {
+      action.link = withBase(link);
+    }
+  }
+
   for (const entry of route.sidebar) {
     if (entry.type === 'group') shapeGroup(entry, pages, true);
   }

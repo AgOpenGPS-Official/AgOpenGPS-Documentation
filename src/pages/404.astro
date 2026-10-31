@@ -1,15 +1,17 @@
 ---
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import { LinkButton } from '@astrojs/starlight/components';
-import { getPagesByPath } from '../lib/pages';
+import { getPagesByPath, withBase } from '../lib/pages';
 import redirects from '../../redirects.json';
 
 // Old (Hugo) URLs and current pages, keyed by lowercase path, so links with
 // any letter case still land on the right page.
 const targets: Record<string, string> = {};
-for (const path of (await getPagesByPath()).keys()) targets[path] = path;
+for (const path of (await getPagesByPath()).keys()) {
+  targets[withBase(path).toLowerCase()] = withBase(path);
+}
 for (const [from, to] of Object.entries(redirects)) {
-  targets[from.toLowerCase()] = to;
+  targets[withBase(from).toLowerCase()] = withBase(to);
 }
 ---
 
@@ -22,11 +24,11 @@ for (const [from, to] of Object.entries(redirects)) {
     the main sections.
   </p>
   <p>
-    <LinkButton href="/">Home</LinkButton>
-    <LinkButton href="/hardware/" variant="secondary">
+    <LinkButton href={withBase('/')}>Home</LinkButton>
+    <LinkButton href={withBase('/hardware/')} variant="secondary">
       Hardware
     </LinkButton>
-    <LinkButton href="/software/" variant="secondary">
+    <LinkButton href={withBase('/software/')} variant="secondary">
       Software
     </LinkButton>
   </p>

@@ -1,12 +1,13 @@
 ---
 import Default from '@astrojs/starlight/components/SocialIcons.astro';
+import { withBase } from '../lib/pages';
 
 // Main sections, shown in the header next to the social icons (desktop only;
 // on mobile the sidebar menu covers them)
 const sections = [
-  { label: 'Getting started', href: '/getting-started/' },
-  { label: 'Hardware', href: '/hardware/' },
-  { label: 'Software', href: '/software/' },
+  { label: 'Getting started', href: withBase('/getting-started/') },
+  { label: 'Hardware', href: withBase('/hardware/') },
+  { label: 'Software', href: withBase('/software/') },
 ];
 const current = Astro.url.pathname;
 ---
