@@ -80,6 +80,12 @@ the list of what to buy.
 
 ## How the parts fit together
 
+A typical autosteer setup looks like this. For guidance only, you just need the
+antenna, the receiver and the tablet: the receiver then plugs straight into the
+tablet.
+
+![Diagram of a typical AgOpenGPS autosteer setup. The GNSS antenna, and optionally a second antenna, connect to the GNSS receiver. In an autosteer setup, the receiver sits on the all-in-one board next to the Teensy; for guidance only, it plugs straight into the tablet. The wheel angle sensor, and optionally the IMU and the steer switch, also connect to the board. On the Windows tablet, AgIO talks to the board over Ethernet or USB and optionally receives RTK corrections over the internet, and exchanges data with AgOpenGPS. The board drives the steering actuator, a motor or valve.](/diagrams/system-overview.drawio.svg)
+
 For guidance you need:
 
 - **GNSS receiver and antenna:** the
