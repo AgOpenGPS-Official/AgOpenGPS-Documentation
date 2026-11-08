@@ -1,0 +1,184 @@
+---
+title: 'AgIO Orientation'
+description: 'Detailed explanation of AgIO user interface and functionality'
+sidebar:
+  order: 3
+---
+
+---
+
+## Main Display
+
+![AgIO Normal Display](./img/agio.png)
+
+This section describes the main AgIO window and its key areas:
+
+1. **RTK Information Area** – Displays real-time kinematic (RTK) status and
+   related information. Specifically:
+   - The amount of data shared during the RTK session (in this instance 1,415
+     Kb)
+   - The status of the connection (in this instance 'listening', but can also be
+     'authorizing' or 'waiting')
+   - The time the connection has been live (in this instance 67 mins). If
+     connecting, it will count down until a connection attempt is made. You can
+     tap this outlined box to pause/halt the RTK connection, and press again to
+     restart it.
+
+2. **UDP Networking Area** – Displays UDP connection status and associated
+   connected IP addresses. Tap the UDP port icon to configure networking. If the
+   button is not green, a dialog prompts you to enable UDP. Tap the UDP button
+   and confirm. (Linux users: this is where you can change the loopback
+   address.)
+
+   ![UDP Networking Dialog](./img/agio-ethernet.png)
+
+3. **Modules and Status** – Each icon represents a module. Tap an icon to open a
+   dialog for connecting to serial ports.
+
+   Icon colors indicate status:
+   - **Green:** Communicating normally
+   - **Red:** Lost communication after being connected
+   - **No color:** Not connected this session
+   - The small numbers beside the GPS icon show data bytes sent and received.
+
+4. **Flyout Button** – Tap to expand and view the full AgIO display (see next
+   section).
+
+5. **Position Information** – Tap the icon to view a dialog with all NMEA
+   information.
+
+At the bottom is the menu bar. The icon at the far right launches AgOpenGPS.
+
+---
+
+## Main Display (expanded view)
+
+![AgIO Full Display](./img/agio-full.png)
+
+The full display provides detailed information and controls:
+
+1. **Show/Hide Modules** – Hide unused modules by tapping 'X'. Tap '+' to
+   restore them.
+2. **RTK Caster IP Address and Mount** – Displays the IP address, mount, and
+   packet bytes sent.
+3. **Steer Module Information** – Shows steering angle, raw A/D converter
+   counts, and switch status (updates once per second).
+4. **Machine Module Section Status** – Displays section on/off status. If
+   sections do not change to '1' when activated, check for issues.
+5. **RTK Parsing** – Provides a rough estimation of station ID and sentences
+   found. Note: RTK is complex; this is for reference only.
+6. **Shutdown Icon** – Tap to shut down Windows and power off the computer.
+7. **Log Creation** – Generates a log of incoming sentences in the main
+   AgOpenGPS folder.
+8. **Display Timer Reset** – The extended view remains open for 3 minutes, then
+   shrinks to a small view, and then minimizes to the taskbar after another 3
+   minutes. Tap this icon to reset the timer.
+
+To hide the full display, tap the blue arrow again or minimize to the tray at
+the top.
+
+---
+
+## Ethernet (UDP) Setup Dialog
+
+![Ethernet Setup Dialog](./img/agio-ethernet-setup.png)
+
+This dialog allows you to configure network adapters and subnets:
+
+1. **Hostname** – The unique name for your computer on the network.
+2. **Network Adapters List** – Shows all network adapters, their IP addresses,
+   names/types, and packet statistics.
+3. **Adapter Filter** – Filter to show only connected/talking adapters or all
+   adapters.
+4. **Module Connections** – Lists connected modules, their IP addresses, and
+   connection status (green = connected).
+5. **Subnet** – Displays the subnet of the network adapter that sent a message
+   to all connected modules. All devices must be on the same subnet. Tap "fill
+   in" to auto-fill #6.
+6. **Manual Subnet Entry** – Enter and send a new subnet manually.
+7. **Open Windows Network Management** – Launches the Windows Network Management
+   App from Control Panel.
+8. **Current Subnet** – Shows the current subnet set in AgIO.
+9. _(Reserved for future use or additional features)_
+10. _(Reserved for future use or additional features)_
+11. **Set Subnet** – Sets the subnet address for AgIO and sends it to modules.
+    The indicators should turn green if successful.
+12. **Return to Main Display** – Go back to the main AgIO display.
+
+---
+
+## Serial Connections
+
+![Serial Connections](./img/agio-gps.png)
+
+This section covers connecting serial devices:
+
+1. **Serial Port Selection** – Choose the serial COM port and baud rate, then
+   tap the green connect button to connect to a serial GPS unit.
+2. **RTK via Serial/USB** – Connect here if using RTK through a serial or USB
+   port.
+3. **Module Connections** – Connect modules here. Plug in one at a time to
+   identify each, then connect.
+4. **Add USB COM Port** – If you connect an additional USB COM port, tap here to
+   add it to the list of available connections.
+
+---
+
+## RTK
+
+This section explains RTK configuration:
+
+![RTK Settings](./img/agio-rtk.png)
+
+1. **NTRIP Toggle** – Enable or disable NTRIP (Networked Transport of RTCM via
+   Internet Protocol).
+2. **Computer Name and Networks** – Displays your computer name and all active
+   networks.
+3. **Caster Address** – Enter the IP or URL of your caster website.
+4. **Verify Caster** – Tap to verify the caster site is accessible. The IP will
+   be displayed.
+5. **Caster Credentials** – Enter your caster username and password.
+6. **Get Source Table** – Retrieves a list of available mounts for the caster.
+   Select the appropriate one.
+7. **Caster Port** – The port used by the caster (default is 2101).
+
+![RTK Position Settings](./img/agio-rtk-position.png)
+
+1. **Manual Fix Entry** – Enter the current fix manually. Select manual or use
+   GPS Fix.
+2. **Use Current GPS Fix** – Tap here to fill in the manual fix entry with the
+   current GPS fix.
+3. **RTK Output Method** – Select whether to send RTK via serial or UDP, and
+   specify the port. Disable unused methods.
+4. **GGA Interval** – Set how often a GGA sentence is sent to the caster. More
+   frequent updates use more data. Set this to 0 to disable.
+
+---
+
+## Menus
+
+### AgIO Settings
+
+![AgIO Menu](./img/agio-menu.png)
+
+1. **Save Profile** – Save all AgIO settings, including RTK settings.
+2. **Load Profile** – Load a previously saved profile.
+3. **UDP Monitor** – View UDP packets sent and received by AgIO, including PGNs,
+   NTRIP, and NMEA strings.
+4. **Serial Monitor** – Connect to any serial port and monitor its activity.
+   Useful for modules running on UDP.
+5. **Ethernet Setup** – Opens the dialog to enable or disable UDP. Only change
+   the loopback address if you are using Linux or understand the implications.
+   (Windows loopback settings are not supported.)
+6. **Device Manager** – Opens the Windows Control Panel applet for device
+   hardware management.
+
+### NTRIP Settings
+
+![NTRIP Menu](./img/agio-menu-ntrip.png)
+
+1. **NTRIP from the Internet** – Configure settings such as caster address,
+   mount, username, and password.
+2. **NTRIP via Radio** – Opens a dialog to configure RTK radio systems.
+3. **NTRIP via Serial** – Opens a dialog for RTK via serial input (e.g., phone
+   USB or external radio with serial output).

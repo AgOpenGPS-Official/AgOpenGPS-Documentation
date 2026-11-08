@@ -1,0 +1,82 @@
+---
+import { Icon } from '@astrojs/starlight/components';
+import { getChildren, hrefOf, labelOf, type DocsEntry } from '../lib/pages';
+
+interface Props {
+  entry: DocsEntry;
+}
+
+const children = await getChildren(Astro.props.entry);
+---
+
+{children.length > 0 && (
+  <ul class="child-list not-content" role="list">
+    {children.map((child) => {
+      const external = Boolean(child.data.externalLink);
+      return (
+        <li>
+          <a
+            href={hrefOf(child)}
+            target={external ? '_blank' : undefined}
+            rel={external ? 'noopener' : undefined}
+          >
+            <span class="title">
+              {labelOf(child)}
+              {external && <Icon name="external" size="0.9em" />}
+            </span>
+            {child.data.description && (
+              <span class="description">{child.data.description}</span>
+            )}
+          </a>
+        </li>
+      );
+    })}
+  </ul>
+)}
+
+<style>
+  .child-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+    padding: 0;
+    list-style: none;
+  }
+  a {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    height: 100%;
+    padding: 0.9rem 1.1rem;
+    border: 1px solid var(--sl-color-gray-5);
+    border-left: 4px solid var(--sl-color-accent);
+    border-radius: 0.5rem;
+    background: var(--sl-color-bg);
+    color: var(--sl-color-white);
+    text-decoration: none;
+    transition:
+      border-color 0.15s,
+      transform 0.15s,
+      box-shadow 0.15s;
+  }
+  a:hover {
+    border-color: var(--sl-color-accent);
+    box-shadow: var(--sl-shadow-sm);
+    transform: translateY(-1px);
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-family: var(--aog-font-heading);
+    font-size: var(--sl-text-lg);
+    font-weight: 600;
+    line-height: 1.25;
+  }
+  .description {
+    color: var(--sl-color-gray-3);
+    font-size: var(--sl-text-sm);
+    line-height: 1.45;
+  }
+</style>

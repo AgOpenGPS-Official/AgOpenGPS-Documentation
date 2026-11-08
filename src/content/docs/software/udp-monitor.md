@@ -1,0 +1,19 @@
+---
+title: 'UDP Monitor'
+sidebar:
+  order: 7
+---
+
+![image](./img/agio-udp-monitor.png)
+
+1. Clear Screen
+
+2. Save to UDP log in main program directory.
+
+3. Show/Hide all NTRIP Traffic
+
+4. Show/Hide NMEA traffic
+
+5. Start/Stop logging of all UDP traffic.
+
+6. Exit

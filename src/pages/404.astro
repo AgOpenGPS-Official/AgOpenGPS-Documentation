@@ -1,0 +1,42 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { LinkButton } from '@astrojs/starlight/components';
+import { getPagesByPath, withBase } from '../lib/pages';
+import redirects from '../../redirects.json';
+
+// Old (Hugo) URLs and current pages, keyed by lowercase path, so links with
+// any letter case still land on the right page.
+const targets: Record<string, string> = {};
+for (const path of (await getPagesByPath()).keys()) {
+  targets[withBase(path).toLowerCase()] = withBase(path);
+}
+for (const [from, to] of Object.entries(redirects)) {
+  targets[withBase(from).toLowerCase()] = withBase(to);
+}
+---
+
+<StarlightPage
+  frontmatter={{ title: 'Page not found', template: 'splash', pagefind: false }}
+>
+  <p>
+    This page doesn't exist (anymore). The documentation was reorganised, so the
+    page you're looking for may have moved. Try the search, or start from one of
+    the main sections.
+  </p>
+  <p>
+    <LinkButton href={withBase('/')}>Home</LinkButton>
+    <LinkButton href={withBase('/hardware/')} variant="secondary">
+      Hardware
+    </LinkButton>
+    <LinkButton href={withBase('/software/')} variant="secondary">
+      Software
+    </LinkButton>
+  </p>
+  <script is:inline define:vars={{ targets }}>
+    const path = location.pathname.toLowerCase().replace(/\/?$/, '/');
+    const target = targets[path];
+    if (target && target !== location.pathname) {
+      location.replace(target + location.search + location.hash);
+    }
+  </script>
+</StarlightPage>

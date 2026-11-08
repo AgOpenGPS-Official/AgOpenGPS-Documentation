@@ -1,6 +1,7 @@
 # Ignore Paths
-/public
-/resources
+/dist
+/.astro
+/public/favicons
 *.png
 *.jpg
 *.jpeg

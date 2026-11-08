@@ -1,0 +1,13 @@
+---
+import Default from '@astrojs/starlight/components/MarkdownContent.astro';
+import ImageZoom from 'starlight-image-zoom/components/ImageZoom.astro';
+import ChildList from './ChildList.astro';
+
+const { entry } = Astro.locals.starlightRoute;
+---
+
+<ImageZoom />
+<Default>
+  <slot />
+  {entry.data.childList && <ChildList entry={entry} />}
+</Default>

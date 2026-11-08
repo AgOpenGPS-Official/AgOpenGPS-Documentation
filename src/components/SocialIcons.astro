@@ -1,0 +1,54 @@
+---
+import Default from '@astrojs/starlight/components/SocialIcons.astro';
+import { withBase } from '../lib/pages';
+
+// Main sections, shown in the header next to the social icons (desktop only;
+// on mobile the sidebar menu covers them)
+const sections = [
+  { label: 'Getting started', href: withBase('/getting-started/') },
+  { label: 'Hardware', href: withBase('/hardware/') },
+  { label: 'Software', href: withBase('/software/') },
+];
+const current = Astro.url.pathname;
+---
+
+<nav class="sections" aria-label="Main sections">
+  {sections.map(({ label, href }) => (
+    <a href={href} aria-current={current.startsWith(href) ? 'page' : undefined}>
+      {label}
+    </a>
+  ))}
+</nav>
+<Default />
+
+<style>
+  .sections {
+    display: none;
+    gap: 1.25rem;
+    margin-inline-end: 0.5rem;
+    padding-inline-end: 1rem;
+    border-inline-end: 1px solid var(--sl-color-hairline-light);
+  }
+  @media (min-width: 72rem) {
+    .sections {
+      display: flex;
+    }
+  }
+  a {
+    color: var(--sl-color-gray-2);
+    font-family: var(--aog-font-heading);
+    font-size: var(--sl-text-base);
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  a:hover,
+  a[aria-current='page'] {
+    color: var(--sl-color-text-accent);
+  }
+  a[aria-current='page'] {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.4em;
+  }
+</style>
