@@ -1,0 +1,175 @@
+---
+title: Getting started
+description: What AgOpenGPS is, how to try it without any hardware, the decisions to make before you buy parts, and the route from first download to steering in the field.
+---
+
+import { Steps } from '@astrojs/starlight/components';
+
+AgOpenGPS (AOG) is an open-source autosteer and implement control system. The
+software runs on a Windows tablet and, together with community-designed
+hardware, guides your tractor along straight or curved lines, switches sections
+of your implement on and off, and records what you've covered.
+
+This page is the map: what to try first, what to decide, and in what order to
+build. The details live on the pages it links to.
+
+:::danger[Use at your own risk]
+AgOpenGPS is an open-source community project, not a certified product.
+Building and using autosteer on real machinery is at your own risk. Read
+[Safety and disclaimer](/safety/) before you start.
+:::
+
+## Why AgOpenGPS?
+
+- **Cost:** a fraction of the price of commercial autosteer with similar
+  features.
+- **Open source:** the software, firmware and board designs are free to use,
+  study and improve.
+- **Adaptable:** fits almost any tractor, with a bit of tinkering and help from
+  the community.
+
+## Try it first, without hardware
+
+You don't need to buy anything to get to know AgOpenGPS. It has a built-in
+**simulator**: you drive a virtual tractor, create fields and guidance lines and
+try autosteer on your desk. That's the best way to see whether AgOpenGPS does
+what you need before you spend money.
+
+[Install AgOpenGPS and AgIO](/software/install-agopengps-and-agio/) on any
+Windows computer, then have a look at the
+[AgOpenGPS orientation](/software/agopengps-orientation/) to find your way
+around. When you connect real hardware later, remember to switch the simulator
+off.
+
+## What it can do
+
+You can start small and add features later without replacing what you've
+already built.
+
+| Feature             | What it does                                                    |
+| ------------------- | --------------------------------------------------------------- |
+| **Guidance**        | Shows guidance lines on screen; you steer by hand               |
+| **Autosteer**       | A motor or hydraulic valve steers the tractor along the line    |
+| **Section control** | Switches implement sections on and off to avoid overlap         |
+| **Rate control**    | Varies the application rate by speed or from a prescription map |
+
+Section control and rate control need extra boards on the implement side. See
+[Implement boards](/hardware/boards/implement-boards/).
+
+## Decisions to make before you buy
+
+1. **Which features you want.** Most people go straight to autosteer. Guidance
+   alone only needs a tablet and a GNSS receiver.
+2. **How the tractor will be steered.** An electric motor on the steering wheel
+   (such as the Keya motor, reportedly one of the easiest to start with), a
+   hydraulic valve, or the tractor's own steering through CAN bus on
+   steer-ready tractors. This depends most on your machine. See
+   [Steering options](/hardware/steering-options/).
+3. **One antenna or two.** A single antenna with an
+   [IMU](/hardware/other-components/imu-inertial-measurement-unit/) works well
+   for most people. Two antennas measure heading and roll directly and have
+   advantages at very low speeds. See
+   [GNSS modules](/hardware/other-components/gps-modules-standard-or-micro/).
+4. **Where your RTK corrections come from.** For centimetre accuracy, the
+   receiver needs a correction signal from a nearby base station: a public or
+   commercial service, a free community network, or a base station you build
+   yourself. See [RTK setup](/software/rtk-setup/).
+
+Then see the [hardware quickstart](/hardware/hardware-quickstart-guide/) for
+the list of what to buy.
+
+## How the parts fit together
+
+A typical autosteer setup looks like this. For guidance only, you just need the
+antenna, the receiver and the tablet: the receiver then plugs straight into the
+tablet.
+
+![Diagram of a typical AgOpenGPS autosteer setup. The GNSS antenna, and optionally a second antenna, connect to the GNSS receiver. In an autosteer setup, the receiver sits on the all-in-one board next to the Teensy; for guidance only, it plugs straight into the tablet. The wheel angle sensor, and optionally the IMU and the steer switch, also connect to the board. On the Windows tablet, AgIO talks to the board over Ethernet or USB and optionally receives RTK corrections over the internet, and exchanges data with AgOpenGPS. The board drives the steering actuator, a motor or valve.](/diagrams/system-overview.drawio.svg)
+
+For guidance you need:
+
+- **GNSS receiver and antenna:** the
+  [receiver](/hardware/other-components/gps-modules-standard-or-micro/) works
+  out where the tractor is, from the roof-mounted
+  [antenna](/hardware/other-components/choosing-an-antenna/).
+- **Windows tablet:** runs AgOpenGPS. It must be a Windows tablet with an Intel
+  or AMD processor; Android and ARM tablets don't work. See
+  [Windows tablet](/hardware/other-components/tablet/).
+- **AgOpenGPS and AgIO:** AgIO talks to the hardware, AgOpenGPS does the
+  guidance. See [Software](/software/).
+- **RTK corrections** _(optional but recommended)_: AgIO fetches them over the
+  internet and passes them to the receiver.
+
+For autosteer you add:
+
+- **All-in-one board:** the control board that connects the receiver, sensors
+  and steering actuator, with a [Teensy](/hardware/other-components/teensy-4-1/)
+  microcontroller as its brain. Newcomers usually build the
+  [current all-in-one board, v4.5](/hardware/boards/all-in-one-boards/).
+- **Wheel angle sensor:** tells the board which way the front wheels point. See
+  [Wheel angle sensor](/hardware/other-components/wheel-angle-sensor/).
+- **Steering actuator:** a motor or valve that turns the wheels, with a
+  [motor driver](/hardware/other-components/cytron-motor-driver/) where needed.
+  See [Steering options](/hardware/steering-options/).
+- **IMU or second antenna:** measures roll, so the tractor stays on the line on
+  slopes.
+- **Steer switch** _(optional but recommended)_: engages and disengages
+  autosteer. You can also do this on the tablet, but a physical switch lets you
+  take over quickly.
+
+## From download to first drive
+
+<Steps>
+
+1. **Try the software.** Install AgOpenGPS and play with the simulator, as
+   described [above](#try-it-first-without-hardware).
+
+2. **Choose and buy your parts.** Work through the
+   [decisions](#decisions-to-make-before-you-buy) and the
+   [hardware quickstart](/hardware/hardware-quickstart-guide/). Read
+   [Suppliers and scammers](/hardware/suppliers-and-scammers/) before you
+   order.
+
+3. **Build the board.** [Assemble the board](/hardware/boards/all-in-one-boards/assembling-the-board/)
+   or buy it ready-made, then
+   [test it](/hardware/boards/all-in-one-boards/assembling-the-board/electrical-testing-and-validation/)
+   before you connect anything expensive.
+
+4. **Load the firmware and configure the receiver.** Flash
+   [the Teensy](/hardware/boards/configuring-boards/configuring-the-teensy/),
+   configure
+   [the GNSS receiver](/hardware/boards/configuring-boards/configuring-the-zed-f9p/)
+   and [set up your tablet](/hardware/boards/configuring-boards/configuring-your-tablet/).
+
+5. **Install it on the tractor.** Fit the steering actuator, the wheel angle
+   sensor and the antenna, and run the
+   [cabling](/hardware/other-components/cabling-and-wiring/).
+
+6. **Connect the software.** Get AgIO talking to the board and the receiver.
+   See [AgIO orientation](/software/agio-orientation/) and
+   [Ethernet setup](/software/ethernet-setup/).
+
+7. **Set up RTK.** Connect AgIO to your correction source. See
+   [RTK setup](/software/rtk-setup/).
+
+8. **Configure, calibrate and test.** Enter your tractor's dimensions,
+   calibrate the wheel angle sensor and steering, and do the safety checks in
+   [Safety and disclaimer](/safety/). Make your first test drive slowly, in an
+   open field.
+
+</Steps>
+
+## Need help?
+
+- **Forum:** [discourse.agopengps.com](https://discourse.agopengps.com), for
+  detailed questions and build logs.
+- **Telegram:**
+  [@AgOpenGPSInternational](https://t.me/AgOpenGPSInternational), for quick
+  help.
+- **Videos:**
+  [AgOpenGPS training playlist](https://www.youtube.com/playlist?list=PL1N2N2XFHWW1fIDhb7koOa7hxH0LGppYc)
+  on YouTube.
+
+Before you ask, read
+[how to ask for help](/hardware/faq/help-i-need-to-speak-to-someone/#how-to-ask-for-help). A good
+question gets a faster answer.
