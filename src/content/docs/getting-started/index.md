@@ -10,6 +10,12 @@ Welcome! This page gives you the **bare-minimum knowledge** to understand
 AgOpenGPS. Before making big purchase decisions, dive into the in-depth sections
 linked throughout.
 
+:::danger[Use at your own risk]
+AgOpenGPS is an open-source community project, not a certified product.
+Building and using autosteer on real machinery is at your own risk. Read
+[Safety and disclaimer](/safety/) before you start.
+:::
+
 ---
 
 ## What is AgOpenGPS?
