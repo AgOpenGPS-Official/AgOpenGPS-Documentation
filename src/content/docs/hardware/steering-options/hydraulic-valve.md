@@ -126,7 +126,7 @@ pinout is:
 - pin2 -> GND
 - pin3 -> 5V
 
-[AgOpenGPS software configuration is explained in detail here](/software/agopengps-orientation/#steer-configuration)
+[AgOpenGPS software configuration is explained in detail here](/software/agopengps-orientation/auto-steer/)
 
 ### Installation of LS valve
 
