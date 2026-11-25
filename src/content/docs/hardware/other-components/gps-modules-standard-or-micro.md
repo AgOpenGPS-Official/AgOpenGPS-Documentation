@@ -35,7 +35,7 @@ corrections fed into the SimpleRTK2b board it can achieve <2cm precision.
 
 If you want to connect to an RTK signal in your setup, you can find more
 information on the
-[RTK hardware section of the Hardware quickstart guide](/hardware/hardware-quickstart-guide/#rtk-correction-signal-hardware-optional)
+[RTK hardware section of the Hardware quickstart guide](/hardware/hardware-quickstart-guide/#rtk-corrections)
 
 ### Single or Dual
 
