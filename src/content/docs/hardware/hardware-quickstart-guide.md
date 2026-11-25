@@ -1,76 +1,55 @@
 ---
-title: 'Hardware quickstart guide (aka TL;DR - cut to the chase, what do I BUY???)'
+title: 'Hardware quickstart: what to buy'
 sidebar:
   label: 'Hardware quickstart guide'
   order: 1
 ---
 
-This guide is designed to help you rapidly understand the key hardware decisions
-that need made, and the equipment you will need to purchase to get up and
-running.
+This page lists the hardware you need for each feature. Make the
+[decisions in Getting started](/getting-started/#decisions-to-make-before-you-buy)
+first, and read the pages linked here before you buy anything expensive.
 
-It is highly recommended that you read through the docs homepage and getting
-started guide, along with the relevant pages for any expensive hardware before
-making any purchases.
+## Guidance
 
-## Key decisions
+- A [Windows tablet](/hardware/other-components/tablet/)
+- A [GNSS receiver](/hardware/other-components/gps-modules-standard-or-micro/),
+  such as an ArduSimple ZED-F9P, with an
+  [antenna](/hardware/other-components/choosing-an-antenna/) and cable. For two
+  antennas, you need two receivers or a dual-antenna receiver such as the
+  UM982.
 
-1. Which 'level' of autosteer setup you want (Lightbar, Standard Autosteer,
-   Autosteer with rate/section control). See the
-   ['Levels of AgOpenGPS' comparison table](/getting-started/) for a brief
-   explaination of options. For beginners, Standard Autosteer is a good place to
-   start.
-2. Which type of steering actuator you require (e.g., Keya motor, DIY motor,
-   Hydraulic). See the [Steering Options section](/hardware/steering-options/)
-   for a discussion of the different options. This is highly dependent on your
-   machine and requirements, but for beginners the Keya system is reportedly one
-   of the easiest options
-3. Which antenna/IMU setup you require (I.e., single antenna & IMU or dual
-   antenna). Generally, single antenna & IMU performs well, though dual can have
-   some advantages at extremely low speeds.
+If all you want is guidance (AgOpenGPS shows where to steer and you steer by
+hand), you can stop there: plug the receiver into the tablet and you're away.
 
-## Core Lightbar guidance hardware
+## Autosteer
 
-- A windows tablet
-- at least one or two Ardusimple ZED-F9P GPS modules, plus antenna(s) and
-  connection cable
+On top of the guidance hardware:
 
-If all you want to do is use AOG as a light bar (where it indicates where you
-should steer), you can likely stop there, plug a single F9P into your tablet and
-you're away.
+- An [all-in-one board](/hardware/boards/all-in-one-boards/) (the current
+  version is v4.5)
+- A [Teensy 4.1](/hardware/other-components/teensy-4-1/), the 'brain' of the
+  board
+- A [wheel angle sensor](/hardware/other-components/wheel-angle-sensor/)
+- A [steering actuator](/hardware/steering-options/), such as a Keya motor kit,
+  a DIY motor or a hydraulic valve
+- A [Cytron motor driver](/hardware/other-components/cytron-motor-driver/) to
+  power the steering actuator (not needed for the Keya motor)
+- An [IMU](/hardware/other-components/imu-inertial-measurement-unit/) if you use
+  a single antenna (not needed with two antennas)
 
-## Standard Autosteer hardware
+## RTK corrections
 
-Ontop of the Lightbar hardware listed above, you will need:
-
-- An AgOpenGPS PCB (the new all-in-one design is recommended - latest is V4.5)
-- One of the steering actuation options (e.g., Keya motor kit, DIY motor setup,
-  Hydraulic conversion kit)
-- A Cytron to power your steering actuator (not required for the Keya motor
-  steering option)
-- an IMU (if going for an F9P single-antenna system - not required for dual
-  antenna and ublox UM 982 systems)
-- A Teensy 4.1 to run as the 'brain' of your circuit board
-
-## RTK correction signal hardware (optional)
-
-RTK signals correct for the variations in GNSS signals over days and hours that
-limit accuracy. To get RTK correction signals for your setup, you will need
+RTK corrections take the receiver's accuracy down to a few centimetres. You can
 either:
 
-- Go the 'no more hardware' route and access to an existing RTK station (often
-  through government, or free 'NTRIP caster' services like RTK2go or Centipede.
-  Some even use commercial providers, but they are typically much more expensive
-  than the alternative options, for limited extra value to the farmer in most
-  cases)
+- Use an existing correction source, at no extra hardware cost: a government
+  network, a free community caster such as RTK2go or Centipede, or a commercial
+  service (usually much more expensive, for little extra value to most farmers).
+  See [RTK setup](/software/rtk-setup/).
+- [Build your own RTK base station](https://github.com/lansalot/FreeRTK/blob/main/README.md).
 
-  or
+## Before you order
 
-- [Build your own RTK base station](https://github.com/lansalot/FreeRTK/blob/main/README.md)
-
-## Next steps
-
-As mentioned above, reading through this page alone is almost certainly not
-enough to make an informed decision on purchases. Do not fear - most of the
-information you need is in these docs. Have a read, check the discourse and feel
-free to ask on the telegram if anything is unclear!
+Read [Suppliers and scammers](/hardware/suppliers-and-scammers/). If anything is
+unclear, ask on the [forum](https://discourse.agopengps.com) or in the
+[Telegram group](https://t.me/AgOpenGPSInternational) before you buy.
