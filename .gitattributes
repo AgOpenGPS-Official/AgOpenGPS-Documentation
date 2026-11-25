@@ -1,0 +1,3 @@
+# Check out text files with LF line endings on every OS, which is what
+# Prettier expects. Git detects binary files (images, fonts) by itself.
+* text=auto eol=lf
